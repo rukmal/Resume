@@ -1,0 +1,61 @@
+[
+    {
+        "$type": "Degree",
+        "$id": "degree:uw:fin_baba",
+        "degreeDepartment": {
+            "$type": "Organization",
+            "$id": "org:uw:foster:finance",
+            "hasName": "Department of Finance and Business Economics",
+            "hasWebsite": "https://foster.uw.edu/faculty-research/academic-departments/finance-and-business-economics/",
+            "hasParentOrganization": {
+                "$type": "Organization",
+                "$id": "org:uw:foster",
+                "hasName": "Michael G. Foster School of Business",
+                "hasWebsite": "https://foster.uw.edu/",
+                "externalResource": "http://dbpedia.org/resource/Foster_School_of_Business",
+                "hasParentOrganization": {
+                    "$type": "Organization",
+                    "$id": "org:uw",
+                    "hasName": "University of Washington",
+                    "hasWebsite": "http://www.washington.edu/",
+                    "externalResource": "http://dbpedia.org/resource/University_of_Washington"
+                }
+            }
+        },
+        "degreeSchool": "org:uw:foster",
+        "degreeUniversity": "org:uw",
+        "degreeType": "http://dbpedia.org/resource/Bachelor_of_Business_Administration",
+        "degreeConcentration": "http://dbpedia.org/resource/Finance",
+        "hasName": "Bachelor of Arts in Business Administration (Finance)",
+        "inCity": "Seattle",
+        "inState": "WA",
+        "hasDate": "2017-06-09"
+    },
+    {
+        "$type": "Degree",
+        "$id": "degree:uw:cfrm_cert",
+        "degreeDepartment": {
+            "$type": "Organization",
+            "$id": "org:uw:cas:applied_math",
+            "hasName": "Department of Applied Mathematics",
+            "hasWebsite": "https://amath.washington.edu/",
+            "hasParentOrganization": {
+                "$type": "Organization",
+                "$id": "org:uw:cas",
+                "hasName": "College of Arts and Sciences",
+                "hasWebsite": "https://artsci.washington.edu/",
+                "externalResource": "http://dbpedia.org/resource/University_of_Washington_College_of_Arts_and_Sciences",
+                "hasParentOrganization": "org:uw"
+            }
+        },
+        "degreeSchool": "org:uw:cas",
+        "degreeUniversity": "org:uw",
+        "degreeType": "http://dbpedia.org/resource/Graduate_certificate",
+        "degreeConcentration": "http://dbpedia.org/resource/Mathematical_finance",
+        "hasName": "Quantitative Fundamentals of Computational Finance",
+        "inCity": "Seattle",
+        "inState": "WA",
+        "hasDate": "2016-08-19"
+    }
+]
+    
