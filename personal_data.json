@@ -312,16 +312,171 @@
         ]
     },
     {
-        "$type": "Award",
-        "$id": "award:stevens:provost_fellowship",
-        "hasDate": "2017-08-28",
-        "externalResource": "http://dbpedia.org/resource/Fellow",
-        "affiliatedWith": "degree:stevens:fe_ms",
-        "hasName": "Provost Master's Fellowship",
+        "$type": "WorkExperience",
+        "$id": "we:uw:cubesat",
+        "hasName": "Undergraduate Research Assistant",
+        "employedAt": {
+            "$type": "Organization",
+            "$id": "org:uw:cubesat_team",
+            "hasName": "UW CubeSAT Team",
+            "hasWebsite": "http://earthweb.ess.washington.edu/space-propulsion/cubesat.php",
+            "hasParentOrganization": {
+                "$type": "Organization",
+                "$id": "org:uw:apl",
+                "hasName": "Advanced Propulsion Laboratory",
+                "hasWebsite": "http://earthweb.ess.washington.edu/space-propulsion/index.php",
+                "hasParentOrganization": "org:uw"
+            }
+        },
+        "otherTitles": [
+            "Avionics Team Lead"
+        ],
+        "hasDate": "2015-03-28",
+        "endDate": "2015-07-12",
+        "inCity": "Seattle",
+        "inState": "WA",
+        "hasImage": "https://earthweb.ess.washington.edu/space-propulsion/images/Cubesat.png",
+        "externalResource": "http://dbpedia.org/resource/CubeSat",
+        "hasMedia": [
+            "https://en.wikipedia.org/wiki/Exploration_Mission-1"
+        ],
         "hasDescription": [
             {
-                "hasText": "Awarded to first-year Graduate students entering the Stevens Institute of Technology for graduate study.",
-                "hasPriority": 0
+                "hasPriority": 0,
+                "hasText": "Led the avionics team to design a communications software architecture paradigm for the on-board computer systems of the Lunar CubeSAT."
+            },
+            {
+                "hasPriority": 1,
+                "hasText": "Investigated the effect of radiation beyond the Van-Allen belts (experienced during translunar flight). Recommended ideal processor architectures and other redundant measures that may be taken to mitigate the effect of this radiation on the flight systems of the CubeSAT."
+            },
+            {
+                "hasPriority": 100,
+                "hasText": "Proposed a system of Hamming codes to increase data transfer fidelity during data dumps from the CubeSAT to the ground station at the University of Washington. Identified specific data encoding paradigms to increase data throughput to the Earth downlink from the CubeSAT."
+            },
+            {
+                "hasPriority": 101,
+                "hasText": "Presented a final communications software architecture proposal to a panel of researchers from the Advanced Propulsion Laboratory and NASA. The UW Lunar CubeSAT is expected to launch as a secondary payload aboard the Space Launch System (SLS) Exploration Mission 1 (EM-1) demonstration flight."
+            }
+        ]
+    },
+    {
+        "$type": "WorkExperience",
+        "$id": "we:zocialgpa",
+        "hasName": "Software Engineering Team Lead",
+        "employedAt": {
+            "$type": "Organization",
+            "$id": "org:zocialgpa",
+            "hasName": "ZocialGPA, Inc.",
+            "hasWebsite": "https://www.crunchbase.com/organization/zocialgpa"
+        },
+        "otherTitles": [
+            "Software Engineering Intern"
+        ],
+        "hasDate": "2015-02-15",
+        "endDate": "2016-01-18",
+        "inCity": "Seattle",
+        "inState": "WA",
+        "hasImage": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/11902374_483755771798362_350889305013955645_n.png?_nc_cat=105&_nc_ht=scontent-lga3-1.xx&oh=ca283de2d7f342eadff634c753575bb8&oe=5D2C516A",
+        "hasMedia": [
+            "https://www.bloomberg.com/research/stocks/private/snapshot.asp?privcapId=273598682",
+            "https://www.sec.gov/Archives/edgar/data/1625326/000162532614000001/xslFormDX01/primary_doc.xml",
+            "https://www.facebook.com/ZocialGPA/",
+            "https://twitter.com/zocialgpa"
+        ],
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Designed a highly scalable and efficient software ETL stack, building datasets from various social networking platforms, including Facebook, Twitter, and LinkedIn."
+            },
+            {
+                "hasPriority": 1,
+                "hasText": "Developed natural language processing and sentiment analysis algorithms to derive \"social GPA\" scores from a user's social profiles."
+            },
+            {
+                "hasPriority": 100,
+                "hasText": "Refactored and modularized the entire company codebase, to enable efficient component-based auto scaling with Apache Stratos and Amazon AWS."
+            },
+            {
+                "hasPriority": 101,
+                "hasText": "Implemented a mobile-first web end user interface for the platform, and redesigned the internal company management console."
+            }
+        ]
+    },
+    {
+        "$type": "WorkExperience",
+        "$id": "we:wso2",
+        "hasName": "Software Engineering Intern",
+        "employedAt": {
+            "$type": "Organization",
+            "$id": "org:wso2:stratos",
+            "hasName": "Apache Stratos Team",
+            "hasWebsite": "http://stratos.apache.org/",
+            "hasParentOrganization": {
+                "$type": "Organization",
+                "$id": "org:wso2",
+                "hasName": "WSO2, Inc.",
+                "hasWebsite": "https://wso2.com/",
+                "externalResource": "http://dbpedia.org/resource/WSO2"
+            }
+        },
+        "hasDate": "2014-06-21",
+        "endDate": "2014-09-15",
+        "inCity": "Colombo",
+        "inCountry": "Sri Lanka",
+        "hasImage": "https://upload.wikimedia.org/wikipedia/en/5/56/WSO2_Software_Logo.png",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Investigated the viability of alternate hypervisor stacks for eventual integration with the Apache Stratos Platform-as-a-Service (PaaS) framework."
+            },
+            {
+                "hasPriority": 1,
+                "hasText": "Developed a new user interface for the Stratos Manager Console using the JaggeryJS MVC framework, which was packaged and shipped with Stratos version 4.1.0."
+            },
+            {
+                "hasPriority": 100,
+                "hasText": "Conducted isolated integration tests with the CoreOS+Docker (LXC-based) hypervisor stack as an alternative to the existing hypervisor (KVM) used in Stratos."
+            }
+        ]
+    },
+    {
+        "$type": "WorkExperience",
+        "$id": "we:uw:mullins",
+        "hasName": "Undergraduate Research Assistant",
+        "employedAt": {
+            "$type": "Organization",
+            "$id": "org:uw:microbio:mullins",
+            "hasName": "Mullins Molecular Retrovirology Laboratory",
+            "hasWebsite": "https://mullinslab.microbiol.washington.edu/",
+            "hasParentOrganization": {
+                "$type": "Organization",
+                "$id": "org:uw:microbio",
+                "hasName": "Department of Microbiology",
+                "hasWebsite": "https://microbiology.washington.edu/",
+                "hasParentOrganization": "org:uw"
+            }
+        },
+        "hasDate": "2014-04-20",
+        "endDate": "2014-08-15",
+        "inCity": "Seattle",
+        "inState": "WA",
+        "hasImage": "https://upload.wikimedia.org/wikipedia/en/5/56/WSO2_Software_Logo.png",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Assisted the Lead Scientific Programmer of the lab in identifying and extracting sequences of mutated genes in human genome sequences."
+            },
+            {
+                "hasPriority": 1,
+                "hasText": "Developed algorithms which aided in the creation of targeted retroviral therapies for patients with HIV/AIDS."
+            },
+            {
+                "hasPriority": 100,
+                "hasText": "Created efficient and scalable data traversal algorithms for the ingestion and transformation of large human genome sequences."
+            },
+            {
+                "hasPriority": 101,
+                "hasText": "Utilized Hyperfreq, a tool for Bayesian analysis of APOBEC3G-induced hypermutations, to identify sequences of the genome likely to have been mutated."
             }
         ]
     },
@@ -742,6 +897,20 @@
                 "$id": "sub:ai_ethics",
                 "hasName": "AI Ethics",
                 "externalResource": "http://dbpedia.org/resource/Ethics_of_artificial_intelligence"
+            }
+        ]
+    },
+    {
+        "$type": "Award",
+        "$id": "award:stevens:provost_fellowship",
+        "hasDate": "2017-08-28",
+        "externalResource": "http://dbpedia.org/resource/Fellow",
+        "affiliatedWith": "degree:stevens:fe_ms",
+        "hasName": "Provost Master's Fellowship",
+        "hasDescription": [
+            {
+                "hasText": "Awarded to first-year Graduate students entering the Stevens Institute of Technology for graduate study.",
+                "hasPriority": 0
             }
         ]
     }
