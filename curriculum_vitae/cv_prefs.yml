@@ -1,0 +1,12 @@
+full_name: 'Rukmal Weerawarana'
+address_line_1: '238 W 20th Street Apt 4C'
+address_city_state: 'New York, NY'
+address_zip: '10011'
+address_country: 'USA'
+phone: '(206) 839-6891'
+email: 'rukmal.weerawarana@gmail.com'
+website: 'http://rukmal.me'
+order_overrides:
+  WorkExperience: 'chron_D'
+  KnolwedgeArea: 'alphabetical_A'
+  SkillGroup: 'alphabetical_A'
