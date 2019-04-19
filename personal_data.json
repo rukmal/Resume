@@ -86,7 +86,139 @@
         "hasName": "Master of Science (Financial Engineering)",
         "inCity": "Hoboken",
         "inState": "NJ",
-        "hasDate": "2019-05-22"
+        "hasDate": "2019-05-22",
+        "degreeGPA": 3.7
+    },
+    {
+        "$id": "we:stevens:smc:ra",
+        "$type": "WorkExperience",
+        "hasName": "Research Assistant",
+        "employedAt": {
+            "$type": "Organization",
+            "$id": "org:stevens:bme:smc",
+            "hasName": "Sensorimotor Control Laboratory",
+            "hasWebsite": "https://web.stevens.edu/vinjamurilab/",
+            "hasParentOrganization": [
+                {
+                    "$type": "Organization",
+                    "$id": "org:stevens:bme",
+                    "hasName": "Department of Biomedical Engineering",
+                    "hasWebsite": "https://www.stevens.edu/schaefer-school-engineering-science/departments/biomedical-engineering",
+                    "hasParentOrganization": "org:stevens"
+                },
+                {
+                    "$type": "Organization",
+                    "$id": "org:stevens:siai",
+                    "hasName": "Stevens Institute for Artificial Intelligence",
+                    "hasWebsite": "https://www.stevens.edu/research-entrepreneurship/research-centers-labs/stevens-institute-artificial-intelligence",
+                    "hasParentOrganization": "org:stevens"
+                }
+            ]
+        },
+        "hasDate": "2018-08-29",
+        "inCity": "Hoboken",
+        "inState": "NJ",
+        "hasImage": "https://web.stevens.edu/vinjamurilab/assets/img/nav_logo.png",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Designed and implemented algorithms to assess and classify tremor severity in patients with late-stage Parkinson's Disease."
+            },
+            {
+                "hasPriority": 0,
+                "hasText": "Created a highly scalable and extensible web application to be used by the researchers in the lab during this project. This web application incorporated HIPAA-compliant data storage and access, as well as efficient cluster management with Docker and Kubernetes."
+            },
+            {
+                "hasPriority": 1,
+                "hasText": "Provided input to hardware research based on statistical tremor analysis results, with the goal of designing a complete low-cost system for tremor analysis. Contributed to additive manufacturing models and designing sensor arrays for a data collection glove to be used for the tremor analysis project."
+            },
+            {
+                "hasPriority": 1,
+                "hasText": "Performed cost comparisons to identify the most economical Infrastructure-as-a-Service (IaaS) provider, given the storage, computation, and cost constraints of the project."
+            }
+        ]
+    },
+    {
+        "$id": "we:rpi:heals:ra",
+        "$type": "WorkExperience",
+        "hasName": "Summer Research Fellow",
+        "employedAt": {
+            "$type": "Organization",
+            "$id": "org:rpi:heals",
+            "hasName": "RPI-IBM HEALS Research Center",
+            "hasWebsite": "https://idea.tw.rpi.edu/projects/heals",
+            "hasParentOrganization": [
+                {
+                    "$type": "Organization",
+                    "$id": "org:rpi:twc",
+                    "hasName": "Tetherless World Constellation",
+                    "hasWebsite": "https://tw.rpi.edu/",
+                    "externalResource": "http://dbpedia.org/resource/Tetherless_World_Constellation",
+                    "hasParentOrganization": {
+                        "$type": "Organization",
+                        "$id": "org:rpi",
+                        "hasName": "Rensselaer Polytechnic Institute",
+                        "hasWebsite": "http://rpi.edu/",
+                        "externalResource": "http://dbpedia.org/resource/Rensselaer_Polytechnic_Institute"
+                    }
+                },
+                {
+                    "$type": "Organization",
+                    "$id": "org:ibm_research:ai_horizons",
+                    "hasName": "AI Horizons Network",
+                    "hasWebsite": "https://www.research.ibm.com/artificial-intelligence/horizons-network/",
+                    "hasParentOrganization": {
+                        "$type": "Organization",
+                        "$id": "org:ibm_research",
+                        "hasName": "IBM Research",
+                        "hasWebsite": "http://www.research.ibm.com/",
+                        "externalResource": "http://dbpedia.org/resource/IBM_Research"
+                    }
+                }
+            ]
+        },
+        "hasDate": "2018-05-29",
+        "endDate": "2018-08-24",
+        "inCity": "Troy",
+        "inState": "NY",
+        "hasImage": "http://scer.rpi.edu/sites/default/files/logo-without-tag.jpg",
+        "hasMedia": [
+            "https://www.healthcareitnews.com/news/ibm-rensselaer-polytech-launch-ai-cognitive-computing-project",
+            "https://www.research.ibm.com/artificial-intelligence/horizons-network/",
+            "https://www.ibm.com/blogs/research/2017/09/advancing-ai/",
+            "https://www.ibm.com/blogs/research/tag/ai-horizons-network/"
+        ],
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Designed and implemented algorithms to assess and classify tremor severity in patients with late-stage Parkinson's Disease."
+            },
+            {
+                "hasPriority": 0,
+                "hasText": "Created a highly scalable and extensible web application to be used by the researchers in the lab during this project. This web application incorporated HIPAA-compliant data storage and access, as well as efficient cluster management with Docker and Kubernetes."
+            },
+            {
+                "hasPriority": 1,
+                "hasText": "Provided input to hardware research based on statistical tremor analysis results, with the goal of designing a complete low-cost system for tremor analysis. Contributed to additive manufacturing models and designing sensor arrays for a data collection glove to be used for the tremor analysis project."
+            },
+            {
+                "hasPriority": 1,
+                "hasText": "Performed cost comparisons to identify the most economical Infrastructure-as-a-Service (IaaS) provider, given the storage, computation, and cost constraints of the project."
+            }
+        ]
+    },
+    {
+        "$type": "Award",
+        "$id": "award:stevens:provost_fellowship",
+        "hasDate": "2017-08-28",
+        "externalResource": "http://dbpedia.org/resource/Fellow",
+        "affiliatedWith": "degree:stevens:fe_ms",
+        "hasName": "Provost Master's Fellowship",
+        "hasDescription": [
+            {
+                "hasText": "Awarded to first-year Graduate students entering the Stevens Institute of Technology for graduate study.",
+                "hasPriority": 0
+            }
+        ]
     }
 ]
-    
