@@ -29,7 +29,13 @@
 \newcommand{\highlightcolor}{RoyalBlue}
 
 % Section title
-\newcommand{\sectionTitle}[1]{ \vspace{1em} \raggedright{ \color{\highlightcolor} \large \textbf{ \uppercase{ #1}}}}
+\newcommand{\sectionTitle}[1]{ \vspace{1em} \raggedright{ \color{\highlightcolor} \large \textbf{\uppercase{ #1}}}}
+
+% No indentation
+\setlength{\parindent}{0pt}
+
+% Table width
+\newcommand{\tabularxwidth}{\textwidth}
 
 % Jinja Macros
 %--------------
@@ -69,7 +75,7 @@
 
     % Iterating over degrees
     
-        \begin{tabularx}{\textwidth}{X r}
+        \begin{tabularx}{\tabularxwidth}{X r}
             % First line - degree title and date
             \textbf{Master of Science (Financial Engineering)} & \textbf{
     May ‘19} \\
@@ -94,7 +100,7 @@
             
         \end{tabularx}
     
-        \begin{tabularx}{\textwidth}{X r}
+        \begin{tabularx}{\tabularxwidth}{X r}
             % First line - degree title and date
             \textbf{Bachelor of Arts in Business Administration (Finance)} & \textbf{
     Jun ‘17} \\
@@ -110,7 +116,7 @@
             
         \end{tabularx}
     
-        \begin{tabularx}{\textwidth}{X r}
+        \begin{tabularx}{\tabularxwidth}{X r}
             % First line - degree title and date
             \textbf{Certificate in Quantitative Fundamentals of Computational Finance} & \textbf{
     Aug ‘16} \\
@@ -132,7 +138,10 @@
     \sectionTitle{Work Experience}
 
     
-        \begin{tabularx}{\textwidth}{X r}
+    % Put in minipage to prevent mid-entry pagebreak
+    \begin{minipage}{\tabularxwidth}
+
+        \begin{tabularx}{\tabularxwidth}{X r}
             % First line - job title and location
             \textbf{Research Assistant} & \textbf{Hoboken, 
         NJ} \\
@@ -140,18 +149,20 @@
             Sensorimotor Control Laboratory & 
         
     Aug ‘18 - Present \\
-            % Parent organizations
+            % Parent organizations (if any)
             
-                \textit{Department of Biomedical Engineering; Stevens Institute of Technology} & \\
-            
-                \textit{Stevens Institute for Artificial Intelligence; Stevens Institute of Technology} & \\
+                
+                    \textit{Department of Biomedical Engineering; Stevens Institute of Technology} & \\
+                
+                    \textit{Stevens Institute for Artificial Intelligence; Stevens Institute of Technology} & \\
+                
             
             % Other job titles
             
         \end{tabularx}
-        \vspace{-1em}
+
         % descriptions
-        \begin{itemize}[noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt]
+        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
             
                 \item 
     Designed and implemented algorithms to assess and classify tremor severity in patients with late-stage Parkinson's Disease.
@@ -166,8 +177,13 @@
     Performed cost comparisons to identify the most economical Infrastructure-as-a-Service (IaaS) provider, given the storage, computation, and cost constraints of the project.
             
         \end{itemize}
+
+    \end{minipage}
     
-        \begin{tabularx}{\textwidth}{X r}
+    % Put in minipage to prevent mid-entry pagebreak
+    \begin{minipage}{\tabularxwidth}
+
+        \begin{tabularx}{\tabularxwidth}{X r}
             % First line - job title and location
             \textbf{Summer Research Fellow} & \textbf{Troy, 
         NY} \\
@@ -176,18 +192,20 @@
         
     May ‘18 - 
     Aug ‘18 \\
-            % Parent organizations
+            % Parent organizations (if any)
             
-                \textit{Tetherless World Constellation; Rensselaer Polytechnic Institute} & \\
-            
-                \textit{AI Horizons Network; IBM Research} & \\
+                
+                    \textit{Tetherless World Constellation; Rensselaer Polytechnic Institute} & \\
+                
+                    \textit{AI Horizons Network; IBM Research} & \\
+                
             
             % Other job titles
             
         \end{tabularx}
-        \vspace{-1em}
+
         % descriptions
-        \begin{itemize}[noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt]
+        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
             
                 \item 
     Led the design and development of the PaperRank Framework, a methodology for deriving probabilistic community trust in academic publications. PaperRank utilized the PageRank algorithm, coupled with a Gamma Mixture Model applied to citation networks of academic publications. A proof-of-concept was implemented, from extraction to final trust score computation, analyzing over 14 Million articles from the NCBI PubMed Database.
@@ -205,8 +223,13 @@
     Developed the 'Guideline Analysis Framework', a mathematical formulation of CPGs. This framework was designed to enable the comparison of various CPGs from differing medical authorities addressing the same set of diseases, and to detect disparities in treatment directives.
             
         \end{itemize}
+
+    \end{minipage}
     
-        \begin{tabularx}{\textwidth}{X r}
+    % Put in minipage to prevent mid-entry pagebreak
+    \begin{minipage}{\tabularxwidth}
+
+        \begin{tabularx}{\tabularxwidth}{X r}
             % First line - job title and location
             \textbf{Laboratory Assistant} & \textbf{Hoboken, 
         NJ} \\
@@ -215,18 +238,20 @@
         
     Sep ‘17 - 
     Dec ‘18 \\
-            % Parent organizations
+            % Parent organizations (if any)
             
-                \textit{School of Business; Stevens Institute of Technology} & \\
-            
-                \textit{Stevens Institute for Artificial Intelligence; Stevens Institute of Technology} & \\
+                
+                    \textit{School of Business; Stevens Institute of Technology} & \\
+                
+                    \textit{Stevens Institute for Artificial Intelligence; Stevens Institute of Technology} & \\
+                
             
             % Other job titles
             
         \end{tabularx}
-        \vspace{-1em}
+
         % descriptions
-        \begin{itemize}[noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt]
+        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
             
                 \item 
     Spearheaded an effort to discover and implement new technology solutions to help realize the teaching and research goals of the lab.
@@ -235,8 +260,13 @@
     Assisted in the daily operations of the lab, including assisting instructors and students (Graduate and Undergraduate), and maintaining hardware and software resources.
             
         \end{itemize}
+
+    \end{minipage}
     
-        \begin{tabularx}{\textwidth}{X r}
+    % Put in minipage to prevent mid-entry pagebreak
+    \begin{minipage}{\tabularxwidth}
+
+        \begin{tabularx}{\tabularxwidth}{X r}
             % First line - job title and location
             \textbf{Business Management Team Lead} & \textbf{Seattle, 
         WA} \\
@@ -245,18 +275,20 @@
         
     May ‘16 - 
     Aug ‘17 \\
-            % Parent organizations
+            % Parent organizations (if any)
             
-                \textit{College of Engineering; University of Washington} & \\
+                
+                    \textit{College of Engineering; University of Washington} & \\
+                
             
             % Other job titles
             
                 Other Titles: Impact Development Team Lead, Control Systems Team Member & \\
             
         \end{tabularx}
-        \vspace{-1em}
+
         % descriptions
-        \begin{itemize}[noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt]
+        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
             
                 \item 
     Represented the University of Washington at the inaugural SpaceX Hyperloop Pod Competition in Hawthorne, CA. We placed 4th in the United States, and 6th globally; the competition initially received 1,700 team proposals, which were narrowed down to 30 finalists.
@@ -280,6 +312,169 @@
     Explored the transformative economic and social effects a hypothetical Hyperloop system could have on the Pacific Northwest of the United States.
             
         \end{itemize}
+
+    \end{minipage}
+    
+    % Put in minipage to prevent mid-entry pagebreak
+    \begin{minipage}{\tabularxwidth}
+
+        \begin{tabularx}{\tabularxwidth}{X r}
+            % First line - job title and location
+            \textbf{Undergraduate Research Assistant} & \textbf{Seattle, 
+        WA} \\
+            % Main employment organization and date range
+            UW CubeSAT Team & 
+        
+    Mar ‘15 - 
+    Jul ‘15 \\
+            % Parent organizations (if any)
+            
+                
+                    \textit{Advanced Propulsion Laboratory; University of Washington} & \\
+                
+            
+            % Other job titles
+            
+                Other Titles: Avionics Team Lead & \\
+            
+        \end{tabularx}
+
+        % descriptions
+        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
+            
+                \item 
+    Led the avionics team to design a communications software architecture paradigm for the on-board computer systems of the Lunar CubeSAT.
+            
+                \item 
+    Investigated the effect of radiation beyond the Van-Allen belts (experienced during translunar flight). Recommended ideal processor architectures and other redundant measures that may be taken to mitigate the effect of this radiation on the flight systems of the CubeSAT.
+            
+                \item 
+    Proposed a system of Hamming codes to increase data transfer fidelity during data dumps from the CubeSAT to the ground station at the University of Washington. Identified specific data encoding paradigms to increase data throughput to the Earth downlink from the CubeSAT.
+            
+                \item 
+    Presented a final communications software architecture proposal to a panel of researchers from the Advanced Propulsion Laboratory and NASA. The UW Lunar CubeSAT is expected to launch as a secondary payload aboard the Space Launch System (SLS) Exploration Mission 1 (EM-1) demonstration flight.
+            
+        \end{itemize}
+
+    \end{minipage}
+    
+    % Put in minipage to prevent mid-entry pagebreak
+    \begin{minipage}{\tabularxwidth}
+
+        \begin{tabularx}{\tabularxwidth}{X r}
+            % First line - job title and location
+            \textbf{Software Engineering Team Lead} & \textbf{Seattle, 
+        WA} \\
+            % Main employment organization and date range
+            ZocialGPA, Inc. & 
+        
+    Feb ‘15 - 
+    Jan ‘16 \\
+            % Parent organizations (if any)
+            
+            % Other job titles
+            
+                Other Titles: Software Engineering Intern & \\
+            
+        \end{tabularx}
+
+        % descriptions
+        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
+            
+                \item 
+    Designed a highly scalable and efficient software ETL stack, building datasets from various social networking platforms, including Facebook, Twitter, and LinkedIn.
+            
+                \item 
+    Developed natural language processing and sentiment analysis algorithms to derive "social GPA" scores from a user's social profiles.
+            
+                \item 
+    Refactored and modularized the entire company codebase, to enable efficient component-based auto scaling with Apache Stratos and Amazon AWS.
+            
+                \item 
+    Implemented a mobile-first web end user interface for the platform, and redesigned the internal company management console.
+            
+        \end{itemize}
+
+    \end{minipage}
+    
+    % Put in minipage to prevent mid-entry pagebreak
+    \begin{minipage}{\tabularxwidth}
+
+        \begin{tabularx}{\tabularxwidth}{X r}
+            % First line - job title and location
+            \textbf{Software Engineering Intern} & \textbf{Colombo, 
+        Sri Lanka} \\
+            % Main employment organization and date range
+            Apache Stratos Team & 
+        
+    Jun ‘14 - 
+    Sep ‘14 \\
+            % Parent organizations (if any)
+            
+                
+                    \textit{WSO2, Inc.} & \\
+                
+            
+            % Other job titles
+            
+        \end{tabularx}
+
+        % descriptions
+        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
+            
+                \item 
+    Investigated the viability of alternate hypervisor stacks for eventual integration with the Apache Stratos Platform-as-a-Service (PaaS) framework.
+            
+                \item 
+    Developed a new user interface for the Stratos Manager Console using the JaggeryJS MVC framework, which was packaged and shipped with Stratos version 4.1.0.
+            
+                \item 
+    Conducted isolated integration tests with the CoreOS+Docker (LXC-based) hypervisor stack as an alternative to the existing hypervisor (KVM) used in Stratos.
+            
+        \end{itemize}
+
+    \end{minipage}
+    
+    % Put in minipage to prevent mid-entry pagebreak
+    \begin{minipage}{\tabularxwidth}
+
+        \begin{tabularx}{\tabularxwidth}{X r}
+            % First line - job title and location
+            \textbf{Undergraduate Research Assistant} & \textbf{Seattle, 
+        WA} \\
+            % Main employment organization and date range
+            Mullins Molecular Retrovirology Laboratory & 
+        
+    Apr ‘14 - 
+    Aug ‘14 \\
+            % Parent organizations (if any)
+            
+                
+                    \textit{Department of Microbiology; University of Washington} & \\
+                
+            
+            % Other job titles
+            
+        \end{tabularx}
+
+        % descriptions
+        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
+            
+                \item 
+    Assisted the Lead Scientific Programmer of the lab in identifying and extracting sequences of mutated genes in human genome sequences.
+            
+                \item 
+    Developed algorithms which aided in the creation of targeted retroviral therapies for patients with HIV/AIDS.
+            
+                \item 
+    Created efficient and scalable data traversal algorithms for the ingestion and transformation of large human genome sequences.
+            
+                \item 
+    Utilized Hyperfreq, a tool for Bayesian analysis of APOBEC3G-induced hypermutations, to identify sequences of the genome likely to have been mutated.
+            
+        \end{itemize}
+
+    \end{minipage}
     
 
     % Publications
@@ -293,101 +488,150 @@
 
     \sectionTitle{Selected Knowledge Areas}
 
-    \begin{tabularx}{\textwidth}{X}
+    
         % iterating over knowledge areas
-        
+        \begin{tabularx}{\tabularxwidth}{X}
             % first line - knowldge area name in bold
             \textbf{Artificial Intelligence and Data Science} \\
             % listing all constituent subjects
             
+            Cluster Analysis, 
+            Machine Learning, 
+            Time Series Analysis, 
+            Anomaly Detection, 
             Statistical Classification, 
+            Predictive Modeling, 
+            Semantic Analysis, 
+            Bibliometrics, 
+            Natural Language Processing, 
+            Unsupervised Learning, 
             Knowledge Representation, 
             Graph Analytics, 
-            Predictive Modeling, 
-            Natural Language Processing, 
-            Bibliometrics, 
             Semi-Supervised Learning, 
             Data Visualization, 
-            Semantic Analysis, 
-            Dimensionality Reduction, 
-            Time Series Analysis, 
-            Cluster Analysis, 
-            Unsupervised Learning, 
-            Anomaly Detection, 
-            Machine Learning \\
+            Dimensionality Reduction \\
+        \end{tabularx}
+
+        % add vspace if not last line
         
+            \vspace{-.5em}
+        
+
+    
+        % iterating over knowledge areas
+        \begin{tabularx}{\tabularxwidth}{X}
             % first line - knowldge area name in bold
             \textbf{Computer Science and Software Engineering} \\
             % listing all constituent subjects
             
+            Scalable System Architecture and Design, 
+            Data Structures, 
             Operating Systems, 
             Object Oriented Design, 
+            Cloud Computing, 
             Algorithms, 
             Distributed Systems, 
-            Cloud Computing, 
-            Scientific Computing, 
-            Scalable System Architecture and Design, 
-            Data Structures \\
+            Scientific Computing \\
+        \end{tabularx}
+
+        % add vspace if not last line
         
+            \vspace{-.5em}
+        
+
+    
+        % iterating over knowledge areas
+        \begin{tabularx}{\tabularxwidth}{X}
             % first line - knowldge area name in bold
             \textbf{Economics and Econometrics} \\
             % listing all constituent subjects
             
-            Microeconomics, 
             Computational Econometrics, 
-            Managerial Economics, 
             Yield Curve Modeling, 
-            Credit Risk Modeling, 
-            Macroeconomics \\
+            Microeconomics, 
+            Managerial Economics, 
+            Macroeconomics, 
+            Credit Risk Modeling \\
+        \end{tabularx}
+
+        % add vspace if not last line
         
+            \vspace{-.5em}
+        
+
+    
+        % iterating over knowledge areas
+        \begin{tabularx}{\tabularxwidth}{X}
             % first line - knowldge area name in bold
             \textbf{Finance} \\
             % listing all constituent subjects
             
-            Banking and Financial Systems, 
-            Asset-Backed Securities, 
+            Financial Reporting, 
             Advanced Derivatives, 
             International Finance, 
-            Exotic Derivative Pricing, 
-            Modern Portfolio Theory, 
+            Foreign Exchange Risk, 
             Fixed Income, 
-            Computational Finance, 
+            Modern Portfolio Theory, 
+            Banking and Financial Systems, 
             Market Microstructure, 
+            Capital Budgeting, 
             Risk Analytics, 
             Corporate Finance, 
-            Financial Reporting, 
-            Managerial Accounting, 
-            Foreign Exchange Risk, 
-            Capital Budgeting \\
+            Asset-Backed Securities, 
+            Exotic Derivative Pricing, 
+            Computational Finance, 
+            Managerial Accounting \\
+        \end{tabularx}
+
+        % add vspace if not last line
         
+            \vspace{-.5em}
+        
+
+    
+        % iterating over knowledge areas
+        \begin{tabularx}{\tabularxwidth}{X}
             % first line - knowldge area name in bold
             \textbf{Mathematics} \\
             % listing all constituent subjects
             
-            Advanced Probability Theory, 
-            Statistical Modeling, 
-            Stochastic Calculus, 
-            Combinatorics, 
-            Linear Algebra, 
-            Differential Equations, 
             Nonparametric Statistics, 
-            Multivariable Calculus, 
-            Convex Optimization, 
-            Graph Theory, 
             Non-Convex Optimization, 
+            Combinatorics, 
+            Graph Theory, 
+            Linear Algebra, 
+            Statistical Modeling, 
+            Real Analysis, 
+            Advanced Probability Theory, 
+            Differential Equations, 
             Partial Differential Equations, 
+            Multivariable Calculus, 
             Mathematical Logic, 
-            Real Analysis \\
+            Convex Optimization, 
+            Stochastic Calculus \\
+        \end{tabularx}
+
+        % add vspace if not last line
         
+            \vspace{-.5em}
+        
+
+    
+        % iterating over knowledge areas
+        \begin{tabularx}{\tabularxwidth}{X}
             % first line - knowldge area name in bold
             \textbf{Other} \\
             % listing all constituent subjects
             
-            AI Ethics, 
             Sociology of Science, 
+            Elementary Quantum Computing, 
             Elementary Computational Genomics, 
-            Elementary Quantum Computing \\
+            AI Ethics \\
+        \end{tabularx}
+
+        % add vspace if not last line
         
-    \end{tabularx}
+
+    
 
 \end{document}
