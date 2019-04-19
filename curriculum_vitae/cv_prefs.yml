@@ -9,5 +9,5 @@ website: 'http://rukmal.me'
 order_overrides:
   Degree: 'chron_D'
   WorkExperience: 'chron_D'
-  KnolwedgeArea: 'alphabetical_A'
+  KnowledgeArea: 'alphabetical_A'
   SkillGroup: 'alphabetical_A'
