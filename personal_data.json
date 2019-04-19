@@ -327,7 +327,7 @@
     },
     {
         "$type": "KnowledgeArea",
-        "$id": "ka:cs:software_eng",
+        "$id": "ka:software_eng",
         "hasName": "Computer Science and Software Engineering",
         "hasSubject": [
             {
@@ -382,14 +382,38 @@
     },
     {
         "$type": "KnowledgeArea",
-        "$id": "ka:cs:data_analytics",
-        "hasName": "Data Analytics",
+        "$id": "ka:ai_ds",
+        "hasName": "Artificial Intelligence and Data Science",
         "hasSubject": [
             {
                 "$type": "Subject",
-                "$id": "sub:ai",
-                "hasName": "Artificial Intelligence",
-                "externalResource": "http://dbpedia.org/resource/Artificial_intelligence"
+                "$id": "sub:unsup_learning",
+                "hasName": "Unsupervised Learning",
+                "externalResource": "http://dbpedia.org/resource/Unsupervised_learning"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:semi_sup_learning",
+                "hasName": "Semi-Supervised Learning",
+                "externalResource": "http://dbpedia.org/resource/Semi-supervised_learning"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:dim_reduction",
+                "hasName": "Dimensionality Reduction",
+                "externalResource": "http://dbpedia.org/resource/Dimensionality_reduction"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:cluster_analysis",
+                "hasName": "Cluster Analysis",
+                "externalResource": "http://dbpedia.org/resource/Cluster_analysis"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:anomaly_detection",
+                "hasName": "Anomaly Detection",
+                "externalResource": "http://dbpedia.org/resource/Anomaly_detection"
             },
             {
                 "$type": "Subject",
@@ -432,6 +456,292 @@
                 "$id": "sub:ts_analysis",
                 "hasName": "Time Series Analysis",
                 "externalResource": "http://dbpedia.org/resource/Time_series"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:stat_classification",
+                "hasName": "Statistical Classification",
+                "externalResource": "http://dbpedia.org/resource/Statistical_classification"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:stat_classification",
+                "hasName": "Statistical Classification",
+                "externalResource": "http://dbpedia.org/resource/Statistical_classification"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:pred_modeling",
+                "hasName": "Predictive Modeling",
+                "externalResource": "http://dbpedia.org/resource/Predictive_modelling"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:bibliometrics",
+                "hasName": "Bibliometrics",
+                "externalResource": "http://dbpedia.org/resource/Bibliometrics"
+            }
+        ]
+    },
+    {
+        "$type": "KnowledgeArea",
+        "$id": "ka:econ_econometrics",
+        "hasName": "Economics and Econometrics",
+        "hasSubject": [
+            {
+                "$type": "Subject",
+                "$id": "sub:micro_econ",
+                "hasName": "Microeconomics",
+                "externalResource": "http://dbpedia.org/resource/Microeconomics"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:macro_econ",
+                "hasName": "Macroeconomics",
+                "externalResource": "http://dbpedia.org/resource/Macroeconomics"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:managerial_econ",
+                "hasName": "Managerial Economics",
+                "externalResource": "http://dbpedia.org/resource/Managerial_economics"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:yield_modeling",
+                "hasName": "Yield Curve Modeling",
+                "externalResource": "http://dbpedia.org/resource/Yield_curve"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:credit_risk",
+                "hasName": "Credit Risk Modeling",
+                "externalResource": "http://dbpedia.org/resource/Credit_risk"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:comp_econ",
+                "hasName": "Computational Econometrics",
+                "externalResource": "http://dbpedia.org/resource/Computational_economics"
+            }
+        ]
+    },
+    {
+        "$type": "KnowledgeArea",
+        "$id": "ka:finance",
+        "hasName": "Finance",
+        "hasSubject": [
+            {
+                "$type": "Subject",
+                "$id": "sub:comp_finance",
+                "hasName": "Computational Finance",
+                "externalResource": "http://dbpedia.org/resource/Computational_finance"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:adv_derivatives",
+                "hasName": "Advanced Derivatives",
+                "externalResource": "http://dbpedia.org/resource/Derivative_(finance)"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:mpt",
+                "hasName": "Modern Portfolio Theory",
+                "externalResource": "http://dbpedia.org/resource/Modern_portfolio_theory"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:market_microstructure",
+                "hasName": "Market Microstructure",
+                "externalResource": "http://dbpedia.org/resource/Market_microstructure"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:corp_finance",
+                "hasName": "Corporate Finance",
+                "externalResource": "http://dbpedia.org/resource/Corporate_finance"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:capital_budgeting",
+                "hasName": "Capital Budgeting",
+                "externalResource": "http://dbpedia.org/resource/Capital_budgeting"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:banking_sys",
+                "hasName": "Banking and Financial Systems",
+                "externalResource": "http://dbpedia.org/resource/Financial_system"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:fixed_income",
+                "hasName": "Fixed Income",
+                "externalResource": "http://dbpedia.org/resource/Fixed_income"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:forex_risk",
+                "hasName": "Foreign Exchange Risk",
+                "externalResource": "http://dbpedia.org/resource/Foreign_exchange_market"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:itnl_finance",
+                "hasName": "International Finance",
+                "externalResource": "http://dbpedia.org/resource/International_finance"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:fin_reporting",
+                "hasName": "Financial Reporting",
+                "externalResource": "http://dbpedia.org/resource/Financial_statement"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:man_accounting",
+                "hasName": "Managerial Accounting",
+                "externalResource": "http://dbpedia.org/resource/Management_accounting"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:exotics",
+                "hasName": "Exotic Derivative Pricing",
+                "externalResource": "http://dbpedia.org/resource/Exotic_derivative"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:abs",
+                "hasName": "Asset-Backed Securities",
+                "externalResource": "http://dbpedia.org/resource/Asset-backed_security"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:fin_risk_analysis",
+                "hasName": "Risk Analytics",
+                "externalResource": "http://dbpedia.org/resource/Financial_risk"
+            }
+        ]
+    },
+    {
+        "$type": "KnowledgeArea",
+        "$id": "ka:math",
+        "hasName": "Mathematics",
+        "hasSubject": [
+            {
+                "$type": "Subject",
+                "$id": "sub:prob_theory",
+                "hasName": "Advanced Probability Theory",
+                "externalResource": "http://dbpedia.org/resource/Probability_theory"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:stat_modeling",
+                "hasName": "Statistical Modeling",
+                "externalResource": "http://dbpedia.org/resource/Statistical_model"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:graph_theory",
+                "hasName": "Graph Theory",
+                "externalResource": "http://dbpedia.org/resource/Graph_theory"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:convex_optim",
+                "hasName": "Convex Optimization",
+                "externalResource": "http://dbpedia.org/resource/Convex_optimization"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:nonconvex_optim",
+                "hasName": "Non-Convex Optimization",
+                "externalResource": "http://dbpedia.org/resource/Nonlinear_programming"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:stochastic_calc",
+                "hasName": "Stochastic Calculus",
+                "externalResource": "http://dbpedia.org/resource/Stochastic_calculus"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:math_logic",
+                "hasName": "Mathematical Logic",
+                "externalResource": "http://dbpedia.org/resource/Mathematical_logic"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:combinatorics",
+                "hasName": "Combinatorics",
+                "externalResource": "http://dbpedia.org/resource/Combinatorics"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:multivar_calc",
+                "hasName": "Multivariable Calculus",
+                "externalResource": "http://dbpedia.org/resource/Multivariable_calculus"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:diff_eq",
+                "hasName": "Differential Equations",
+                "externalResource": "http://dbpedia.org/resource/Differential_equation"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:pde",
+                "hasName": "Partial Differential Equations",
+                "externalResource": "http://dbpedia.org/resource/Partial_differential_equation"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:real_analysis",
+                "hasName": "Real Analysis",
+                "externalResource": "http://dbpedia.org/resource/Real_analysis"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:lin_alg",
+                "hasName": "Linear Algebra",
+                "externalResource": "http://dbpedia.org/resource/Linear_algebra"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:nonparam_stats",
+                "hasName": "Nonparametric Statistics",
+                "externalResource": "http://dbpedia.org/resource/Nonparametric_statistics"
+            }
+        ]
+    },
+    {
+        "$type": "KnowledgeArea",
+        "$id": "ka:other",
+        "hasName": "Other",
+        "hasSubject": [
+            {
+                "$type": "Subject",
+                "$id": "sub:quant_computing",
+                "hasName": "Elementary Quantum Computing",
+                "externalResource": "http://dbpedia.org/resource/Quantum_computing"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:Computational_genomics",
+                "hasName": "Elementary Computational Genomics",
+                "externalResource": "http://dbpedia.org/resource/Computational_genomics"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:sci_sociology",
+                "hasName": "Sociology of Science",
+                "externalResource": "http://dbpedia.org/resource/Sociology_of_scientific_knowledge"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:ai_ethics",
+                "hasName": "AI Ethics",
+                "externalResource": "http://dbpedia.org/resource/Ethics_of_artificial_intelligence"
             }
         ]
     }
