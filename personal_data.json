@@ -125,15 +125,15 @@
                 "hasText": "Designed and implemented algorithms to assess and classify tremor severity in patients with late-stage Parkinson's Disease."
             },
             {
-                "hasPriority": 0,
+                "hasPriority": 1,
                 "hasText": "Created a highly scalable and extensible web application to be used by the researchers in the lab during this project. This web application incorporated HIPAA-compliant data storage and access, as well as efficient cluster management with Docker and Kubernetes."
             },
             {
-                "hasPriority": 1,
+                "hasPriority": 100,
                 "hasText": "Provided input to hardware research based on statistical tremor analysis results, with the goal of designing a complete low-cost system for tremor analysis. Contributed to additive manufacturing models and designing sensor arrays for a data collection glove to be used for the tremor analysis project."
             },
             {
-                "hasPriority": 1,
+                "hasPriority": 101,
                 "hasText": "Performed cost comparisons to identify the most economical Infrastructure-as-a-Service (IaaS) provider, given the storage, computation, and cost constraints of the project."
             }
         ]
@@ -191,19 +191,123 @@
         "hasDescription": [
             {
                 "hasPriority": 0,
-                "hasText": "Designed and implemented algorithms to assess and classify tremor severity in patients with late-stage Parkinson's Disease."
+                "hasText": "Led the design and development of the PaperRank Framework, a methodology for deriving probabilistic community trust in academic publications. PaperRank utilized the PageRank algorithm, coupled with a Gamma Mixture Model applied to citation networks of academic publications. A proof-of-concept was implemented, from extraction to final trust score computation, analyzing over 14 Million articles from the NCBI PubMed Database."
             },
+            {
+                "hasPriority": 1,
+                "hasText": "Formulated and implemented novel strategies for semantically-enhanced automated extraction of medical directives from Clinical Practice Guidelines (CPGs), for eventual inclusion in a knowledge graph of Diabetes diagnosis and treatment directives. Built the 'Guideline Explorer', a tool for efficiently visualizing and examining the American Diabetes Association's 2018 CPGs."
+            },
+            {
+                "hasPriority": 2,
+                "hasText": "Explored the field of 'Semantalytics', which lies at the intersection of Semantics and Analytics. Drafted a Vision statement for the future exploration of this novel field of research, through the lens of bioinformatics."
+            },
+            {
+                "hasPriority": 100,
+                "hasText": "Formulated an Electronic Health Record (EHR) simulation engine, which utilized Monte Carlo simulations based on a generalized population heuristic to vary idiosyncratic patient attributes. The EHR Simulation engine would suggest medical tests that would be statistically likely to identify previously unknown medical issues."
+            },
+            {
+                "hasPriority": 101,
+                "hasText": "Developed the 'Guideline Analysis Framework', a mathematical formulation of CPGs. This framework was designed to enable the comparison of various CPGs from differing medical authorities addressing the same set of diseases, and to detect disparities in treatment directives."
+            }
+        ]
+    },
+    {
+        "$type": "WorkExperience",
+        "$id": "we:stevens:hfsl",
+        "hasName": "Laboratory Assistant",
+        "employedAt": {
+            "$type": "Organization",
+            "$id": "org:stevens:hfsl",
+            "hasName": "Hanlon Financial Systems Laboratory",
+            "hasWebsite": "https://web.stevens.edu/hfslwiki/index.php",
+            "hasParentOrganization": [
+                "org:stevens:sob",
+                "org:stevens:siai"
+            ]
+        },
+        "hasDate": "2017-09-02",
+        "endDate": "2018-12-14",
+        "inCity": "Hoboken",
+        "inState": "NJ",
+        "hasImage": "https://web.stevens.edu/hfslwiki/images/thumb/b/be/HFSClogo.png/350px-HFSClogo.png",
+        "hasDescription": [
             {
                 "hasPriority": 0,
-                "hasText": "Created a highly scalable and extensible web application to be used by the researchers in the lab during this project. This web application incorporated HIPAA-compliant data storage and access, as well as efficient cluster management with Docker and Kubernetes."
+                "hasText": "Spearheaded an effort to discover and implement new technology solutions to help realize the teaching and research goals of the lab."
             },
             {
                 "hasPriority": 1,
-                "hasText": "Provided input to hardware research based on statistical tremor analysis results, with the goal of designing a complete low-cost system for tremor analysis. Contributed to additive manufacturing models and designing sensor arrays for a data collection glove to be used for the tremor analysis project."
+                "hasText": "Assisted in the daily operations of the lab, including assisting instructors and students (Graduate and Undergraduate), and maintaining hardware and software resources."
+            }
+        ]
+    },
+    {
+        "$type": "WorkExperience",
+        "$id": "we:uw:uwhl",
+        "hasName": "Business Management Team Lead",
+        "otherTitles": [
+            "Impact Development Team Lead",
+            "Control Systems Team Member"
+        ],
+        "employedAt": {
+            "$type": "Organization",
+            "$id": "org:uw:uwhl",
+            "hasName": "UW Hyperloop",
+            "hasWebsite": "https://www.hyperloop.io/",
+            "hasParentOrganization": {
+                "$type": "Organization",
+                "$id": "org:uw:coe",
+                "hasName": "College of Engineering",
+                "externalResource": "http://dbpedia.org/resource/University_of_Washington_College_of_Engineering",
+                "hasWebsite": "https://www.engr.washington.edu/",
+                "hasParentOrganization": "org:uw"
+            }
+        },
+        "hasDate": "2016-05-01",
+        "endDate": "2017-08-12",
+        "inCity": "Seattle",
+        "inState": "WA",
+        "hasImage": "https://pbs.twimg.com/profile_images/978055806292668416/Mpa3TXx5.jpg",
+        "hasMedia": [
+            "https://www.seattletimes.com/education-lab/uw-team-places-high-in-lastest-round-of-transportation-system-of-the-future-contest/?utm_content=buffer022f0&utm_medium=social&utm_source=facebook.com&utm_campaign=owned_buffer_f_m",
+            "https://www.kiro7.com/news/local/seattle-to-portland-in-15-minutes-uw-students-design-future-of-travel/485705515",
+            "https://www.geekwire.com/2016/mit-leads-in-first-round-of-spacexs-hyperloop-contest-but-uw-is-in-the-race/",
+            "https://komonews.com/news/local/university-of-washington-team-impresses-billionaire-musk-with-hyperloop-safety-system",
+            "https://www.seattletimes.com/seattle-news/education/seattle-to-portland-in-15-minutes-uw-students-competing-to-build-700-mph-hyperloop/",
+            "https://www.theverge.com/2016/6/18/11965354/hyperloop-pod-competition-elon-musk-spacex-team-design",
+            "http://www.dailyuw.com/news/article_79c0dca4-d087-11e5-b439-532845402b66.html",
+            "https://www.engr.washington.edu/news/hyperloop2016",
+            "https://www.spacex.com/hyperloop"
+        ],
+        "externalResource": "http://dbpedia.org/resource/Hyperloop",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Represented the University of Washington at the inaugural SpaceX Hyperloop Pod Competition in Hawthorne, CA. We placed 4th in the United States, and 6th globally; the competition initially received 1,700 team proposals, which were narrowed down to 30 finalists."
             },
             {
                 "hasPriority": 1,
-                "hasText": "Performed cost comparisons to identify the most economical Infrastructure-as-a-Service (IaaS) provider, given the storage, computation, and cost constraints of the project."
+                "hasText": "Led the Business Management Team to launch a highly successful crowdfunding campaign, raising over $20,000 in cash (with an initial goal of $10,000), and over $80,000 of source materials used in the construction of the Pod. The collective effort of the team led us to have the lowest-cost Pod among the 30 final teams."
+            },
+            {
+                "hasPriority": 2,
+                "hasText": "Spearheaded the sourcing and delivery of over $50,000 of raw material, including high-density Carbon Fiber, release agents, and powerful Neodymium magnets for the final Pod assembly."
+            },
+            {
+                "hasPriority": 100,
+                "hasText": "Led sponsor outreach, and maintained relationships with internal (at the University of Washington) and external supervisors and supporters."
+            },
+            {
+                "hasPriority": 101,
+                "hasText": "Assisted the Controls Team Lead in the final design and implementation of electronic mapping and wiring on the Pod."
+            },
+            {
+                "hasPriority": 102,
+                "hasText": "Contributed to late-stage troubleshooting efforts that led to the successful implementation and deployment of Halbach arrays on the Pod, which facilitated levitation and magnetic propulsion on the test track."
+            },
+            {
+                "hasPriority": 103,
+                "hasText": "Explored the transformative economic and social effects a hypothetical Hyperloop system could have on the Pacific Northwest of the United States."
             }
         ]
     },
@@ -218,6 +322,116 @@
             {
                 "hasText": "Awarded to first-year Graduate students entering the Stevens Institute of Technology for graduate study.",
                 "hasPriority": 0
+            }
+        ]
+    },
+    {
+        "$type": "KnowledgeArea",
+        "$id": "ka:cs:software_eng",
+        "hasName": "Computer Science and Software Engineering",
+        "hasSubject": [
+            {
+                "$type": "Subject",
+                "$id": "sub:cloud_computing",
+                "hasName": "Cloud Computing",
+                "externalResource": "http://dbpedia.org/resource/Cloud_computing"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:distr_systems",
+                "hasName": "Distributed Systems",
+                "externalResource": "http://dbpedia.org/resource/Distributed_computing"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:sci_computing",
+                "hasName": "Scientific Computing",
+                "externalResource": "http://dbpedia.org/resource/Computational_science"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:scalable_design",
+                "hasName": "Scalable System Architecture and Design",
+                "externalResource": "http://dbpedia.org/resource/Scalability"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:data_structures",
+                "hasName": "Data Structures",
+                "externalResource": "http://dbpedia.org/resource/Data_structure"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:operating_systems",
+                "hasName": "Operating Systems",
+                "externalResource": "http://dbpedia.org/resource/Operating_system"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:oop",
+                "hasName": "Object Oriented Design",
+                "externalResource": "http://dbpedia.org/resource/Object-oriented_programming"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:algorithms",
+                "hasName": "Algorithms",
+                "externalResource": "http://dbpedia.org/resource/Algorithm"
+            }
+        ]
+    },
+    {
+        "$type": "KnowledgeArea",
+        "$id": "ka:cs:data_analytics",
+        "hasName": "Data Analytics",
+        "hasSubject": [
+            {
+                "$type": "Subject",
+                "$id": "sub:ai",
+                "hasName": "Artificial Intelligence",
+                "externalResource": "http://dbpedia.org/resource/Artificial_intelligence"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:ml",
+                "hasName": "Machine Learning",
+                "externalResource": "http://dbpedia.org/resource/Machine_learning"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:kr",
+                "hasName": "Knowledge Representation",
+                "externalResource": "http://dbpedia.org/resource/Knowledge_representation_and_reasoning"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:graph_analytics",
+                "hasName": "Graph Analytics",
+                "externalResource": "http://dbpedia.org/resource/Graph_theory"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:nlp",
+                "hasName": "Natural Language Processing",
+                "externalResource": "http://dbpedia.org/resource/Natural_language_processing"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:semantic_analysis",
+                "hasName": "Semantic Analysis",
+                "externalResource": "http://dbpedia.org/resource/Semantic_analysis_(machine_learning)"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:data_viz",
+                "hasName": "Data Visualization",
+                "externalResource": "http://dbpedia.org/resource/Data_visualization"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:ts_analysis",
+                "hasName": "Time Series Analysis",
+                "externalResource": "http://dbpedia.org/resource/Time_series"
             }
         ]
     }
