@@ -52,10 +52,41 @@
         "degreeUniversity": "org:uw",
         "degreeType": "http://dbpedia.org/resource/Graduate_certificate",
         "degreeConcentration": "http://dbpedia.org/resource/Mathematical_finance",
-        "hasName": "Quantitative Fundamentals of Computational Finance",
+        "hasName": "Certificate in Quantitative Fundamentals of Computational Finance",
         "inCity": "Seattle",
         "inState": "WA",
         "hasDate": "2016-08-19"
+    },
+    {
+        "$type": "Degree",
+        "$id": "degree:stevens:fe_ms",
+        "degreeDepartment": {
+            "$type": "Organization",
+            "$id": "org:stevens:sob:fe",
+            "hasName": "Division of Financial Engineering",
+            "hasWebsite": "https://www.stevens.edu/school-business/masters-programs/financial-engineering",
+            "hasParentOrganization": {
+                "$type": "Organization",
+                "$id": "org:stevens:sob",
+                "hasName": "School of Business",
+                "hasWebsite": "https://www.stevens.edu/school-business",
+                "hasParentOrganization": {
+                    "$type": "Organization",
+                    "$id": "org:stevens",
+                    "hasName": "Stevens Institute of Technology",
+                    "hasWebsite": "https://www.stevens.edu/",
+                    "externalResource": "http://dbpedia.org/resource/Stevens_Institute_of_Technology"
+                }
+            }
+        },
+        "degreeSchool": "org:stevens:sob",
+        "degreeUniversity": "org:stevens",
+        "degreeType": "http://dbpedia.org/resource/Master_of_Science",
+        "degreeConcentration": "http://dbpedia.org/resource/Financial_engineering",
+        "hasName": "Master of Science (Financial Engineering)",
+        "inCity": "Hoboken",
+        "inState": "NJ",
+        "hasDate": "2019-05-22"
     }
 ]
     
