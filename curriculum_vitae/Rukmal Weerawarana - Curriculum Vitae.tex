@@ -1,0 +1,322 @@
+\documentclass[10pt, letterpaper]{letter}
+
+% Package Imports
+%----------------
+
+\usepackage{enumitem}  % Advanced list settings
+\usepackage[T1]{fontenc}  % Expanded font encoding
+\usepackage{geometry}  % Page geometry (margins, etc.)
+\usepackage{hyperref}  % Hyperlinks
+\usepackage{multirow}  % Multirow table
+\usepackage[defaultsans]{opensans}  % Opensans font
+\usepackage[document]{ragged2e}  % Text alignment
+\usepackage{tabularx}  % Advanced tables
+\usepackage[svgnames]{xcolor}  % Colors
+
+% LaTeX Configuration
+%---------------------
+
+% Page margins
+\geometry{top=.5in,
+          bottom=.5in,
+          left=.5in,
+          right=.5in}
+
+% Document font
+\renewcommand{\familydefault}{\sfdefault}
+
+% Highlight color
+\newcommand{\highlightcolor}{RoyalBlue}
+
+% Section title
+\newcommand{\sectionTitle}[1]{ \vspace{1em} \raggedright{ \color{\highlightcolor} \large \textbf{ \uppercase{ #1}}}}
+
+% Jinja Macros
+%--------------
+
+% Get state or country (state takes preference)
+
+% Get location in "City, State/Country" format
+
+% Format date (to MMM 'YY, eg: "May '19"')
+
+% Get date range
+
+% Escape special characters in text
+% Currently cleans: '$'
+
+
+% List the contents of a nested list of lists with a delimiter
+
+
+% Expand a list of objects, chaining 'hasName' together with comma delimiter
+
+\begin{document}
+    % CV Header - Name, address, website and email
+    %---------------------------------------------
+    \centerline{ \color{\highlightcolor} \huge Rukmal Weerawarana}
+
+    \vspace{.5em}
+
+    {\color{\highlightcolor} \centerline{rukmal.weerawarana@gmail.com $\bullet$ http://rukmal.me $\bullet$ (206) 839-6891} }
+
+    \noindent{\rule{\linewidth}{.2em}}
+
+
+    % Education
+    %---------------------------------------------
+    \sectionTitle{Education}
+
+    % Iterating over degrees
+    
+        \begin{tabularx}{\textwidth}{X r}
+            % First line - degree title and date
+            \textbf{Master of Science (Financial Engineering)} & \textbf{
+    May ‘19} \\
+            % Degree university and location
+            \quad Stevens Institute of Technology & 
+    Hoboken, 
+        NJ \\
+            % Degree school and department
+            \quad School of Business (Division of Financial Engineering) & \\
+            % Degree GPA (if any)
+            
+                \quad \textit{GPA (4.0 Scale): 3.7} & \\
+            
+            % Degree awards (if any)
+            
+                
+                    
+                        \quad \textit{Awards: 
+    Provost Master's Fellowship} & \\
+                    
+                
+            
+        \end{tabularx}
+    
+        \begin{tabularx}{\textwidth}{X r}
+            % First line - degree title and date
+            \textbf{Bachelor of Arts in Business Administration (Finance)} & \textbf{
+    Jun ‘17} \\
+            % Degree university and location
+            \quad University of Washington & 
+    Seattle, 
+        WA \\
+            % Degree school and department
+            \quad Michael G. Foster School of Business (Department of Finance and Business Economics) & \\
+            % Degree GPA (if any)
+            
+            % Degree awards (if any)
+            
+        \end{tabularx}
+    
+        \begin{tabularx}{\textwidth}{X r}
+            % First line - degree title and date
+            \textbf{Certificate in Quantitative Fundamentals of Computational Finance} & \textbf{
+    Aug ‘16} \\
+            % Degree university and location
+            \quad University of Washington & 
+    Seattle, 
+        WA \\
+            % Degree school and department
+            \quad College of Arts and Sciences (Department of Applied Mathematics) & \\
+            % Degree GPA (if any)
+            
+            % Degree awards (if any)
+            
+        \end{tabularx}
+    
+
+    % Work Experience
+    %---------------------------------------------
+    \sectionTitle{Work Experience}
+
+    
+        \begin{tabularx}{\textwidth}{X r}
+            % First line - job title and location
+            \textbf{Research Assistant} & \textbf{Hoboken, 
+        NJ} \\
+            % Main employment organization and date range
+            Sensorimotor Control Laboratory & 
+        
+    Aug ‘18 - Present \\
+            % Parent organizations
+            
+                \textit{Department of Biomedical Engineering; Stevens Institute of Technology} & \\
+            
+                \textit{Stevens Institute for Artificial Intelligence; Stevens Institute of Technology} & \\
+            
+            % Other job titles
+            
+        \end{tabularx}
+        \vspace{-1em}
+        % descriptions
+        \begin{itemize}[noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt]
+            
+                \item 
+    Designed and implemented algorithms to assess and classify tremor severity in patients with late-stage Parkinson's Disease.
+            
+                \item 
+    Created a highly scalable and extensible web application to be used by the researchers in the lab during this project. This web application incorporated HIPAA-compliant data storage and access, as well as efficient cluster management with Docker and Kubernetes.
+            
+                \item 
+    Provided input to hardware research based on statistical tremor analysis results, with the goal of designing a complete low-cost system for tremor analysis. Contributed to additive manufacturing models and designing sensor arrays for a data collection glove to be used for the tremor analysis project.
+            
+                \item 
+    Performed cost comparisons to identify the most economical Infrastructure-as-a-Service (IaaS) provider, given the storage, computation, and cost constraints of the project.
+            
+        \end{itemize}
+    
+        \begin{tabularx}{\textwidth}{X r}
+            % First line - job title and location
+            \textbf{Summer Research Fellow} & \textbf{Troy, 
+        NY} \\
+            % Main employment organization and date range
+            RPI-IBM HEALS Research Center & 
+        
+    May ‘18 - 
+    Aug ‘18 \\
+            % Parent organizations
+            
+                \textit{Tetherless World Constellation; Rensselaer Polytechnic Institute} & \\
+            
+                \textit{AI Horizons Network; IBM Research} & \\
+            
+            % Other job titles
+            
+        \end{tabularx}
+        \vspace{-1em}
+        % descriptions
+        \begin{itemize}[noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt]
+            
+                \item 
+    Led the design and development of the PaperRank Framework, a methodology for deriving probabilistic community trust in academic publications. PaperRank utilized the PageRank algorithm, coupled with a Gamma Mixture Model applied to citation networks of academic publications. A proof-of-concept was implemented, from extraction to final trust score computation, analyzing over 14 Million articles from the NCBI PubMed Database.
+            
+                \item 
+    Formulated and implemented novel strategies for semantically-enhanced automated extraction of medical directives from Clinical Practice Guidelines (CPGs), for eventual inclusion in a knowledge graph of Diabetes diagnosis and treatment directives. Built the 'Guideline Explorer', a tool for efficiently visualizing and examining the American Diabetes Association's 2018 CPGs.
+            
+                \item 
+    Explored the field of 'Semantalytics', which lies at the intersection of Semantics and Analytics. Drafted a Vision statement for the future exploration of this novel field of research, through the lens of bioinformatics.
+            
+                \item 
+    Formulated an Electronic Health Record (EHR) simulation engine, which utilized Monte Carlo simulations based on a generalized population heuristic to vary idiosyncratic patient attributes. The EHR Simulation engine would suggest medical tests that would be statistically likely to identify previously unknown medical issues.
+            
+                \item 
+    Developed the 'Guideline Analysis Framework', a mathematical formulation of CPGs. This framework was designed to enable the comparison of various CPGs from differing medical authorities addressing the same set of diseases, and to detect disparities in treatment directives.
+            
+        \end{itemize}
+    
+        \begin{tabularx}{\textwidth}{X r}
+            % First line - job title and location
+            \textbf{Laboratory Assistant} & \textbf{Hoboken, 
+        NJ} \\
+            % Main employment organization and date range
+            Hanlon Financial Systems Laboratory & 
+        
+    Sep ‘17 - 
+    Dec ‘18 \\
+            % Parent organizations
+            
+                \textit{School of Business; Stevens Institute of Technology} & \\
+            
+                \textit{Stevens Institute for Artificial Intelligence; Stevens Institute of Technology} & \\
+            
+            % Other job titles
+            
+        \end{tabularx}
+        \vspace{-1em}
+        % descriptions
+        \begin{itemize}[noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt]
+            
+                \item 
+    Spearheaded an effort to discover and implement new technology solutions to help realize the teaching and research goals of the lab.
+            
+                \item 
+    Assisted in the daily operations of the lab, including assisting instructors and students (Graduate and Undergraduate), and maintaining hardware and software resources.
+            
+        \end{itemize}
+    
+        \begin{tabularx}{\textwidth}{X r}
+            % First line - job title and location
+            \textbf{Business Management Team Lead} & \textbf{Seattle, 
+        WA} \\
+            % Main employment organization and date range
+            UW Hyperloop & 
+        
+    May ‘16 - 
+    Aug ‘17 \\
+            % Parent organizations
+            
+                \textit{College of Engineering; University of Washington} & \\
+            
+            % Other job titles
+            
+                Other Titles: Impact Development Team Lead, Control Systems Team Member & \\
+            
+        \end{tabularx}
+        \vspace{-1em}
+        % descriptions
+        \begin{itemize}[noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt]
+            
+                \item 
+    Represented the University of Washington at the inaugural SpaceX Hyperloop Pod Competition in Hawthorne, CA. We placed 4th in the United States, and 6th globally; the competition initially received 1,700 team proposals, which were narrowed down to 30 finalists.
+            
+                \item 
+    Led the Business Management Team to launch a highly successful crowdfunding campaign, raising over \$20,000 in cash (with an initial goal of \$10,000), and over \$80,000 of source materials used in the construction of the Pod. The collective effort of the team led us to have the lowest-cost Pod among the 30 final teams.
+            
+                \item 
+    Spearheaded the sourcing and delivery of over \$50,000 of raw material, including high-density Carbon Fiber, release agents, and powerful Neodymium magnets for the final Pod assembly.
+            
+                \item 
+    Led sponsor outreach, and maintained relationships with internal (at the University of Washington) and external supervisors and supporters.
+            
+                \item 
+    Assisted the Controls Team Lead in the final design and implementation of electronic mapping and wiring on the Pod.
+            
+                \item 
+    Contributed to late-stage troubleshooting efforts that led to the successful implementation and deployment of Halbach arrays on the Pod, which facilitated levitation and magnetic propulsion on the test track.
+            
+                \item 
+    Explored the transformative economic and social effects a hypothetical Hyperloop system could have on the Pacific Northwest of the United States.
+            
+        \end{itemize}
+    
+
+    % Publications
+    %---------------------------------------------
+
+    % Talks
+    %---------------------------------------------
+
+    % Knowledge Areas
+    %---------------------------------------------
+
+    \sectionTitle{Selected Knowledge Areas}
+
+    \begin{tabularx}{\textwidth}{X}
+        
+            \textbf{Computer Science and Software Engineering} \\
+            
+            Distributed Systems, 
+            Cloud Computing, 
+            Scientific Computing, 
+            Scalable System Architecture and Design, 
+            Data Structures, 
+            Operating Systems, 
+            Object Oriented Design, 
+            Algorithms \\
+        
+            \textbf{Data Analytics} \\
+            
+            Machine Learning, 
+            Knowledge Representation, 
+            Time Series Analysis, 
+            Graph Analytics, 
+            Artificial Intelligence, 
+            Natural Language Processing, 
+            Semantic Analysis, 
+            Data Visualization \\
+        
+    \end{tabularx}
+
+\end{document}
