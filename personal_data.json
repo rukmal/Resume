@@ -1445,6 +1445,54 @@
                 "hasText": "Awarded to first-year Graduate students entering the Stevens Institute of Technology for graduate study.",
                 "hasPriority": 0
             }
+        ],
+        "hasWebsite": "https://www.stevens.edu/admissions/tuition-financial-aid/graduate-funding-aid/assistantships-fellowships"
+    },
+    {
+        "$type": "Certification",
+        "$id": "cert:ib",
+        "hasName": "International Baccalaureate Diploma (The British School in Colombo)",
+        "hasDate": "2013-05-31",
+        "hasMedia": [
+            "https://drive.google.com/open?id=0Bwu3RhGViYW2WGF5a0tXbzFxOUk",
+            "https://drive.google.com/open?id=0Bwu3RhGViYW2dVg3ck9Ja2h6MzA",
+            "https://drive.google.com/open?id=0Bwu3RhGViYW2WjVIUndYS0VWM00",
+            "https://drive.google.com/open?id=0Bwu3RhGViYW2dnZFdWVQcFlrbFU",
+            "https://drive.google.com/open?id=1ZlSyV5W3rGM1qYDOr1cnjq6HxfEIEciK",
+            "https://drive.google.com/open?id=0Bwu3RhGViYW2TnhvTGhWd0NDd3c",
+            "https://drive.google.com/open?id=0Bwu3RhGViYW2cHprY0RYYVJJR28",
+            "https://drive.google.com/open?id=0Bwu3RhGViYW2ZV9UN1dYZFpkM00",
+            "https://drive.google.com/open?id=0Bwu3RhGViYW2c3c2Z2ZlM0JiMnM",
+            "https://drive.google.com/open?id=0Bwu3RhGViYW2VWktRklRT3BYS3M"
+        ],
+        "hasWebsite": "https://www.ibo.org/programmes/diploma-programme/",
+        "externalResource": "http://dbpedia.org/resource/IB_Diploma_Programme",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Extended Essay: Electromagnetism (Physics)"
+            },
+            {
+                "hasPriority": 1,
+                "hasText": "Higher Level: Mathematics, Physics, Chemistry)"
+            },
+            {
+                "hasPriority": 2,
+                "hasText": "Standard Level: Geography, Spanish, English"
+            }
+        ]
+    },
+    {
+        "$type": "Certification",
+        "$id": "cert:bmc",
+        "hasName": "Bloomberg Market Concepts Certificate",
+        "hasDate": "2017-12-12",
+        "hasWebsite": "https://www.bloomberg.com/professional/product/bloomberg-market-concepts/",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "A Bloomberg Terminal certification through the lens of Economic Indicators, Currencies, Fixed Income, and Equities."
+            }
         ]
     }
 ]
