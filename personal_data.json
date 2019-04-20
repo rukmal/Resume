@@ -1358,6 +1358,82 @@
         ]
     },
     {
+        "$type": "Publication",
+        "$id": "pub:paperrank",
+        "hasName": "Inferring Community Trust from Citation Graphs",
+        "hasStatus": "Draft",
+        "hasMedia": [
+            "https://github.com/rukmal/PaperRank",
+            "https://colab.research.google.com/drive/1Z6l8xTEi5KSzUwb2LXLlnvDLm8PlKyvr"
+        ],
+        "hasWebsite": "https://drive.google.com/open?id=1SlSfZrwOQYP0mrKbrGLjjAFzWCk-qlwm",
+        "affiliatedWith": "we:rpi:heals:ra",
+        "hasAuthors": "James P. McCusker, Rukmal Weerawarana, Alexander New, Kristin P. Bennett, Deborah L. McGuinness",
+        "inPublication": "",
+        "inConferenceOrJournal": "",
+        "hasDate": "2019-04-20",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "We introduce the PaperRank scoring algorithm; a proxy of scientific community trust in a given publication. This score is derived from the classic PageRank algorithm (applied to academic citation networks), in conjunction with a one-dimensional Gamma Mixture Model to normalize the PageRank scores on a 3-group publication notoriety heuristic."
+            },
+            {
+                "hasPriority": 1,
+                "hasText": "The key contributions of this publication are the PaperRank Framework (currently configured for use with the NCBI PubMed Database), and a generalized algorithm for optimizing a Gamma Mixture Model (GMM)."
+            },
+            {
+                "hasPriority": 100,
+                "hasText": "A key application of PaperRank would be to underwrite provenance-enabled Knowledge Graphs (where assertions are justified by academic publication references) with a 'trust' heuristic, to enable quasi-probabilistic behavior during inference and traversal."
+            }
+        ]
+    },
+    {
+        "$type": "Publication",
+        "$id": "pub:what_is_kg",
+        "hasName": "What is a Knowledge Graph?",
+        "hasStatus": "Draft",
+        "hasMedia": [
+            "http://graphs.whyis.io/"
+        ],
+        "hasWebsite": "https://drive.google.com/open?id=19uND_fkRTd_m-i-SYBznq1wuCq1IvHhO",
+        "affiliatedWith": "we:rpi:heals:ra",
+        "hasAuthors": "James P. McCusker, John S. Erickson, Katherine Chastain, Sabbir Rashid, Rukmal Weerawarana, Marcello Bax, Deborah L. McGuinness",
+        "inPublication": "",
+        "inConferenceOrJournal": "",
+        "hasDate": "2019-04-20",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "We attempt to synthesize a clear and unambiguous definition of a 'Knowledge Graph' that conforms to current knowledge graph research, while constraining the research space that may be considered a knowledge graph."
+            },
+            {
+                "hasPriority": 100,
+                "hasText": "We evaluate a wide variety of knowledge resources, graphs, and other ontologies to determine if they qualify under our definition, and built a 'Knowledge Graph Catalog' to support this effort."
+            }
+        ]
+    },
+    {
+        "$type": "Publication",
+        "$id": "pub:semantic_cohort_description_model",
+        "hasName": "Semantic Modeling of Cohort Descriptions in Research Studies",
+        "hasWebsite": "https://tw.rpi.edu/web/doc/semantic_modeling_of_cohort",
+        "affiliatedWith": "we:rpi:heals:ra",
+        "hasAuthors": "Shruthi Chari, Rukmal Weerawarana, Oshani Seneviratne, James P. McCusker, Deborah L. McGuinness, Amar Das",
+        "inPublication": "Knowledge Representation and Semantics Workshop",
+        "inConferenceOrJournal": "AMIA 2018 Annual Symposium",
+        "hasDate": "2018-11-03",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "This research addresses a key challenge faced by physicians using Clinical Practice Guideline recommendations; determining how well idiosyncratic cohort evidence generalizes to the greater clinical population."
+            },
+            {
+                "hasPriority": 100,
+                "hasText": "The end goal of this system is to enable the parsing of publications broadly identified as research studies to extract cohort variables and exposure/intervention groups defined within the structured population descriptions to better inform treatment decisions."
+            }
+        ]
+    },
+    {
         "$type": "Award",
         "$id": "award:stevens:provost_fellowship",
         "hasDate": "2017-08-28",
