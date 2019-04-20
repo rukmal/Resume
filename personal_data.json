@@ -901,6 +901,420 @@
         ]
     },
     {
+        "$type": "SkillGroup",
+        "$id": "sg:cs_languages",
+        "hasName": "Programming and Scripting Languages",
+        "externalResource": "http://dbpedia.org/resource/Programming_language",
+        "hasSkill": [
+            {
+                "$type": "Skill",
+                "$id": "sk:python",
+                "hasName": "Python",
+                "externalResource": "http://dbpedia.org/resource/Python_(programming_language)"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:r",
+                "hasName": "R",
+                "externalResource": "http://dbpedia.org/resource/R_(programming_language)"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:java",
+                "hasName": "Java",
+                "externalResource": "http://dbpedia.org/resource/Java_(programming_language)"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:javascript",
+                "hasName": "JavaScript",
+                "externalResource": "http://dbpedia.org/resource/JavaScript"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:java",
+                "hasName": "Java",
+                "externalResource": "http://dbpedia.org/resource/Java_(programming_language)"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:go",
+                "hasName": "Go",
+                "externalResource": "http://dbpedia.org/resource/Go_(programming_language)"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:perl",
+                "hasName": "Perl",
+                "externalResource": "http://dbpedia.org/resource/Perl"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:matlab",
+                "hasName": "MATLAB",
+                "externalResource": "http://dbpedia.org/resource/MATLAB"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:bash",
+                "hasName": "Bash",
+                "externalResource": "http://dbpedia.org/resource/Bash_(Unix_shell)"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:latex",
+                "hasName": "LaTeX",
+                "externalResource": "http://dbpedia.org/resource/LaTeX"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:jinja",
+                "hasName": "Jinja",
+                "externalResource": "http://dbpedia.org/resource/Jinja_(template_engine)"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:html",
+                "hasName": "HTML",
+                "externalResource": "http://dbpedia.org/resource/HTML"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:css",
+                "hasName": "CSS",
+                "externalResource": "http://dbpedia.org/resource/Cascading_Style_Sheets"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:sql",
+                "hasName": "SQL",
+                "externalResource": "http://dbpedia.org/resource/SQL"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:sparql",
+                "hasName": "SPARQL",
+                "externalResource": "http://dbpedia.org/resource/SPARQL"
+            }
+        ]
+    },
+    {
+        "$type": "SkillGroup",
+        "$id": "sg:frameworks",
+        "hasName": "Frameworks and Libraries",
+        "externalResource": "http://dbpedia.org/resource/Software_framework",
+        "hasSkill": [
+            {
+                "$type": "Skill",
+                "$id": "sk:node",
+                "hasName": "Node.js",
+                "externalResource": "http://dbpedia.org/resource/Node.js",
+                "relatedTo": "sk:javascript"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:flask",
+                "hasName": "Flask",
+                "externalResource": "http://dbpedia.org/resource/Flask_(web_framework)",
+                "relatedTo": "sk:python"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:revel_go",
+                "hasName": "Go Revel",
+                "relatedTo": "sk:go"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:spring",
+                "hasName": "Spring",
+                "externalResource": "http://dbpedia.org/resource/Spring_Framework",
+                "relatedTo": "sk:java"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:electron",
+                "hasName": "Electron",
+                "externalResource": "http://dbpedia.org/resource/Electron_(software_framework)",
+                "relatedTo": "sk:javascript"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:shiny",
+                "hasName": "R Shiny",
+                "relatedTo": "sk:r"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:tensorflow",
+                "hasName": "TensorFlow",
+                "externalResource": "http://dbpedia.org/resource/TensorFlow",
+                "relatedTo": "sk:python"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:sklearn",
+                "hasName": "scikit-learn",
+                "externalResource": "http://dbpedia.org/resource/Scikit-learn",
+                "relatedTo": "sk:python"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:nltk",
+                "hasName": "NLTK",
+                "externalResource": "http://dbpedia.org/resource/Natural_Language_Toolkit",
+                "relatedTo": "sk:python"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:scipy",
+                "hasName": "SciPy",
+                "externalResource": "http://dbpedia.org/resource/SciPy",
+                "relatedTo": "sk:python"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:rdflib",
+                "hasName": "RDFLib",
+                "externalResource": "http://dbpedia.org/resource/RDFLib",
+                "relatedTo": "sk:python"
+            }
+        ]
+    },
+    {
+        "$type": "SkillGroup",
+        "$id": "sg:databases",
+        "hasName": "Databases",
+        "externalResource": "http://dbpedia.org/resource/Database",
+        "hasSkill": [
+            {
+                "$type": "Skill",
+                "$id": "sk:mysql",
+                "hasName": "MySQL",
+                "externalResource": "http://dbpedia.org/resource/MySQL"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:mongo",
+                "hasName": "MongoDB",
+                "externalResource": "http://dbpedia.org/resource/MongoDB"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:redis",
+                "hasName": "Redis",
+                "externalResource": "http://dbpedia.org/resource/Redis"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:neo4j",
+                "hasName": "Neo4j",
+                "externalResource": "http://dbpedia.org/resource/Neo4j"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:blazegraph",
+                "hasName": "Blazegraph",
+                "externalResource": "http://dbpedia.org/resource/Blazegraph"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:apache_jena",
+                "hasName": "Apache Jena",
+                "externalResource": "http://dbpedia.org/resource/Apache_Jena"
+            }
+        ]
+    },
+    {
+        "$type": "SkillGroup",
+        "$id": "sg:reproducible_research",
+        "hasName": "Reproducible Research Tools",
+        "externalResource": "http://dbpedia.org/resource/Reproducibility",
+        "hasSkill": [
+            {
+                "$type": "Skill",
+                "$id": "sk:jupyter",
+                "hasName": "Project Jupyter",
+                "externalResource": "http://dbpedia.org/resource/Project_Jupyter"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:knitr",
+                "hasName": "Knitr",
+                "externalResource": "http://dbpedia.org/resource/Knitr"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:google_colab",
+                "hasName": "Google Colaboratory",
+                "relatedTo": "sk:jupyter"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:azure_notebooks",
+                "hasName": "Microsoft Azure Notebooks",
+                "relatedTo": "sk:jupyter"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:github",
+                "hasName": "GitHub",
+                "externalResource": "http://dbpedia.org/resource/GitHub"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:overleaf",
+                "hasName": "Overleaf",
+                "externalResource": "http://dbpedia.org/resource/ShareLaTeX"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:read_the_docs",
+                "hasName": "Read the Docs",
+                "externalResource": "http://dbpedia.org/resource/Read_the_Docs"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:read_the_docs",
+                "hasName": "Read the Docs",
+                "externalResource": "http://dbpedia.org/resource/Read_the_Docs"
+            }
+        ]
+    },
+    {
+        "$type": "SkillGroup",
+        "$id": "sg:deployment_tools",
+        "hasName": "Deployment, Orchestration, and Continuous Integration Tools",
+        "externalResource": "http://dbpedia.org/resource/Software_deployment",
+        "hasSkill": [
+            {
+                "$type": "Skill",
+                "$id": "sk:docker",
+                "hasName": "Docker",
+                "externalResource": "http://dbpedia.org/resource/Docker_(software)"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:kubernetes",
+                "hasName": "Kubernetes",
+                "externalResource": "http://dbpedia.org/resource/Kubernetes"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:aws",
+                "hasName": "Amazon Web Services",
+                "externalResource": "http://dbpedia.org/resource/Amazon_Web_Services"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:gcp",
+                "hasName": "Google Cloud Platform",
+                "externalResource": "http://dbpedia.org/resource/Google_Cloud_Platform"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:azure",
+                "hasName": "Microsoft Azure",
+                "externalResource": "http://dbpedia.org/resource/Microsoft_Azure"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:heroku",
+                "hasName": "Heroku",
+                "externalResource": "http://dbpedia.org/resource/Heroku"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:travis_ci",
+                "hasName": "Travis CI",
+                "externalResource": "http://dbpedia.org/resource/Travis_CI"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:make",
+                "hasName": "GNU Make",
+                "externalResource": "http://dbpedia.org/resource/Make_(software)"
+            }
+        ]
+    },
+    {
+        "$type": "SkillGroup",
+        "$id": "sg:application_software",
+        "hasName": "Application Software",
+        "externalResource": "http://dbpedia.org/resource/Application_software",
+        "hasSkill": [
+            {
+                "$type": "Skill",
+                "$id": "sk:ms_office",
+                "hasName": "Microsoft Office",
+                "externalResource": "http://dbpedia.org/resource/Microsoft_Office"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:bloomberg_terminal",
+                "hasName": "Bloomberg Terminal",
+                "externalResource": "http://dbpedia.org/resource/Bloomberg_Terminal"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:adobe_cc",
+                "hasName": "Adobe Creative Cloud",
+                "externalResource": "http://dbpedia.org/resource/Adobe_Creative_Cloud"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:protege",
+                "hasName": "Protege",
+                "externalResource": "http://dbpedia.org/resource/Protégé_(software)"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:blender",
+                "hasName": "Blender",
+                "externalResource": "http://dbpedia.org/resource/Blender_(software)"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:autocad",
+                "hasName": "Autodesk AutoCAD",
+                "externalResource": "http://dbpedia.org/resource/AutoCAD"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:solidworks",
+                "hasName": "SolidWorks",
+                "externalResource": "http://dbpedia.org/resource/SolidWorks"
+            }
+        ]
+    },
+    {
+        "$type": "SkillGroup",
+        "$id": "sg:operating_systems",
+        "hasName": "Operating Systems",
+        "externalResource": "http://dbpedia.org/resource/Operating_system",
+        "hasSkill": [
+            
+            {
+                "$type": "Skill",
+                "$id": "sk:macos",
+                "hasName": "macOS",
+                "externalResource": "http://dbpedia.org/resource/MacOS"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:linux",
+                "hasName": "Linux (Ubuntu, Fedora, etc.)",
+                "externalResource": "http://dbpedia.org/resource/Linux"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:windows",
+                "hasName": "Windows",
+                "externalResource": "http://dbpedia.org/resource/Microsoft_Windows"
+            }
+        ]
+    },
+    {
         "$type": "Award",
         "$id": "award:stevens:provost_fellowship",
         "hasDate": "2017-08-28",
