@@ -1,4 +1,4 @@
-\documentclass[10pt, letterpaper]{letter}
+\documentclass[10pt, letterpaper]{article}
 
 % Package Imports
 %----------------
@@ -11,6 +11,7 @@
 \usepackage[defaultsans]{opensans}  % Opensans font
 \usepackage[document]{ragged2e}  % Text alignment
 \usepackage{tabularx}  % Advanced tables
+\usepackage{titlesec}  % Title formatting
 \usepackage[svgnames]{xcolor}  % Colors
 
 % LaTeX Configuration
@@ -28,14 +29,24 @@
 % Highlight color
 \newcommand{\highlightcolor}{RoyalBlue}
 
-% Section title
-\newcommand{\sectionTitle}[1]{ \vspace{1em} \raggedright{ \color{\highlightcolor} \large \textbf{\uppercase{ #1}}}}
+% Reformat section
+\titleformat{\section}[block]
+{\color{\highlightcolor} \Large \bf \scshape }
+{}{0em}{}
 
 % No indentation
 \setlength{\parindent}{0pt}
 
 % Table width
 \newcommand{\tabularxwidth}{\textwidth}
+
+% Link formatting
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
 
 % Jinja Macros
 %--------------
@@ -54,8 +65,12 @@
 
 % List the contents of a nested list of lists with a delimiter
 
+% Only print title if it exists
+
 
 % Expand a list of objects, chaining 'hasName' together with comma delimiter
+
+% Format a portfolio date (i.e. just the year)
 
 \begin{document}
     % CV Header - Name, address, website and email
@@ -71,7 +86,9 @@
 
     % Education
     %---------------------------------------------
-    \sectionTitle{Education}
+
+    
+        \section{Education}
 
     % Iterating over degrees
     
@@ -99,6 +116,12 @@
                 
             
         \end{tabularx}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
     
         \begin{tabularx}{\tabularxwidth}{X r}
             % First line - degree title and date
@@ -115,6 +138,12 @@
             % Degree awards (if any)
             
         \end{tabularx}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
     
         \begin{tabularx}{\tabularxwidth}{X r}
             % First line - degree title and date
@@ -131,11 +160,17 @@
             % Degree awards (if any)
             
         \end{tabularx}
+
+        % Add vertical space if not last iteration
+        
+
     
 
     % Work Experience
     %---------------------------------------------
-    \sectionTitle{Work Experience}
+
+    
+        \section{Work Experience}
 
     
     % Put in minipage to prevent mid-entry pagebreak
@@ -152,9 +187,9 @@
             % Parent organizations (if any)
             
                 
-                    \textit{Stevens Institute for Artificial Intelligence; Stevens Institute of Technology} & \\
-                
                     \textit{Department of Biomedical Engineering; Stevens Institute of Technology} & \\
+                
+                    \textit{Stevens Institute for Artificial Intelligence; Stevens Institute of Technology} & \\
                 
             
             % Other job titles
@@ -178,6 +213,11 @@
             
         \end{itemize}
 
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
     \end{minipage}
     
     % Put in minipage to prevent mid-entry pagebreak
@@ -195,9 +235,9 @@
             % Parent organizations (if any)
             
                 
-                    \textit{Tetherless World Constellation; Rensselaer Polytechnic Institute} & \\
-                
                     \textit{AI Horizons Network; IBM Research} & \\
+                
+                    \textit{Tetherless World Constellation; Rensselaer Polytechnic Institute} & \\
                 
             
             % Other job titles
@@ -224,6 +264,11 @@
             
         \end{itemize}
 
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
     \end{minipage}
     
     % Put in minipage to prevent mid-entry pagebreak
@@ -241,9 +286,9 @@
             % Parent organizations (if any)
             
                 
-                    \textit{Stevens Institute for Artificial Intelligence; Stevens Institute of Technology} & \\
-                
                     \textit{School of Business; Stevens Institute of Technology} & \\
+                
+                    \textit{Stevens Institute for Artificial Intelligence; Stevens Institute of Technology} & \\
                 
             
             % Other job titles
@@ -260,6 +305,11 @@
     Assisted in the daily operations of the lab, including assisting instructors and students (Graduate and Undergraduate), and maintaining hardware and software resources.
             
         \end{itemize}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
 
     \end{minipage}
     
@@ -283,7 +333,7 @@
             
             % Other job titles
             
-                Other Titles: Impact Development Team Lead, Control Systems Team Member & \\
+                Other Titles: Control Systems Team Member, Impact Development Team Lead & \\
             
         \end{tabularx}
 
@@ -312,6 +362,11 @@
     Explored the transformative economic and social effects a hypothetical Hyperloop system could have on the Pacific Northwest of the United States.
             
         \end{itemize}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
 
     \end{minipage}
     
@@ -356,6 +411,11 @@
             
         \end{itemize}
 
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
     \end{minipage}
     
     % Put in minipage to prevent mid-entry pagebreak
@@ -395,6 +455,11 @@
             
         \end{itemize}
 
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
     \end{minipage}
     
     % Put in minipage to prevent mid-entry pagebreak
@@ -432,6 +497,11 @@
     Conducted isolated integration tests with the CoreOS+Docker (LXC-based) hypervisor stack as an alternative to the existing hypervisor (KVM) used in Stratos.
             
         \end{itemize}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
 
     \end{minipage}
     
@@ -474,11 +544,154 @@
             
         \end{itemize}
 
+        % Add vertical space if not last iteration
+        
+
     \end{minipage}
     
 
     % Publications
     %---------------------------------------------
+
+    
+        \section{Publications}
+
+    
+        \begin{minipage}{\tabularxwidth}
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title and date in same column
+            {
+                \begin{tabularx}{\tabularxwidth}{@{}X r}
+                    % Prefix with the current status (if any)
+                        \textit{(Draft) }
+                    % Publication title
+                    \textbf{Inferring Community Trust from Citation Graphs} &
+                    % Date on the right
+                    \textbf{
+        2019} \\
+                \end{tabularx}
+            } \\
+            % Authors
+            James P. McCusker, Rukmal Weerawarana, Alexander New, Kristin P. Bennett, Deborah L. McGuinness \\
+
+            % NOTE: Assuming that both publication & conference/journal exists if one does
+            
+            % Printing website (if exists)
+            
+                \url{https://drive.google.com/open?id=1SlSfZrwOQYP0mrKbrGLjjAFzWCk-qlwm} \\
+            
+            % Printing DOI (if exists)
+            
+        \end{tabularx}
+
+        % descriptions
+        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
+            
+                \item 
+    We introduce the PaperRank scoring algorithm; a proxy of scientific community trust in a given publication. This score is derived from the classic PageRank algorithm (applied to academic citation networks), in conjunction with a one-dimensional Gamma Mixture Model to normalize the PageRank scores on a 3-group publication notoriety heuristic.
+            
+                \item 
+    The key contributions of this publication are the PaperRank Framework (currently configured for use with the NCBI PubMed Database), and a generalized algorithm for optimizing a Gamma Mixture Model (GMM).
+            
+                \item 
+    A key application of PaperRank would be to underwrite provenance-enabled Knowledge Graphs (where assertions are justified by academic publication references) with a 'trust' heuristic, to enable quasi-probabilistic behavior during inference and traversal.
+            
+        \end{itemize}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+        \end{minipage}
+    
+        \begin{minipage}{\tabularxwidth}
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title and date in same column
+            {
+                \begin{tabularx}{\tabularxwidth}{@{}X r}
+                    % Prefix with the current status (if any)
+                        \textit{(Draft) }
+                    % Publication title
+                    \textbf{What is a Knowledge Graph?} &
+                    % Date on the right
+                    \textbf{
+        2019} \\
+                \end{tabularx}
+            } \\
+            % Authors
+            James P. McCusker, John S. Erickson, Katherine Chastain, Sabbir Rashid, Rukmal Weerawarana, Marcello Bax, Deborah L. McGuinness \\
+
+            % NOTE: Assuming that both publication & conference/journal exists if one does
+            
+            % Printing website (if exists)
+            
+                \url{https://drive.google.com/open?id=19uND_fkRTd_m-i-SYBznq1wuCq1IvHhO} \\
+            
+            % Printing DOI (if exists)
+            
+        \end{tabularx}
+
+        % descriptions
+        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
+            
+                \item 
+    This work attempts to synthesize a clear and unambiguous definition of a 'Knowledge Graph' that conforms to current knowledge graph research, while constraining the research space that may be considered a knowledge graph.
+            
+                \item 
+    We evaluate a wide variety of knowledge resources, graphs, and other ontologies to determine if they qualify under our definition, and built a 'Knowledge Graph Catalog' to support this effort.
+            
+        \end{itemize}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+        \end{minipage}
+    
+        \begin{minipage}{\tabularxwidth}
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title and date in same column
+            {
+                \begin{tabularx}{\tabularxwidth}{@{}X r}
+                    % Prefix with the current status (if any)
+                    % Publication title
+                    \textbf{Semantic Modeling of Cohort Descriptions in Research Studies} &
+                    % Date on the right
+                    \textbf{
+        2018} \\
+                \end{tabularx}
+            } \\
+            % Authors
+            Shruthi Chari, Rukmal Weerawarana, Oshani Seneviratne, James P. McCusker, Deborah L. McGuinness, Amar Das \\
+
+            % NOTE: Assuming that both publication & conference/journal exists if one does
+            
+            % Printing website (if exists)
+            
+                \url{https://tw.rpi.edu/web/doc/semantic_modeling_of_cohort} \\
+            
+            % Printing DOI (if exists)
+            
+        \end{tabularx}
+
+        % descriptions
+        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
+            
+                \item 
+    This research addresses a key challenge faced by physicians using Clinical Practice Guideline recommendations; determining how well idiosyncratic cohort evidence generalizes to the greater clinical population.
+            
+                \item 
+    The end goal of this system is to enable the parsing of publications broadly identified as research studies to extract cohort variables and exposure/intervention groups defined within the structured population descriptions to better inform treatment decisions.
+            
+        \end{itemize}
+
+        % Add vertical space if not last iteration
+        
+
+        \end{minipage}
+    
 
     % Talks
     %---------------------------------------------
@@ -486,7 +699,8 @@
     % Knowledge Areas
     %---------------------------------------------
 
-    \sectionTitle{Selected Knowledge Areas}
+    
+        \section{Selected Knowledge Areas}
 
     
         % iterating over knowledge areas
@@ -495,26 +709,26 @@
             \textbf{Artificial Intelligence and Data Science} \\
             % listing all constituent subjects
             
-            Bibliometrics, 
             Semi-Supervised Learning, 
             Dimensionality Reduction, 
             Cluster Analysis, 
-            Anomaly Detection, 
+            Knowledge Representation, 
             Graph Analytics, 
-            Semantic Analysis, 
+            Anomaly Detection, 
+            Predictive Modeling, 
             Machine Learning, 
             Unsupervised Learning, 
+            Statistical Classification, 
+            Semantic Analysis, 
+            Data Visualization, 
             Time Series Analysis, 
             Natural Language Processing, 
-            Predictive Modeling, 
-            Knowledge Representation, 
-            Statistical Classification, 
-            Data Visualization \\
+            Bibliometrics \\
         \end{tabularx}
 
-        % add vspace if not last line
+        % Add vertical space if not last iteration
         
-            \vspace{-.5em}
+            \vspace{.5em}
         
 
     
@@ -526,17 +740,17 @@
             
             Distributed Systems, 
             Scientific Computing, 
-            Scalable System Architecture and Design, 
             Cloud Computing, 
+            Scalable System Architecture and Design, 
             Data Structures, 
             Operating Systems, 
             Object Oriented Design, 
             Algorithms \\
         \end{tabularx}
 
-        % add vspace if not last line
+        % Add vertical space if not last iteration
         
-            \vspace{-.5em}
+            \vspace{.5em}
         
 
     
@@ -546,17 +760,17 @@
             \textbf{Economics and Econometrics} \\
             % listing all constituent subjects
             
-            Microeconomics, 
-            Yield Curve Modeling, 
             Credit Risk Modeling, 
             Computational Econometrics, 
             Macroeconomics, 
-            Managerial Economics \\
+            Managerial Economics, 
+            Microeconomics, 
+            Yield Curve Modeling \\
         \end{tabularx}
 
-        % add vspace if not last line
+        % Add vertical space if not last iteration
         
-            \vspace{-.5em}
+            \vspace{.5em}
         
 
     
@@ -566,26 +780,26 @@
             \textbf{Finance} \\
             % listing all constituent subjects
             
-            Foreign Exchange Risk, 
-            International Finance, 
             Advanced Derivatives, 
-            Modern Portfolio Theory, 
-            Computational Finance, 
+            International Finance, 
             Financial Reporting, 
-            Managerial Accounting, 
+            Computational Finance, 
+            Modern Portfolio Theory, 
             Market Microstructure, 
+            Managerial Accounting, 
             Exotic Derivative Pricing, 
-            Asset-Backed Securities, 
             Corporate Finance, 
-            Capital Budgeting, 
+            Asset-Backed Securities, 
             Risk Analytics, 
+            Capital Budgeting, 
             Banking and Financial Systems, 
-            Fixed Income \\
+            Fixed Income, 
+            Foreign Exchange Risk \\
         \end{tabularx}
 
-        % add vspace if not last line
+        % Add vertical space if not last iteration
         
-            \vspace{-.5em}
+            \vspace{.5em}
         
 
     
@@ -595,25 +809,25 @@
             \textbf{Mathematics} \\
             % listing all constituent subjects
             
-            Partial Differential Equations, 
-            Statistical Modeling, 
-            Graph Theory, 
             Real Analysis, 
+            Graph Theory, 
             Convex Optimization, 
-            Non-Convex Optimization, 
             Linear Algebra, 
-            Nonparametric Statistics, 
+            Non-Convex Optimization, 
             Stochastic Calculus, 
+            Nonparametric Statistics, 
             Mathematical Logic, 
             Combinatorics, 
             Multivariable Calculus, 
+            Partial Differential Equations, 
             Advanced Probability Theory, 
-            Differential Equations \\
+            Differential Equations, 
+            Statistical Modeling \\
         \end{tabularx}
 
-        % add vspace if not last line
+        % Add vertical space if not last iteration
         
-            \vspace{-.5em}
+            \vspace{.5em}
         
 
     
@@ -623,13 +837,13 @@
             \textbf{Other} \\
             % listing all constituent subjects
             
-            AI Ethics, 
-            Elementary Computational Genomics, 
             Sociology of Science, 
-            Elementary Quantum Computing \\
+            AI Ethics, 
+            Elementary Quantum Computing, 
+            Elementary Computational Genomics \\
         \end{tabularx}
 
-        % add vspace if not last line
+        % Add vertical space if not last iteration
         
 
     
@@ -638,7 +852,8 @@
     % Skills and Technologies
     %---------------------------------------------
 
-    \sectionTitle{Skills and Technologies}
+    
+        \section{Skills and Technologies}
 
     
         % iterating over knowledge areas
@@ -647,18 +862,18 @@
             \textbf{Application Software} \\
             % listing all constituent subjects
             
-            Adobe Creative Cloud, 
+            Bloomberg Terminal, 
             Protege, 
             SolidWorks, 
             Blender, 
-            Bloomberg Terminal, 
             Microsoft Office, 
-            Autodesk AutoCAD \\
+            Autodesk AutoCAD, 
+            Adobe Creative Cloud \\
         \end{tabularx}
 
-        % add vspace if not last line
+        % Add vertical space if not last iteration
         
-            \vspace{-.5em}
+            \vspace{.5em}
         
 
     
@@ -671,14 +886,14 @@
             Apache Jena, 
             Neo4j, 
             MongoDB, 
-            MySQL, 
             Blazegraph, 
+            MySQL, 
             Redis \\
         \end{tabularx}
 
-        % add vspace if not last line
+        % Add vertical space if not last iteration
         
-            \vspace{-.5em}
+            \vspace{.5em}
         
 
     
@@ -688,19 +903,19 @@
             \textbf{Deployment, Orchestration, and Continuous Integration Tools} \\
             % listing all constituent subjects
             
-            GNU Make, 
-            Amazon Web Services, 
             Docker, 
+            Amazon Web Services, 
             Google Cloud Platform, 
             Microsoft Azure, 
             Heroku, 
             Kubernetes, 
-            Travis CI \\
+            Travis CI, 
+            GNU Make \\
         \end{tabularx}
 
-        % add vspace if not last line
+        % Add vertical space if not last iteration
         
-            \vspace{-.5em}
+            \vspace{.5em}
         
 
     
@@ -710,22 +925,22 @@
             \textbf{Frameworks and Libraries} \\
             % listing all constituent subjects
             
-            Spring, 
             Electron, 
-            RDFLib, 
-            Flask, 
             R Shiny, 
+            Flask, 
             TensorFlow, 
+            SciPy, 
             NLTK, 
             Go Revel, 
             Node.js, 
             scikit-learn, 
-            SciPy \\
+            Spring, 
+            RDFLib \\
         \end{tabularx}
 
-        % add vspace if not last line
+        % Add vertical space if not last iteration
         
-            \vspace{-.5em}
+            \vspace{.5em}
         
 
     
@@ -735,14 +950,14 @@
             \textbf{Operating Systems} \\
             % listing all constituent subjects
             
-            Linux (Ubuntu, Fedora, etc.), 
             macOS, 
+            Linux (Ubuntu, Fedora, etc.), 
             Windows \\
         \end{tabularx}
 
-        % add vspace if not last line
+        % Add vertical space if not last iteration
         
-            \vspace{-.5em}
+            \vspace{.5em}
         
 
     
@@ -752,25 +967,25 @@
             \textbf{Programming and Scripting Languages} \\
             % listing all constituent subjects
             
-            LaTeX, 
             Perl, 
+            LaTeX, 
             SQL, 
             R, 
             Jinja, 
-            MATLAB, 
             Java, 
+            MATLAB, 
             SPARQL, 
+            HTML, 
             Python, 
             JavaScript, 
-            HTML, 
             Bash, 
             CSS, 
             Go \\
         \end{tabularx}
 
-        % add vspace if not last line
+        % Add vertical space if not last iteration
         
-            \vspace{-.5em}
+            \vspace{.5em}
         
 
     
@@ -780,18 +995,18 @@
             \textbf{Reproducible Research Tools} \\
             % listing all constituent subjects
             
-            GitHub, 
-            Google Colaboratory, 
             Read the Docs, 
             Overleaf, 
-            Project Jupyter, 
             Microsoft Azure Notebooks, 
-            Knitr \\
+            Knitr, 
+            GitHub, 
+            Google Colaboratory, 
+            Project Jupyter \\
         \end{tabularx}
 
-        % add vspace if not last line
+        % Add vertical space if not last iteration
         
-            \vspace{-.5em}
+            \vspace{.5em}
         
 
     
@@ -801,15 +1016,15 @@
             \textbf{Soft Skills} \\
             % listing all constituent subjects
             
-            Public Speaking, 
             Extensive Leadership Experience, 
             Excellent Communication Skills, 
-            Project Management, 
             Conflict Resolution, 
+            Project Management, 
+            Public Speaking, 
             Excellent Writing Skills \\
         \end{tabularx}
 
-        % add vspace if not last line
+        % Add vertical space if not last iteration
         
 
     
