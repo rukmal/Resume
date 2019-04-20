@@ -1,4 +1,4 @@
-\documentclass[10pt, letterpaper]{article}
+\documentclass[10pt]{article}
 
 % Package Imports
 %----------------
@@ -23,8 +23,12 @@
           left=.5in,
           right=.5in}
 
-% Document font
+% Document font size
+\newcommand{\cvfontsize}{9}
+
+% Document font stuff
 \renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\normalsize}{\fontsize{\cvfontsize}{\baselineskip}\selectfont}
 
 % Highlight color
 \newcommand{\highlightcolor}{RoyalBlue}
@@ -235,9 +239,9 @@
             % Parent organizations (if any)
             
                 
-                    \textit{AI Horizons Network; IBM Research} & \\
-                
                     \textit{Tetherless World Constellation; Rensselaer Polytechnic Institute} & \\
+                
+                    \textit{AI Horizons Network; IBM Research} & \\
                 
             
             % Other job titles
@@ -712,21 +716,21 @@
             \textbf{Artificial Intelligence and Data Science} \\
             % listing all constituent subjects
             
+            Predictive Modeling, 
+            Cluster Analysis, 
+            Knowledge Representation, 
             Anomaly Detection, 
             Machine Learning, 
-            Knowledge Representation, 
             Graph Analytics, 
-            Predictive Modeling, 
             Unsupervised Learning, 
+            Data Visualization, 
+            Time Series Analysis, 
+            Bibliometrics, 
             Statistical Classification, 
             Semantic Analysis, 
-            Data Visualization, 
             Semi-Supervised Learning, 
-            Time Series Analysis, 
-            Dimensionality Reduction, 
-            Bibliometrics, 
             Natural Language Processing, 
-            Cluster Analysis \\
+            Dimensionality Reduction \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -741,14 +745,14 @@
             \textbf{Computer Science and Software Engineering} \\
             % listing all constituent subjects
             
+            Scalable System Architecture and Design, 
             Data Structures, 
-            Operating Systems, 
             Cloud Computing, 
+            Operating Systems, 
             Object Oriented Design, 
             Algorithms, 
             Distributed Systems, 
-            Scientific Computing, 
-            Scalable System Architecture and Design \\
+            Scientific Computing \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -763,12 +767,12 @@
             \textbf{Economics and Econometrics} \\
             % listing all constituent subjects
             
-            Managerial Economics, 
-            Microeconomics, 
-            Yield Curve Modeling, 
             Credit Risk Modeling, 
-            Computational Econometrics, 
-            Macroeconomics \\
+            Managerial Economics, 
+            Yield Curve Modeling, 
+            Microeconomics, 
+            Macroeconomics, 
+            Computational Econometrics \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -783,21 +787,21 @@
             \textbf{Finance} \\
             % listing all constituent subjects
             
+            Market Microstructure, 
+            Computational Finance, 
+            Managerial Accounting, 
             Exotic Derivative Pricing, 
-            Asset-Backed Securities, 
             Corporate Finance, 
-            Capital Budgeting, 
-            Financial Reporting, 
+            International Finance, 
+            Asset-Backed Securities, 
             Risk Analytics, 
+            Capital Budgeting, 
             Banking and Financial Systems, 
             Fixed Income, 
             Foreign Exchange Risk, 
-            International Finance, 
             Advanced Derivatives, 
-            Modern Portfolio Theory, 
-            Computational Finance, 
-            Managerial Accounting, 
-            Market Microstructure \\
+            Financial Reporting, 
+            Modern Portfolio Theory \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -812,20 +816,20 @@
             \textbf{Mathematics} \\
             % listing all constituent subjects
             
-            Nonparametric Statistics, 
-            Stochastic Calculus, 
-            Real Analysis, 
-            Mathematical Logic, 
             Linear Algebra, 
+            Non-Convex Optimization, 
+            Partial Differential Equations, 
+            Stochastic Calculus, 
+            Nonparametric Statistics, 
+            Mathematical Logic, 
             Combinatorics, 
             Multivariable Calculus, 
             Differential Equations, 
             Advanced Probability Theory, 
-            Partial Differential Equations, 
             Statistical Modeling, 
+            Real Analysis, 
             Graph Theory, 
-            Convex Optimization, 
-            Non-Convex Optimization \\
+            Convex Optimization \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -840,10 +844,10 @@
             \textbf{Other} \\
             % listing all constituent subjects
             
-            Sociology of Science, 
-            AI Ethics, 
             Elementary Computational Genomics, 
-            Elementary Quantum Computing \\
+            Sociology of Science, 
+            Elementary Quantum Computing, 
+            AI Ethics \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -866,12 +870,12 @@
             % listing all constituent subjects
             
             Microsoft Office, 
+            Bloomberg Terminal, 
+            Autodesk AutoCAD, 
             Adobe Creative Cloud, 
             SolidWorks, 
             Protege, 
-            Blender, 
-            Bloomberg Terminal, 
-            Autodesk AutoCAD \\
+            Blender \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -886,12 +890,12 @@
             \textbf{Databases} \\
             % listing all constituent subjects
             
+            Blazegraph, 
             Redis, 
-            MongoDB, 
-            MySQL, 
             Apache Jena, 
             Neo4j, 
-            Blazegraph \\
+            MongoDB, 
+            MySQL \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -906,14 +910,14 @@
             \textbf{Deployment, Orchestration, and Continuous Integration Tools} \\
             % listing all constituent subjects
             
+            Google Cloud Platform, 
             Microsoft Azure, 
             Heroku, 
-            Docker, 
             Kubernetes, 
             Travis CI, 
+            Docker, 
             GNU Make, 
-            Amazon Web Services, 
-            Google Cloud Platform \\
+            Amazon Web Services \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -928,17 +932,17 @@
             \textbf{Frameworks and Libraries} \\
             % listing all constituent subjects
             
-            Flask, 
             R Shiny, 
+            Flask, 
             TensorFlow, 
             NLTK, 
             Go Revel, 
             Node.js, 
             scikit-learn, 
-            SciPy, 
             Spring, 
-            Electron, 
-            RDFLib \\
+            SciPy, 
+            RDFLib, 
+            Electron \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -953,9 +957,9 @@
             \textbf{Operating Systems} \\
             % listing all constituent subjects
             
-            Windows, 
             macOS, 
-            Linux (Ubuntu, Fedora, etc.) \\
+            Linux (Ubuntu, Fedora, etc.), 
+            Windows \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -970,20 +974,20 @@
             \textbf{Programming and Scripting Languages} \\
             % listing all constituent subjects
             
-            MATLAB, 
+            Jinja, 
+            Python, 
             Java, 
+            MATLAB, 
             SPARQL, 
             HTML, 
             JavaScript, 
             Bash, 
+            LaTeX, 
             CSS, 
             Go, 
-            Python, 
-            LaTeX, 
-            Perl, 
             SQL, 
-            R, 
-            Jinja \\
+            Perl, 
+            R \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -998,13 +1002,13 @@
             \textbf{Reproducible Research Tools} \\
             % listing all constituent subjects
             
+            Microsoft Azure Notebooks, 
+            Project Jupyter, 
             Knitr, 
             GitHub, 
             Google Colaboratory, 
             Read the Docs, 
-            Overleaf, 
-            Project Jupyter, 
-            Microsoft Azure Notebooks \\
+            Overleaf \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -1019,12 +1023,12 @@
             \textbf{Soft Skills} \\
             % listing all constituent subjects
             
-            Conflict Resolution, 
             Excellent Writing Skills, 
-            Project Management, 
             Extensive Leadership Experience, 
+            Conflict Resolution, 
+            Public Speaking, 
             Excellent Communication Skills, 
-            Public Speaking \\
+            Project Management \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -1099,13 +1103,7 @@
                 % descriptions
                 
                     
-    Extended Essay: Electromagnetism (Physics) \\
-                
-                    
-    Higher Level: Mathematics, Physics, Chemistry) \\
-                
-                    
-    Standard Level: Geography, Spanish, English \\
+    Higher Level: Mathematics, Physics, Chemistry; Standard Level: Geography, English, Spanish; Extended Essay: Electromagnetism (Physics). \\
                 
             \end{tabularx}
 
