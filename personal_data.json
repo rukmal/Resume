@@ -1292,8 +1292,7 @@
         "$id": "sg:operating_systems",
         "hasName": "Operating Systems",
         "externalResource": "http://dbpedia.org/resource/Operating_system",
-        "hasSkill": [
-            
+        "hasSkill": [ 
             {
                 "$type": "Skill",
                 "$id": "sk:macos",
@@ -1315,12 +1314,56 @@
         ]
     },
     {
+        "$type": "SkillGroup",
+        "$id": "sg:soft_skills",
+        "hasName": "Soft Skills",
+        "externalResource": "http://dbpedia.org/resource/Soft_skills",
+        "hasSkill": [
+            {
+                "$type": "Skill",
+                "$id": "sk:public_speaking",
+                "hasName": "Public Speaking",
+                "externalResource": "http://dbpedia.org/resource/Public_speaking"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:project_management",
+                "hasName": "Project Management",
+                "externalResource": "http://dbpedia.org/resource/Project_management"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:leadership",
+                "hasName": "Extensive Leadership Experience",
+                "externalResource": "http://dbpedia.org/resource/Leadership"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:conflict_resolution",
+                "hasName": "Conflict Resolution",
+                "externalResource": "http://dbpedia.org/resource/Conflict_resolution"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:writing",
+                "hasName": "Excellent Writing Skills",
+                "externalResource": "http://dbpedia.org/resource/Professional_writing"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:communications",
+                "hasName": "Excellent Communication Skills",
+                "externalResource": "http://dbpedia.org/resource/Communication"
+            }
+        ]
+    },
+    {
         "$type": "Award",
         "$id": "award:stevens:provost_fellowship",
         "hasDate": "2017-08-28",
         "externalResource": "http://dbpedia.org/resource/Fellow",
         "affiliatedWith": "degree:stevens:fe_ms",
-        "hasName": "Provost Master's Fellowship",
+        "hasName": "Provost's Master's Fellowship",
         "hasDescription": [
             {
                 "hasText": "Awarded to first-year Graduate students entering the Stevens Institute of Technology for graduate study.",
