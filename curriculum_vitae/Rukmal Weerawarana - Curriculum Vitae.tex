@@ -7,6 +7,7 @@
 \usepackage[T1]{fontenc}  % Expanded font encoding
 \usepackage{geometry}  % Page geometry (margins, etc.)
 \usepackage{hyperref}  % Hyperlinks
+\usepackage[none]{hyphenat}
 \usepackage{multirow}  % Multirow table
 \usepackage[defaultsans]{opensans}  % Opensans font
 \usepackage[document]{ragged2e}  % Text alignment
@@ -101,7 +102,7 @@
             \textbf{Master of Science (Financial Engineering)} & \textbf{
     May ‘19} \\
             % Degree university and location
-            \quad Stevens Institute of Technology & 
+            \quad \textcolor{\highlightcolor}{Stevens Institute of Technology} & 
     Hoboken, 
         NJ \\
             % Degree school and department
@@ -132,7 +133,7 @@
             \textbf{Bachelor of Arts in Business Administration (Finance)} & \textbf{
     Jun ‘17} \\
             % Degree university and location
-            \quad University of Washington & 
+            \quad \textcolor{\highlightcolor}{University of Washington} & 
     Seattle, 
         WA \\
             % Degree school and department
@@ -154,7 +155,7 @@
             \textbf{Certificate in Quantitative Fundamentals of Computational Finance} & \textbf{
     Aug ‘16} \\
             % Degree university and location
-            \quad University of Washington & 
+            \quad \textcolor{\highlightcolor}{University of Washington} & 
     Seattle, 
         WA \\
             % Degree school and department
@@ -185,7 +186,7 @@
             \textbf{Research Assistant} & \textbf{Hoboken, 
         NJ} \\
             % Main employment organization and date range
-            Sensorimotor Control Laboratory & 
+            \textcolor{\highlightcolor}{Sensorimotor Control Laboratory} & 
         
     Aug ‘18 - Present \\
             % Parent organizations (if any)
@@ -232,7 +233,7 @@
             \textbf{Summer Research Fellow} & \textbf{Troy, 
         NY} \\
             % Main employment organization and date range
-            RPI-IBM HEALS Research Center & 
+            \textcolor{\highlightcolor}{RPI-IBM HEALS Research Center} & 
         
     May ‘18 - 
     Aug ‘18 \\
@@ -283,7 +284,7 @@
             \textbf{Laboratory Assistant} & \textbf{Hoboken, 
         NJ} \\
             % Main employment organization and date range
-            Hanlon Financial Systems Laboratory & 
+            \textcolor{\highlightcolor}{Hanlon Financial Systems Laboratory} & 
         
     Sep ‘17 - 
     Dec ‘18 \\
@@ -325,7 +326,7 @@
             \textbf{Business Management Team Lead} & \textbf{Seattle, 
         WA} \\
             % Main employment organization and date range
-            UW Hyperloop & 
+            \textcolor{\highlightcolor}{UW Hyperloop} & 
         
     May ‘16 - 
     Aug ‘17 \\
@@ -337,7 +338,7 @@
             
             % Other job titles
             
-                Other Titles: Control Systems Team Member, Impact Development Team Lead & \\
+                Other Titles: Impact Development Team Lead, Control Systems Team Member & \\
             
         \end{tabularx}
 
@@ -382,7 +383,7 @@
             \textbf{Undergraduate Research Assistant} & \textbf{Seattle, 
         WA} \\
             % Main employment organization and date range
-            UW CubeSAT Team & 
+            \textcolor{\highlightcolor}{UW CubeSAT Team} & 
         
     Mar ‘15 - 
     Jul ‘15 \\
@@ -430,7 +431,7 @@
             \textbf{Software Engineering Team Lead} & \textbf{Seattle, 
         WA} \\
             % Main employment organization and date range
-            ZocialGPA, Inc. & 
+            \textcolor{\highlightcolor}{ZocialGPA, Inc.} & 
         
     Feb ‘15 - 
     Jan ‘16 \\
@@ -474,7 +475,7 @@
             \textbf{Software Engineering Intern} & \textbf{Colombo, 
         Sri Lanka} \\
             % Main employment organization and date range
-            Apache Stratos Team & 
+            \textcolor{\highlightcolor}{Apache Stratos Team} & 
         
     Jun ‘14 - 
     Sep ‘14 \\
@@ -517,7 +518,7 @@
             \textbf{Undergraduate Research Assistant} & \textbf{Seattle, 
         WA} \\
             % Main employment organization and date range
-            Mullins Molecular Retrovirology Laboratory & 
+            \textcolor{\highlightcolor}{Mullins Molecular Retrovirology Laboratory} & 
         
     Apr ‘14 - 
     Aug ‘14 \\
@@ -716,21 +717,22 @@
             \textbf{Artificial Intelligence and Data Science} \\
             % listing all constituent subjects
             
-            Predictive Modeling, 
-            Cluster Analysis, 
-            Knowledge Representation, 
+    
             Anomaly Detection, 
-            Machine Learning, 
-            Graph Analytics, 
-            Unsupervised Learning, 
-            Data Visualization, 
-            Time Series Analysis, 
             Bibliometrics, 
-            Statistical Classification, 
+            Cluster Analysis, 
+            Data Visualization, 
+            Dimensionality Reduction, 
+            Graph Analytics, 
+            Knowledge Representation, 
+            Machine Learning, 
+            Natural Language Processing, 
+            Predictive Modeling, 
             Semantic Analysis, 
             Semi-Supervised Learning, 
-            Natural Language Processing, 
-            Dimensionality Reduction \\
+            Statistical Classification, 
+            Time Series Analysis, 
+            Unsupervised Learning \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -745,13 +747,14 @@
             \textbf{Computer Science and Software Engineering} \\
             % listing all constituent subjects
             
-            Scalable System Architecture and Design, 
-            Data Structures, 
-            Cloud Computing, 
-            Operating Systems, 
-            Object Oriented Design, 
+    
             Algorithms, 
+            Cloud Computing, 
+            Data Structures, 
             Distributed Systems, 
+            Object Oriented Design, 
+            Operating Systems, 
+            Scalable System Architecture and Design, 
             Scientific Computing \\
         \end{tabularx}
 
@@ -767,12 +770,13 @@
             \textbf{Economics and Econometrics} \\
             % listing all constituent subjects
             
+    
+            Computational Econometrics, 
             Credit Risk Modeling, 
-            Managerial Economics, 
-            Yield Curve Modeling, 
-            Microeconomics, 
             Macroeconomics, 
-            Computational Econometrics \\
+            Managerial Economics, 
+            Microeconomics, 
+            Yield Curve Modeling \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -787,21 +791,22 @@
             \textbf{Finance} \\
             % listing all constituent subjects
             
-            Market Microstructure, 
-            Computational Finance, 
-            Managerial Accounting, 
-            Exotic Derivative Pricing, 
-            Corporate Finance, 
-            International Finance, 
+    
+            Advanced Derivatives, 
             Asset-Backed Securities, 
-            Risk Analytics, 
-            Capital Budgeting, 
             Banking and Financial Systems, 
+            Capital Budgeting, 
+            Computational Finance, 
+            Corporate Finance, 
+            Exotic Derivative Pricing, 
+            Financial Reporting, 
             Fixed Income, 
             Foreign Exchange Risk, 
-            Advanced Derivatives, 
-            Financial Reporting, 
-            Modern Portfolio Theory \\
+            International Finance, 
+            Managerial Accounting, 
+            Market Microstructure, 
+            Modern Portfolio Theory, 
+            Risk Analytics \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -816,20 +821,21 @@
             \textbf{Mathematics} \\
             % listing all constituent subjects
             
-            Linear Algebra, 
-            Non-Convex Optimization, 
-            Partial Differential Equations, 
-            Stochastic Calculus, 
-            Nonparametric Statistics, 
-            Mathematical Logic, 
-            Combinatorics, 
-            Multivariable Calculus, 
-            Differential Equations, 
+    
             Advanced Probability Theory, 
-            Statistical Modeling, 
-            Real Analysis, 
+            Combinatorics, 
+            Convex Optimization, 
+            Differential Equations, 
             Graph Theory, 
-            Convex Optimization \\
+            Linear Algebra, 
+            Mathematical Logic, 
+            Multivariable Calculus, 
+            Non-Convex Optimization, 
+            Nonparametric Statistics, 
+            Partial Differential Equations, 
+            Real Analysis, 
+            Statistical Modeling, 
+            Stochastic Calculus \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -844,10 +850,11 @@
             \textbf{Other} \\
             % listing all constituent subjects
             
+    
+            AI Ethics, 
             Elementary Computational Genomics, 
-            Sociology of Science, 
             Elementary Quantum Computing, 
-            AI Ethics \\
+            Sociology of Science \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -869,13 +876,14 @@
             \textbf{Application Software} \\
             % listing all constituent subjects
             
-            Microsoft Office, 
-            Bloomberg Terminal, 
-            Autodesk AutoCAD, 
+    
             Adobe Creative Cloud, 
-            SolidWorks, 
+            Autodesk AutoCAD, 
+            Blender, 
+            Bloomberg Terminal, 
+            Microsoft Office, 
             Protege, 
-            Blender \\
+            SolidWorks \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -890,12 +898,13 @@
             \textbf{Databases} \\
             % listing all constituent subjects
             
-            Blazegraph, 
-            Redis, 
+    
             Apache Jena, 
-            Neo4j, 
+            Blazegraph, 
             MongoDB, 
-            MySQL \\
+            MySQL, 
+            Neo4j, 
+            Redis \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -910,14 +919,15 @@
             \textbf{Deployment, Orchestration, and Continuous Integration Tools} \\
             % listing all constituent subjects
             
-            Google Cloud Platform, 
-            Microsoft Azure, 
-            Heroku, 
-            Kubernetes, 
-            Travis CI, 
+    
+            Amazon Web Services, 
             Docker, 
             GNU Make, 
-            Amazon Web Services \\
+            Google Cloud Platform, 
+            Heroku, 
+            Kubernetes, 
+            Microsoft Azure, 
+            Travis CI \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -932,17 +942,19 @@
             \textbf{Frameworks and Libraries} \\
             % listing all constituent subjects
             
-            R Shiny, 
+    
+            Electron, 
             Flask, 
-            TensorFlow, 
-            NLTK, 
             Go Revel, 
+            NLTK, 
             Node.js, 
-            scikit-learn, 
-            Spring, 
-            SciPy, 
+            R Shiny, 
             RDFLib, 
-            Electron \\
+            SciPy, 
+            Socket.IO, 
+            Spring, 
+            TensorFlow, 
+            scikit-learn \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -957,9 +969,10 @@
             \textbf{Operating Systems} \\
             % listing all constituent subjects
             
-            macOS, 
+    
             Linux (Ubuntu, Fedora, etc.), 
-            Windows \\
+            Windows, 
+            macOS \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -974,20 +987,21 @@
             \textbf{Programming and Scripting Languages} \\
             % listing all constituent subjects
             
-            Jinja, 
-            Python, 
-            Java, 
-            MATLAB, 
-            SPARQL, 
-            HTML, 
-            JavaScript, 
+    
             Bash, 
-            LaTeX, 
             CSS, 
             Go, 
-            SQL, 
+            HTML, 
+            Java, 
+            JavaScript, 
+            Jinja, 
+            LaTeX, 
+            MATLAB, 
             Perl, 
-            R \\
+            Python, 
+            R, 
+            SPARQL, 
+            SQL \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -1002,13 +1016,14 @@
             \textbf{Reproducible Research Tools} \\
             % listing all constituent subjects
             
-            Microsoft Azure Notebooks, 
-            Project Jupyter, 
-            Knitr, 
+    
             GitHub, 
             Google Colaboratory, 
-            Read the Docs, 
-            Overleaf \\
+            Knitr, 
+            Microsoft Azure Notebooks, 
+            Overleaf, 
+            Project Jupyter, 
+            Read the Docs \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -1023,12 +1038,13 @@
             \textbf{Soft Skills} \\
             % listing all constituent subjects
             
+    
+            Conflict Resolution, 
+            Excellent Communication Skills, 
             Excellent Writing Skills, 
             Extensive Leadership Experience, 
-            Conflict Resolution, 
-            Public Speaking, 
-            Excellent Communication Skills, 
-            Project Management \\
+            Project Management, 
+            Public Speaking \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
