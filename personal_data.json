@@ -1078,6 +1078,13 @@
                 "hasName": "RDFLib",
                 "externalResource": "http://dbpedia.org/resource/RDFLib",
                 "relatedTo": "sk:python"
+            },
+            {
+                "$type": "Skill",
+                "$id": "sk:socketio",
+                "hasName": "Socket.IO",
+                "externalResource": "http://dbpedia.org/resource/Socket.IO",
+                "relatedTo": "sk:javascript"
             }
         ]
     },
@@ -1484,6 +1491,26 @@
             {
                 "hasPriority": 0,
                 "hasText": "A Bloomberg Terminal certification through the lens of Economic Indicators, Currencies, Fixed Income, and Equities."
+            }
+        ]
+    },
+    {
+        "$type": "ActivityType",
+        "$id": "act_type:clubs",
+        "hasName": "Clubs and Organizations",
+        "hasActivity": [
+            {
+                "$type": "Activity",
+                "$id": "act:uw_hackers",
+                "hasName": "UW Hackers",
+                "hasDate": "2013-10-15",
+                "endDate": "2015-06-10",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "UW Hackers description"
+                    }
+                 ]
             }
         ]
     }
