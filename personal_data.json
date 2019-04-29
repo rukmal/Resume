@@ -1508,9 +1508,140 @@
                 "hasDescription": [
                     {
                         "hasPriority": 0,
-                        "hasText": "UW Hackers description"
+                        "hasText": "UW Hackers was a group of CSE undergrads who got together every week to work on projects in teams, make or break something great and build strong relationships."
                     }
-                 ]
+                ],
+                "hasWebsite": "https://github.com/UWHackers/About"
+            },
+            {
+                "$type": "Activity",
+                "$id": "act:uw_slsa",
+                "hasName": "UW Sri Lanka Student Organization",
+                "hasDate": "2014-09-01",
+                "endDate": "2017-06-09",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "Descr text"
+                    }
+                ]
+            },
+            {
+                "$type": "Activity",
+                "$id": "uw_du",
+                "hasName": "Delta Upsilon Fraternity",
+                "hasDate": "2015-05-31",
+                "endDate": "2017-06-09",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "Descr text"
+                    }
+                ],
+                "externalResource": "http://dbpedia.org/resource/Delta_Upsilon"
+            },
+            {
+                "$type": "Activity",
+                "$id": "act:uw_yacht_club",
+                "hasName": "Washington Yacht Club",
+                "hasDate": "2015-01-15",
+                "endDate": "2016-12-15",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "Descr text"
+                    }
+                ],
+                "hasWebsite": "http://www.washingtonyachtclub.org/"
+            }
+        ]
+    },
+    {
+        "$type": "ActivityType",
+        "$id": "act_type:volunteering",
+        "hasName": "Volunteering Activities",
+        "hasActivity": [
+            {
+                "$type": "Activity",
+                "$id": "act:conscious_crew",
+                "hasName": "Conscious Crew Volunteer",
+                "hasDate": "2015-10-01",
+                "endDate": "2017-03-31",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "Description"
+                    }
+                ],
+                "hasWebsite": "https://uscevents.com/conscious-crew/"
+            },
+            {
+                "$type": "Activity",
+                "$id": "act:sea_foodbank",
+                "hasName": "University District Food Bank Volunteer",
+                "hasDate": "2015-09-01",
+                "endDate": "2016-12-15",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "Descr text"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "$type": "ActivityType",
+        "$id": "act_type:rec_sports",
+        "hasName": "Recreational Sports",
+        "hasActivity": [
+            {
+                "$type": "Activity",
+                "$id": "act:rec_basketball",
+                "hasName": "Basketball",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "Description"
+                    }
+                ],
+                "externalResource": "http://dbpedia.org/resource/Basketball"
+            },
+            {
+                "$type": "Activity",
+                "$id": "act:rec_swimming",
+                "hasName": "Swimming",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "Descr text"
+                    }
+                ],
+                "externalResource": "http://dbpedia.org/resource/Swimming"
+            },
+            {
+                "$type": "Activity",
+                "$id": "act:rec_running",
+                "hasName": "Running",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "Descr text"
+                    }
+                ],
+                "externalResource": "http://dbpedia.org/resource/Running"
+            },
+            {
+                "$type": "Activity",
+                "$id": "act:rec_strength_training",
+                "hasName": "Strength Training",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "Descr text"
+                    }
+                ],
+                "externalResource": "http://dbpedia.org/resource/Strength_training"
             }
         ]
     }
