@@ -1508,10 +1508,11 @@
                 "hasDescription": [
                     {
                         "hasPriority": 0,
-                        "hasText": "UW Hackers was a group of CSE undergrads who got together every week to work on projects in teams, make or break something great and build strong relationships."
+                        "hasText": "UW Hackers was a group of students interested in Computer Science who got together every week to work on projects in teams, make or break something great, and build strong relationships."
                     }
                 ],
-                "hasWebsite": "https://github.com/UWHackers/About"
+                "hasWebsite": "https://github.com/UWHackers/About",
+                "relatedTo": "org:uw"
             },
             {
                 "$type": "Activity",
@@ -1522,23 +1523,26 @@
                 "hasDescription": [
                     {
                         "hasPriority": 0,
-                        "hasText": "Descr text"
+                        "hasText": "Organization to promote and celebrate Sri Lankan Culture on the UW campus."
                     }
-                ]
+                ],
+                "relatedTo": "org:uw"
             },
             {
                 "$type": "Activity",
-                "$id": "uw_du",
+                "$id": "act:uw_du",
                 "hasName": "Delta Upsilon Fraternity",
                 "hasDate": "2015-05-31",
                 "endDate": "2017-06-09",
                 "hasDescription": [
                     {
                         "hasPriority": 0,
-                        "hasText": "Descr text"
+                        "hasText": "Delta Upsilon, commonly known as DU, is a collegiate men's fraternity founded on November 4, 1834 at Williams College in Williamstown, Massachusetts. It is the sixth-oldest, all-male, college Greek-letter organization founded in North America."
                     }
                 ],
-                "externalResource": "http://dbpedia.org/resource/Delta_Upsilon"
+                "externalResource": "http://dbpedia.org/resource/Delta_Upsilon",
+                "hasWebsite": "https://www.deltau.org/",
+                "relatedTo": "org:uw"
             },
             {
                 "$type": "Activity",
@@ -1549,10 +1553,71 @@
                 "hasDescription": [
                     {
                         "hasPriority": 0,
-                        "hasText": "Descr text"
+                        "hasText": "The Washington Yacht Club is a UW student-run club located at the Waterfront Activities Center on the southeast corner of campus."
                     }
                 ],
-                "hasWebsite": "http://www.washingtonyachtclub.org/"
+                "hasWebsite": "http://www.washingtonyachtclub.org/",
+                "relatedTo": "org:uw"
+            },
+            {
+                "$type": "Activity",
+                "$id": "act:husky_traders",
+                "hasName": "Husky Traders",
+                "hasDate": "2015-09-15",
+                "endDate": "2017-06-09",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "Husky Traders is the premiere student investment organization at the University of Washington. Founded in January of 2011, Husky Traders seeks to provide students with an opportunity to grow both academically and professionally through experiential learning."
+                    }
+                ],
+                "hasWebsite": "http://students.washington.edu/ubc/husky-traders",
+                "relatedTo": "org:uw"
+            },
+            {
+                "$type": "Activity",
+                "$id": "act:foster_finance_association",
+                "hasName": "Foster Finance Association",
+                "hasDate": "2015-09-15",
+                "endDate": "2017-06-09",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "Foster Finance Association is dedicated to providing University of Washington students with networking, information, and potential internship opportunities. Members get to attend presentations from top tier financial firms and network with members of those firms."
+                    }
+                ],
+                "hasWebsite": "http://students.washington.edu/ubc/foster-finance-association",
+                "relatedTo": "org:uw"
+            },
+            {
+                "$type": "Activity",
+                "$id": "act:uw_fec",
+                "hasName": "",
+                "hasDate": "2016-05-15",
+                "endDate": "2017-06-09",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "The Algorithmic Trading Club (previously UW Financial Engineering Club (UWFEC)) @ UW is a non-profit student organization registered at the Student Office at the University of Washington, and is an affiliated student organization to the Computational Finance and Risk Management (CFRM) Master Program in the Applied Mathematics Department."
+                    }
+                ],
+                "hasWebsite": "http://students.washington.edu/ubc/foster-finance-association",
+                "relatedTo": "org:uw"
+            },
+            {
+                "$type": "Activity",
+                "$id": "act:stevens_ssfe",
+                "hasName": "Stevens Society of Financial Engineers (SSFE)",
+                "hasDate": "2017-10-01",
+                "endDate": "2019-05-15",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "SSFE host seminars, trading games and parties every year! Our goal is to provide opportunities and insights to students to obtain more knowledge regarding academia and the financial industry. SSFE welcomes all student interest in the field of Financial Engineering."
+                    }
+                ],
+                "hasWebsite": "http://gradlife.stevens.edu/show_profile/48581-stevens-society-of-financial-engineers",
+                "relatedTo": "org:stevens"
             }
         ]
     },
@@ -1570,7 +1635,7 @@
                 "hasDescription": [
                     {
                         "hasPriority": 0,
-                        "hasText": "Description"
+                        "hasText": "I volunteered at large concerts and music festivals in the Seattle area, acting as a first responder to potentially life-threatening incidents of over-intoxication and drug overuse."
                     }
                 ],
                 "hasWebsite": "https://uscevents.com/conscious-crew/"
@@ -1579,14 +1644,15 @@
                 "$type": "Activity",
                 "$id": "act:sea_foodbank",
                 "hasName": "University District Food Bank Volunteer",
-                "hasDate": "2015-09-01",
+                "hasDate": "2016-01-12",
                 "endDate": "2016-12-15",
                 "hasDescription": [
                     {
                         "hasPriority": 0,
-                        "hasText": "Descr text"
+                        "hasText": "For nearly four decades, University District Food Bank has helped prevent hunger in Northeast Seattle neighborhoods. Each week, more than 1,300 different families receive the groceries they need to prepare nutritionally balanced meals at home."
                     }
-                ]
+                ],
+                "hasWebsite": "http://www.udistrictfoodbank.org/"
             }
         ]
     },
@@ -1602,7 +1668,7 @@
                 "hasDescription": [
                     {
                         "hasPriority": 0,
-                        "hasText": "Description"
+                        "hasText": ""
                     }
                 ],
                 "externalResource": "http://dbpedia.org/resource/Basketball"
@@ -1614,7 +1680,7 @@
                 "hasDescription": [
                     {
                         "hasPriority": 0,
-                        "hasText": "Descr text"
+                        "hasText": ""
                     }
                 ],
                 "externalResource": "http://dbpedia.org/resource/Swimming"
@@ -1626,7 +1692,7 @@
                 "hasDescription": [
                     {
                         "hasPriority": 0,
-                        "hasText": "Descr text"
+                        "hasText": ""
                     }
                 ],
                 "externalResource": "http://dbpedia.org/resource/Running"
@@ -1638,7 +1704,7 @@
                 "hasDescription": [
                     {
                         "hasPriority": 0,
-                        "hasText": "Descr text"
+                        "hasText": ""
                     }
                 ],
                 "externalResource": "http://dbpedia.org/resource/Strength_training"
