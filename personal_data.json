@@ -532,6 +532,18 @@
                 "$id": "sub:algorithms",
                 "hasName": "Algorithms",
                 "externalResource": "http://dbpedia.org/resource/Algorithm"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:unit_testing",
+                "hasName": "Unit Testing",
+                "externalResource": "http://dbpedia.org/resource/Unit_testing"
+            },
+            {
+                "$type": "Subject",
+                "$id": "sub:rapid_prototyping",
+                "hasName": "Rapid Prototyping",
+                "externalResource": "http://dbpedia.org/resource/Rapid_application_development"
             }
         ]
     },
@@ -1498,6 +1510,7 @@
         "$type": "ActivityType",
         "$id": "act_type:clubs",
         "hasName": "Clubs and Organizations",
+        "externalResource": "http://dbpedia.org/resource/Club_(organization)",
         "hasActivity": [
             {
                 "$type": "Activity",
@@ -1592,7 +1605,7 @@
             {
                 "$type": "Activity",
                 "$id": "act:uw_fec",
-                "hasName": "",
+                "hasName": "UW Financial Engineering Club (UWFEC)",
                 "hasDate": "2016-05-15",
                 "endDate": "2017-06-09",
                 "hasDescription": [
@@ -1625,6 +1638,7 @@
         "$type": "ActivityType",
         "$id": "act_type:volunteering",
         "hasName": "Volunteering Activities",
+        "externalResource": "http://dbpedia.org/resource/Volunteering",
         "hasActivity": [
             {
                 "$type": "Activity",
@@ -1660,6 +1674,7 @@
         "$type": "ActivityType",
         "$id": "act_type:rec_sports",
         "hasName": "Recreational Sports",
+        "externalResource": "http://dbpedia.org/resource/Recreation",
         "hasActivity": [
             {
                 "$type": "Activity",
@@ -1708,6 +1723,136 @@
                     }
                 ],
                 "externalResource": "http://dbpedia.org/resource/Strength_training"
+            }
+        ]
+    },
+    {
+        "$type": "ActivityType",
+        "$id": "act_type:hackathons",
+        "hasName": "Hackathons",
+        "externalResource": "http://dbpedia.org/resource/Hackathon",
+        "hasActivity": [
+            {
+                "$type": "Activity",
+                "$id": "act:fb_regional_hackathon",
+                "hasName": "Facebook Seattle Regional Hackathon",
+                "hasDate": "2014-04-25",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "At Facebook, we believe that every engineer has great ideas within them. The regional hackathon is 24-hours of collaborative computer programming that provide an opportunity for you to bring your product from an idea to a prototype overnight."
+                    }
+                ],
+                "hasWebsite": "https://www.facebook.com/events/facebook-seattle/facebook-seattle-regional-hackathon/780426148649298/"
+            },
+            {
+                "$type": "Activity",
+                "$id": "act:startup_uw_hackathon",
+                "hasName": "StartupUW Startup Weekend Hackathon",
+                "hasDate": "2014-05-20",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "StartupUW brings entrepreneurs and the startup community at UW together. The hackathon was a 72-hour event to create a minimum viable prototype of a product, and a viable business plan."
+                    }
+                ],
+                "relatedTo": "org:uw",
+                "hasWebsite": "https://www.facebook.com/StartupWeekendUW/",
+                "hasMedia": [
+                    "https://www.facebook.com/StartupWeekendUW/photos/rpp.219023181566109/474245999377158/?type=3&theater"
+                ]
+            },
+            {
+                "$type": "Activity",
+                "$id": "act:dubhacks",
+                "hasName": "Dubhacks",
+                "hasDate": "2014-10-17",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "DubHacks is for the creators, doers, and makers. People who are passionate about solving problems and turning their ideas into a reality. Over 300 top college hackers from around the area will gather at the HUB to build the next generation of innovative software and hardware hacks. Dubhacks is the largest collegiate hackathon in the Pacific Northwest."
+                    }
+                ],
+                "relatedTo": "org:uw",
+                "hasWebsite": "http://14f.dubhacks.co/",
+                "hasMedia": [
+                    "https://devpost.com/software/ghostframe",
+                    "https://www.facebook.com/photo.php?fbid=10203788114796002&set=t.1062761833&type=3&theater"
+                ]
+            },
+            {
+                "$type": "Activity",
+                "$id": "act:ibm_bluehack",
+                "hasName": "IBM Bluehack Against Human Trafficking",
+                "hasDate": "2019-03-09",
+                "hasDescription": [
+                    {
+                        "hasPriority": 0,
+                        "hasText": "The IBM Open BlueHacks are a creative education experience focused on solving big social problems through technology, in partnership with industry experts and universities. Join us March 9-10th, in partnership with the United Nations and Fundación Pasos Libres, where we will address the social issue of 'Human Trafficking' at Stevens Institute of Technology, in Hoboken, NJ."
+                    }
+                ],
+                "hasWebsite": "https://openbluehack.mybluemix.net/event/baht-03-19",
+                "hasMedia": [
+                    "https://twitter.com/UNODC/status/1110184599638945793",
+                    "https://fundacionpasoslibres.org/2019/03/27/ibm-pasos-libres-unodc-y-el-stevens-institute-of-technology-llevaron-a-cabo-la-primera-bluehack-contra-la-trata-de-personas-de-estados-unidos/",
+                    "https://www.stevens.edu/news/stevens-students-develop-technologies-fight-human-trafficking",
+                    "https://www.unodc.org/unodc/en/frontpage/2019/March/unodc-and-ibm-organize-hackathon-to-identify-tech-based-solutions-against-human-trafficking.html"
+                ],
+                "relatedTo": [
+                    "org:stevens"
+                ]
+            }
+        ]
+    },
+    {
+        "$type": "Award",
+        "$id": "award:bluehack_first",
+        "hasName": "First Place (Technology)",
+        "hasDate": "2019-03-10",
+        "affiliatedWith": "act:ibm_bluehack",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "First place in implementation quality and technical scope of the project."
+            }
+        ]
+    },
+    {
+        "$type": "Award",
+        "$id": "award:dropbox_api",
+        "hasName": "Dropbox API Prize",
+        "hasDate": "2014-10-18",
+        "affiliatedWith": "act:dubhacks",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Awarded for outstanding use of the Dropbox API."
+            }
+        ]
+    },
+    {
+        "$type": "Award",
+        "$id": "award:startupuw_second",
+        "hasName": "Second Place",
+        "hasDate": "2014-05-16",
+        "affiliatedWith": "act:startup_uw_hackathon",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Second place overall, across technical complexity, business plan viability, and the minimum viable product developed over the weekend."
+            }
+        ]
+    },
+    {
+        "$type": "Award",
+        "$id": "award:fb_regional_third",
+        "hasName": "Third Place",
+        "hasDate": "2014-04-26",
+        "affiliatedWith": "act:fb_regional_hackathon",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Third place overall."
             }
         ]
     }
