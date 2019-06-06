@@ -7,7 +7,7 @@
 \usepackage[T1]{fontenc}  % Expanded font encoding
 \usepackage{geometry}  % Page geometry (margins, etc.)
 \usepackage{hyperref}  % Hyperlinks
-\usepackage[none]{hyphenat}
+\usepackage[none]{hyphenat}  % Hyphenation settings
 \usepackage{multirow}  % Multirow table
 \usepackage[defaultsans]{opensans}  % Opensans font
 \usepackage[document]{ragged2e}  % Text alignment
@@ -109,7 +109,7 @@
             \quad School of Business (Division of Financial Engineering) & \\
             % Degree GPA (if any)
             
-                \quad \textit{GPA (4.0 Scale):} 3.7 & \\
+                \quad \textit{GPA (4.0 Scale):} 3.8 & \\
             
             % Degree awards (if any)
             
@@ -192,9 +192,9 @@
             % Parent organizations (if any)
             
                 
-                    \textit{Department of Biomedical Engineering; Stevens Institute of Technology} & \\
-                
                     \textit{Stevens Institute for Artificial Intelligence; Stevens Institute of Technology} & \\
+                
+                    \textit{Department of Biomedical Engineering; Stevens Institute of Technology} & \\
                 
             
             % Other job titles
@@ -291,9 +291,9 @@
             % Parent organizations (if any)
             
                 
-                    \textit{School of Business; Stevens Institute of Technology} & \\
-                
                     \textit{Stevens Institute for Artificial Intelligence; Stevens Institute of Technology} & \\
+                
+                    \textit{School of Business; Stevens Institute of Technology} & \\
                 
             
             % Other job titles
@@ -338,7 +338,7 @@
             
             % Other job titles
             
-                Other Titles: Impact Development Team Lead, Control Systems Team Member & \\
+                Other Titles: Control Systems Team Member, Impact Development Team Lead & \\
             
         \end{tabularx}
 
@@ -754,8 +754,10 @@
             Distributed Systems, 
             Object Oriented Design, 
             Operating Systems, 
+            Rapid Prototyping, 
             Scalable System Architecture and Design, 
-            Scientific Computing \\
+            Scientific Computing, 
+            Unit Testing \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -1059,6 +1061,7 @@
     \pagebreak[3]
 
     % Only print title if any of either exists
+    % This is done differently because of the double-section thing
     
         \section{Awards and Certifications}
 
@@ -1080,12 +1083,136 @@
         2017} \\
                     \end{tabularx}
                 } \\
-                % Link
-                \url{https://www.stevens.edu/admissions/tuition-financial-aid/graduate-funding-aid/assistantships-fellowships} \\
+                % Link (if any)
+                    \url{https://www.stevens.edu/admissions/tuition-financial-aid/graduate-funding-aid/assistantships-fellowships} \\
                 % descriptions
                 
                     
     Awarded to first-year Graduate students entering the Stevens Institute of Technology for graduate study. \\
+                
+            \end{tabularx}
+
+            % Add vertical space if not last iteration
+            
+                \vspace{.5em}
+            
+
+            % Increment counter
+            
+
+            \end{minipage}
+        
+            \begin{minipage}{\tabularxwidth}
+            % iterating over awards and certifications
+            \begin{tabularx}{\tabularxwidth}{X}
+                % Nested tabular to handle title and date in same column
+                {
+                    \begin{tabularx}{\tabularxwidth}{@{}X r}
+                        % Award/Certification name
+                        \textbf{First Place (Technology)} &
+                        % Date on the right
+                        \textbf{
+        2019} \\
+                    \end{tabularx}
+                } \\
+                % Link (if any)
+                % descriptions
+                
+                    
+    First place in implementation quality and technical scope of the project. \\
+                
+            \end{tabularx}
+
+            % Add vertical space if not last iteration
+            
+                \vspace{.5em}
+            
+
+            % Increment counter
+            
+
+            \end{minipage}
+        
+            \begin{minipage}{\tabularxwidth}
+            % iterating over awards and certifications
+            \begin{tabularx}{\tabularxwidth}{X}
+                % Nested tabular to handle title and date in same column
+                {
+                    \begin{tabularx}{\tabularxwidth}{@{}X r}
+                        % Award/Certification name
+                        \textbf{Dropbox API Prize} &
+                        % Date on the right
+                        \textbf{
+        2014} \\
+                    \end{tabularx}
+                } \\
+                % Link (if any)
+                % descriptions
+                
+                    
+    Awarded for outstanding use of the Dropbox API. \\
+                
+            \end{tabularx}
+
+            % Add vertical space if not last iteration
+            
+                \vspace{.5em}
+            
+
+            % Increment counter
+            
+
+            \end{minipage}
+        
+            \begin{minipage}{\tabularxwidth}
+            % iterating over awards and certifications
+            \begin{tabularx}{\tabularxwidth}{X}
+                % Nested tabular to handle title and date in same column
+                {
+                    \begin{tabularx}{\tabularxwidth}{@{}X r}
+                        % Award/Certification name
+                        \textbf{Second Place} &
+                        % Date on the right
+                        \textbf{
+        2014} \\
+                    \end{tabularx}
+                } \\
+                % Link (if any)
+                % descriptions
+                
+                    
+    Second place overall, across technical complexity, business plan viability, and the minimum viable product developed over the weekend. \\
+                
+            \end{tabularx}
+
+            % Add vertical space if not last iteration
+            
+                \vspace{.5em}
+            
+
+            % Increment counter
+            
+
+            \end{minipage}
+        
+            \begin{minipage}{\tabularxwidth}
+            % iterating over awards and certifications
+            \begin{tabularx}{\tabularxwidth}{X}
+                % Nested tabular to handle title and date in same column
+                {
+                    \begin{tabularx}{\tabularxwidth}{@{}X r}
+                        % Award/Certification name
+                        \textbf{Third Place} &
+                        % Date on the right
+                        \textbf{
+        2014} \\
+                    \end{tabularx}
+                } \\
+                % Link (if any)
+                % descriptions
+                
+                    
+    Third place overall. \\
                 
             \end{tabularx}
 
@@ -1114,8 +1241,8 @@
         2013} \\
                     \end{tabularx}
                 } \\
-                % Link
-                \url{https://www.ibo.org/programmes/diploma-programme/} \\
+                % Link (if any)
+                    \url{https://www.ibo.org/programmes/diploma-programme/} \\
                 % descriptions
                 
                     
@@ -1146,8 +1273,8 @@
         2017} \\
                     \end{tabularx}
                 } \\
-                % Link
-                \url{https://www.bloomberg.com/professional/product/bloomberg-market-concepts/} \\
+                % Link (if any)
+                    \url{https://www.bloomberg.com/professional/product/bloomberg-market-concepts/} \\
                 % descriptions
                 
                     
@@ -1166,5 +1293,90 @@
             \end{minipage}
         
     
+
+
+
+    % Activities
+    %---------------------------------------------
+
+    % Title only if exists
+    
+        \section{Activities}
+
+    % Iterating over activity types
+    
+        \begin{tabularx}{\tabularxwidth}{X}
+            % First line - activity type name in bold
+            \textbf{Clubs and Organizations} \\
+            % Listing all constituent activities
+            
+    
+            Delta Upsilon Fraternity, 
+            Foster Finance Association, 
+            Husky Traders, 
+            Stevens Society of Financial Engineers (SSFE), 
+            UW Financial Engineering Club (UWFEC), 
+            UW Hackers, 
+            UW Sri Lanka Student Organization, 
+            Washington Yacht Club \\
+        \end{tabularx}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+    
+        \begin{tabularx}{\tabularxwidth}{X}
+            % First line - activity type name in bold
+            \textbf{Hackathons} \\
+            % Listing all constituent activities
+            
+    
+            Dubhacks, 
+            Facebook Seattle Regional Hackathon, 
+            IBM Bluehack Against Human Trafficking, 
+            StartupUW Startup Weekend Hackathon \\
+        \end{tabularx}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+    
+        \begin{tabularx}{\tabularxwidth}{X}
+            % First line - activity type name in bold
+            \textbf{Recreational Sports} \\
+            % Listing all constituent activities
+            
+    
+            Basketball, 
+            Running, 
+            Strength Training, 
+            Swimming \\
+        \end{tabularx}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+    
+        \begin{tabularx}{\tabularxwidth}{X}
+            % First line - activity type name in bold
+            \textbf{Volunteering Activities} \\
+            % Listing all constituent activities
+            
+    
+            Conscious Crew Volunteer, 
+            University District Food Bank Volunteer \\
+        \end{tabularx}
+
+        % Add vertical space if not last iteration
+        
+
+    
+
 
 \end{document}

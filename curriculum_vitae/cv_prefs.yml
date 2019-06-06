@@ -11,3 +11,4 @@ order_overrides:
   WorkExperience: 'chron_D'
   KnowledgeArea: 'alphabetical_A'
   SkillGroup: 'alphabetical_A'
+  ActivityType: 'alphabetical_A'
