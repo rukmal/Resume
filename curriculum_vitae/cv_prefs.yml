@@ -12,3 +12,9 @@ order_overrides:
   KnowledgeArea: 'alphabetical_A'
   SkillGroup: 'alphabetical_A'
   ActivityType: 'alphabetical_A'
+item_overrides:
+  Award:
+    - '!award:bluehack_first'
+    - '!award:dropbox_api'
+    - '!award:startupuw_second'
+    - '!award:fb_regional_third'
