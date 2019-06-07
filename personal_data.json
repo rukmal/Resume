@@ -1855,5 +1855,117 @@
                 "hasText": "Third place overall."
             }
         ]
+    },
+    {
+        "$type": "Course",
+        "$id": "course:uw:chem:142",
+        "hasName": "General Chemistry 1",
+        "hasDepartmentCode": "CHEM",
+        "hasCourseCode": "142",
+        "hasWebsite": "https://www.washington.edu/students/crscat/chem.html",
+        "taughtAt": "org:uw",
+        "hasSyllabus": "https://drive.google.com/file/d/1Nj23RqR30cCYLScJB7-jK9rVoVey4rSa/view",
+        "withInstructor": "Deborah Wiegand, Lauren Kang",
+        "hasDate": "2013-09-25",
+        "endDate": "2013-12-13"
+    },
+    {
+        "$type": "Course",
+        "$id": "course:uw:phys:121",
+        "hasName": "Mechanics",
+        "hasDepartmentCode": "PHYS",
+        "hasCourseCode": "121",
+        "hasWebsite": "https://www.washington.edu/students/crscat/phys.html",
+        "taughtAt": "org:uw",
+        "withInstructor": "James Reid",
+        "hasDate": "2014-01-06",
+        "endDate": "2014-03-21"
+    },
+    {
+        "$type": "Course",
+        "$id": "course:uw:biol:180",
+        "hasName": "Introductory Biology",
+        "hasDepartmentCode": "BIOL",
+        "hasCourseCode": "180",
+        "hasWebsite": "https://www.washington.edu/students/crscat/biol.html",
+        "taughtAt": "org:uw",
+        "withInstructor": "Scott Freeman",
+        "hasDate": "2014-09-24",
+        "endDate": "2014-12-12"
+    },
+    {
+        "$type": "Course",
+        "$id": "course:uw:math:124",
+        "hasName": "Calculus with Analytic Geometry 1",
+        "hasDepartmentCode": "MATH",
+        "hasCourseCode": "124",
+        "hasWebsite": "https://www.washington.edu/students/crscat/math.html",
+        "taughtAt": "org:uw",
+        "withInstructor": "Rekha Thomas, Harischandra Ramadas",
+        "hasDate": "2013-09-25",
+        "endDate": "2013-12-13"
+    },
+    {
+        "$type": "Course",
+        "$id": "course:uw:math:125",
+        "hasName": "Calculus with Analytic Geometry 2",
+        "hasDepartmentCode": "MATH",
+        "hasCourseCode": "125",
+        "hasWebsite": "https://www.washington.edu/students/crscat/math.html",
+        "taughtAt": "org:uw",
+        "withInstructor": "Krysztof Burdzy, Harischandra Ramadas",
+        "hasDate": "2014-01-06",
+        "endDate": "2014-03-21"
+    },
+    {
+        "$type": "Course",
+        "$id": "course:uw:math:126",
+        "hasName": "Calculus with Analytic Geometry 3",
+        "hasDepartmentCode": "MATH",
+        "hasCourseCode": "126",
+        "hasWebsite": "https://www.washington.edu/students/crscat/math.html",
+        "taughtAt": "org:uw",
+        "withInstructor": "Thomas Rothvoss",
+        "hasDate": "2014-03-31",
+        "endDate": "2014-06-13"
+    },
+    {
+        "$type": "Course",
+        "$id": "course:uw:econ:200",
+        "hasName": "Introduction to Microeconomics",
+        "hasDepartmentCode": "ECON",
+        "hasCourseCode": "200",
+        "hasWebsite": "https://www.washington.edu/students/crscat/econ.html",
+        "taughtAt": "org:uw",
+        "withInstructor": "Greg Ellis",
+        "hasSyllabus": "https://drive.google.com/file/d/0Bwu3RhGViYW2WFYxSzNjUmVFX1E/view?usp=sharing",
+        "hasDate": "2013-09-25",
+        "endDate": "2013-12-13"
+    },
+    {
+        "$type": "Course",
+        "$id": "course:uw:econ:201",
+        "hasName": "Introduction to Macroeconomics",
+        "hasDepartmentCode": "ECON",
+        "hasCourseCode": "201",
+        "hasWebsite": "https://www.washington.edu/students/crscat/econ.html",
+        "taughtAt": "org:uw",
+        "withInstructor": "Atsuko Izumi",
+        "hasSyllabus": "https://drive.google.com/file/d/0Bwu3RhGViYW2ME9USWRobEpHcFU/view?usp=sharing",
+        "hasDate": "2015-03-30",
+        "endDate": "2015-06-12"
+    },
+    {
+        "$type": "Course",
+        "$id": "course:uw:cse:143",
+        "hasName": "Computer Programming 2",
+        "hasDepartmentCode": "CSE",
+        "hasCourseCode": "143",
+        "hasWebsite": "https://courses.cs.washington.edu/courses/cse143/14wi/",
+        "taughtAt": "org:uw",
+        "withInstructor": "Stuart Reges",
+        "hasSyllabus": "https://courses.cs.washington.edu/courses/cse143/14wi/handouts/01.html",
+        "hasDate": "2014-01-06",
+        "endDate": "2014-03-21"
     }
 ]
