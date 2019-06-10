@@ -2470,7 +2470,7 @@
     {
         "$type": "Course",
         "$id": "course:stevens:fe:595",
-        "hasName": "Financial Technology",
+        "hasName": "Financial Systems Technology",
         "hasDepartmentCode": "FE",
         "hasCourseCode": "595",
         "taughtAt": "org:stevens",
@@ -2542,5 +2542,94 @@
         "hasSyllabus": "https://drive.google.com/file/d/1a4fbj4X9EVmsJYccSOxISH_1zB-yMLLM/view?usp=sharing",
         "hasDate": "2019-01-22",
         "endDate": "2019-05-18"
+    },
+    {
+        "$type": "Talk",
+        "$id": "talk:leap_motion",
+        "hasName": "Leap into the Future with Leap Motion",
+        "hasMedia": [
+            "https://github.com/UWHackers/uwhackers.github.io"
+        ],
+        "hasWebsite": "http://uwhackers.github.io/leap-motion-slides/#/",
+        "affiliatedWith": "degree:uw:fin_baba",
+        "hasDate": "2014-04-16",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "An introduction and overview of the Leap Motion; the underlying technology, JavaScript API, and a WebSocket game demo."
+            }
+        ],
+        "relatedTo": "act:uw_hackers",
+        "externalResource": "http://dbpedia.org/resource/Leap_Motion"
+    },
+    {
+        "$type": "Talk",
+        "$id": "talk:high_frequency_trading",
+        "hasName": "High Frequency Trading (HFT) - A Deep Dive",
+        "hasMedia": [
+            "https://drive.google.com/drive/folders/0Bwu3RhGViYW2d0lRM1ZwTUZnX0k?usp=sharing",
+            "https://www.facebook.com/atcuw/videos/845376435619821/"
+        ],
+        "hasWebsite": "https://www.facebook.com/events/1847043712285383/?active_tab=about",
+        "affiliatedWith": "degree:uw:fin_baba",
+        "hasDate": "2017-05-19",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "A deep dive into High Frequency Trading (HFT), covering market microstructure, exchange dynamics, regulatory implications, electronic order execution models, RegNMS, algorithmic trading, and popular HFT-driven strategies for exploiting arbitrage opportunities."
+            }
+        ],
+        "relatedTo": "act:uw_fec",
+        "externalResource": "http://dbpedia.org/resource/High-frequency_trading"
+    },
+    {
+        "$type": "Talk",
+        "$id": "talk:kg_fundamentals",
+        "hasName": "Knowledge Graph Fundamentals",
+        "hasMedia": [
+            "https://drive.google.com/drive/folders/1B6Fw4p68L1xie0i1cMhJrP4rwa4BhYub?usp=sharing",
+            "https://drive.google.com/file/d/1f21S_QZtm6aYiYLnXPA5opgsoBdIX7zX/view?usp=sharing"
+        ],
+        "hasWebsite": "https://drive.google.com/file/d/1K2nwrNvgGrE0EA6XpYgFVP3gLFEzG8bt/view?usp=sharing",
+        "affiliatedWith": "degree:stevens:fe_ms",
+        "hasDate": "2018-12-04",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "An overview of the fundamental technology powering modern knowledge graphs, focusing on the concepts of semantic data, ontologies, and inference."
+            }
+        ],
+        "relatedTo": "course:stevens:fe:595"
+    },
+    {
+        "$type": "Talk",
+        "$id": "talk:learned_sectors",
+        "hasName": "Learned Sectors",
+        "hasWebsite": "https://drive.google.com/file/d/12DcqxSJAR-PTLZcRqZ6SAapKzQFBuwA4/view?usp=sharing",
+        "affiliatedWith": "degree:stevens:fe_ms",
+        "hasDate": "2019-05-02",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Learned Sectors project overview, covering the trained hierarchical clustering model, the reIndexer validation system, and a discussion of the final risk-adjusted return optimal sector universe."
+            }
+        ],
+        "relatedTo": "course:stevens:fe:800",
+        "hasCollaborators": "Yuzhen He, Yiyi Zhu"
+    },
+    {
+        "$type": "Talk",
+        "$id": "talk:heals_summer",
+        "hasName": "Summer of HEALS - A Retrospective",
+        "hasWebsite": "https://drive.google.com/file/d/1h4OTLUGtlpVOByD3VyKGvoBEV2PmR7ck/view?usp=sharing",
+        "affiliatedWith": "we:rpi:heals:ra",
+        "hasDate": "2018-08-23",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "An overview of contributions to the HEALS project, including contributions to Semantalytics, American Diabetes Association (ADA) Guideline Modeling, and PaperRank."
+            }
+        ],
+        "relatedTo": "pub:paperrank"
     }
 ]
