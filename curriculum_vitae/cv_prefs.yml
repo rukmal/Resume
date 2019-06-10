@@ -12,6 +12,8 @@ order_overrides:
   KnowledgeArea: 'alphabetical_A'
   SkillGroup: 'alphabetical_A'
   ActivityType: 'alphabetical_A'
+  Publication: 'chron_D'
+  Talk: 'chron_D'
 item_overrides:
   Award:
     - '!award:bluehack_first'
