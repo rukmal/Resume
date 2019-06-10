@@ -1378,6 +1378,35 @@
     },
     {
         "$type": "Publication",
+        "$id": "pub:learned_sectors",
+        "hasName": "Learned Sectors: A fundamentals-driven sector reclassification project",
+        "hasMedia": [
+            "https://github.com/rukmal/PaperRank",
+            "https://colab.research.google.com/drive/1Z6l8xTEi5KSzUwb2LXLlnvDLm8PlKyvr"
+        ],
+        "hasWebsite": "https://drive.google.com/open?id=1SlSfZrwOQYP0mrKbrGLjjAFzWCk-qlwm",
+        "affiliatedWith": "degree:stevens:fe_ms",
+        "hasAuthors": "Rukmal Weerawarana, Yiyi Zhu, Yuzhen He",
+        "inPublication": "",
+        "inConferenceOrJournal": "",
+        "hasDate": "2019-05-19",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Market sectors play a key role in enabling the efficient flow of capital through the modern Global economy. An analysis of existing sectorization heuristics show that they are not entirely quantitatively driven, but rather are highly subjective and rooted in dogma. To this end, we introduce a new fundamentals-driven Learned Sectors heuristic."
+            },
+            {
+                "hasPriority": 1,
+                "hasText": "Using the HCA heuristic, we generate a set of 60 potential candidate learned sector universes. We then introduce reIndexer, a backtest-driven sector universe evaluation research tool, to rank the candidate sector universes produced by our learned sector classification heuristic."
+            },
+            {
+                "hasPriority": 100,
+                "hasText": "This rank was utilized to identify the risk-adjusted return optimal learned sector universe as being the universe generated under CLINK (i.e. complete linkage), with 17 sectors. The optimal learned sector universe was tested against the benchmark GICS classification universe with reIndexer, outperforming on both absolute portfolio value, and risk-adjusted return over the backtest period."
+            }
+        ]
+    },
+    {
+        "$type": "Publication",
         "$id": "pub:paperrank",
         "hasName": "Inferring Community Trust from Citation Graphs",
         "hasStatus": "Draft",
@@ -2615,7 +2644,7 @@
             }
         ],
         "relatedTo": "course:stevens:fe:800",
-        "hasCollaborators": "Yuzhen He, Yiyi Zhu"
+        "hasCollaborators": "Yiyi Zhu, Yuzhen He"
     },
     {
         "$type": "Talk",
