@@ -2660,5 +2660,23 @@
             }
         ],
         "relatedTo": "pub:paperrank"
+    },
+    {
+        "$type": "Project",
+        "$id": "project:gpa_manager",
+        "hasName": "GPAManager",
+        "hasDate": "2014-03-15",
+        "hasWebsite": "https://github.com/rukmal/GPAManager",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "GPA tracking tool, designed to handle midterm scores, finals exams, and varying grade weight distributions."
+            }
+        ],
+        "relatedTo": [
+            "sk:javascript",
+            "sk:node",
+            "sk:heroku"
+        ]
     }
 ]
