@@ -1777,7 +1777,7 @@
             {
                 "$type": "Activity",
                 "$id": "act:startup_uw_hackathon",
-                "hasName": "StartupUW Startup Weekend Hackathon",
+                "hasName": "StartupUW Startup Weekend",
                 "hasDate": "2014-05-20",
                 "hasDescription": [
                     {
@@ -1788,7 +1788,7 @@
                 "relatedTo": "org:uw",
                 "hasWebsite": "https://www.facebook.com/StartupWeekendUW/",
                 "hasMedia": [
-                    "https://www.facebook.com/StartupWeekendUW/photos/rpp.219023181566109/474245999377158/?type=3&theater"
+                    "https://www.facebook.com/pg/StartupWeekendUW/photos/?tab=album&album_id=474242182710873"
                 ]
             },
             {
@@ -2596,10 +2596,10 @@
         "$id": "talk:high_frequency_trading",
         "hasName": "High Frequency Trading (HFT) - A Deep Dive",
         "hasMedia": [
-            "https://drive.google.com/drive/folders/0Bwu3RhGViYW2d0lRM1ZwTUZnX0k",
-            "https://www.facebook.com/events/1847043712285383/?active_tab=about"
+            "https://www.facebook.com/events/1847043712285383/?active_tab=about",
+            "https://www.facebook.com/atcuw/videos/845376435619821/"
         ],
-        "hasWebsite": "https://www.facebook.com/atcuw/videos/845376435619821/",
+        "hasWebsite": "https://drive.google.com/file/d/1I7JuZhVzsAT84xe88lLsbHbSIa-Ev7eF",
         "affiliatedWith": "degree:uw:fin_baba",
         "hasDate": "2017-05-19",
         "hasDescription": [
@@ -2616,10 +2616,9 @@
         "$id": "talk:kg_fundamentals",
         "hasName": "Knowledge Graph Fundamentals",
         "hasMedia": [
-            "https://drive.google.com/drive/folders/1B6Fw4p68L1xie0i1cMhJrP4rwa4BhYub",
-            "https://drive.google.com/file/d/1f21S_QZtm6aYiYLnXPA5opgsoBdIX7zX"
+            "https://drive.google.com/file/d/1K2nwrNvgGrE0EA6XpYgFVP3gLFEzG8bt"
         ],
-        "hasWebsite": "https://drive.google.com/file/d/1K2nwrNvgGrE0EA6XpYgFVP3gLFEzG8bt",
+        "hasWebsite": "https://drive.google.com/file/d/1f21S_QZtm6aYiYLnXPA5opgsoBdIX7zX",
         "affiliatedWith": "degree:stevens:fe_ms",
         "hasDate": "2018-12-04",
         "hasDescription": [
@@ -2663,20 +2662,120 @@
     },
     {
         "$type": "Project",
-        "$id": "project:gpa_manager",
-        "hasName": "GPAManager",
-        "hasDate": "2014-03-15",
-        "hasWebsite": "https://github.com/rukmal/GPAManager",
+        "$id": "project:uw_open_data",
+        "hasName": "UW Open Data",
+        "hasDate": "2014-04-23",
+        "hasWebsite": "https://git.rukmal.me/UW-OpenData",
+        "hasCollaborators": "Karan Goel",
+        "hasImage": "https://raw.githubusercontent.com/rukmal/UW-OpenData/master/bin-local/uwopendata_logo.png",
         "hasDescription": [
             {
                 "hasPriority": 0,
-                "hasText": "GPA tracking tool, designed to handle midterm scores, finals exams, and varying grade weight distributions."
+                "hasText": "An open Python API for online services at the University of Washington related to the Course Catalog and Directory."
+            }
+        ],
+        "relatedTo": [
+            "sk:python",
+            "sk:flask"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:spotify_instant",
+        "hasName": "Spotify Instant Search",
+        "hasDate": "2014-04-30",
+        "hasWebsite": "https://git.rukmal.me/SpotifyInstant",
+        "hasImage": "https://raw.githubusercontent.com/rukmal/SpotifyInstant/gh-pages/images/spotify_logo.png",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Instant search for the Spotify music catalogy, built using the Spotify REST and Desktop APIs."
+            }
+        ],
+        "relatedTo": [
+            "sk:javascript"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:rendezvous",
+        "hasName": "Rendezvous",
+        "hasCollaborators": "Christopher Su, Terren Krietzman, Jason Hwang, Houman Farokhzad, Gregory Moreno",
+        "hasDate": "2014-05-20",
+        "hasWebsite": "https://github.com/getrendezvous",
+        "hasImage": "https://raw.githubusercontent.com/getrendezvous/getrendezvous.github.io/master/resources/iconfinal.png",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Rendezvous is a social app for meeting up with friends, in a localized setting; I designed and implemented the REST API layer underlying the backend of the system."
             }
         ],
         "relatedTo": [
             "sk:javascript",
             "sk:node",
-            "sk:heroku"
+            "sk:mongo",
+            "sk:aws",
+            "act:startup_uw_hackathon"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:collablists",
+        "hasName": "CollabLists",
+        "hasCollaborators": "Amit Burstein, Phillip Huang, David Swanson",
+        "hasDate": "2014-04-25",
+        "hasWebsite": "https://git.rukmal.me/CollabLists",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "A web application that enables users to play streaming music (including adding, voting on, and deleting) from a collaborative playlist in the cloud at a party."
+            }
+        ],
+        "relatedTo": [
+            "sk:javascript",
+            "sk:node",
+            "sk:mongo",
+            "sk:socketio",
+            "act:fb_regional_hackathon"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:leappong",
+        "hasName": "LeapPong",
+        "hasCollaborators": "Grant Timmerman",
+        "hasDate": "2014-04-18",
+        "hasWebsite": "https://github.com/grant/LeapPong",
+        "hasImage": "https://cloud.githubusercontent.com/assets/744973/2600844/c9b4a418-bb06-11e3-8bc2-14668ddc7546.png",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Play multiplayer pong with a friend, with the option to use your hand to control the paddle with a Leap Motion controller."
+            }
+        ],
+        "relatedTo": [
+            "sk:javascript",
+            "sk:node",
+            "sk:socketio",
+            "talk:leap_motion"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:flappy_leap_bird",
+        "hasName": "FlappyLeapBird",
+        "hasDate": "2014-04-16",
+        "hasWebsite": "https://github.com/rukmal/FlappyLeapBird",
+        "hasImage": "https://raw.githubusercontent.com/rukmal/FlappyLeapBird/master/bin/FlappyLeapBird_logo.png",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Play the popular game 'Flappy Leap Bird' using your hand to control the Flappy Bird."
+            }
+        ],
+        "relatedTo": [
+            "sk:javascript",
+            "sk:node"
         ]
     }
 ]
