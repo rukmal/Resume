@@ -1381,10 +1381,10 @@
         "$id": "pub:learned_sectors",
         "hasName": "Learned Sectors: A fundamentals-driven sector reclassification project",
         "hasMedia": [
-            "https://github.com/rukmal/PaperRank",
-            "https://colab.research.google.com/drive/1Z6l8xTEi5KSzUwb2LXLlnvDLm8PlKyvr"
+            "https://github.com/rukmal/reIndexer",
+            "https://colab.research.google.com/drive/1MvcyrTJW05tH09-bpFY46o6b2KWO_rm1"
         ],
-        "hasWebsite": "https://drive.google.com/open?id=1SlSfZrwOQYP0mrKbrGLjjAFzWCk-qlwm",
+        "hasWebsite": "https://arxiv.org/abs/1906.03935",
         "affiliatedWith": "degree:stevens:fe_ms",
         "hasAuthors": "Rukmal Weerawarana, Yiyi Zhu, Yuzhen He",
         "inPublication": "",
@@ -1448,7 +1448,7 @@
         "hasAuthors": "James P. McCusker, John S. Erickson, Katherine Chastain, Sabbir Rashid, Rukmal Weerawarana, Marcello Bax, Deborah L. McGuinness",
         "inPublication": "",
         "inConferenceOrJournal": "",
-        "hasDate": "2019-04-20",
+        "hasDate": "2018-07-20",
         "hasDescription": [
             {
                 "hasPriority": 0,
