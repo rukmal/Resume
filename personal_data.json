@@ -2900,7 +2900,8 @@
             "sk:python",
             "sk:sklearn",
             "sk:redis",
-            "sk:kubernetes"
+            "sk:kubernetes",
+            "sk:scipy"
         ]
     },
     {
@@ -2978,7 +2979,7 @@
             "course:stevens:fe:800",
             "pub:learned_sectors",
             "sk:python",
-            "sk:sklearn",
+            "sk:scipy",
             "sk:docker",
             "talk:learned_sectors"
         ]
@@ -2999,7 +3000,8 @@
         "relatedTo": [
             "sk:python",
             "sk:sparql",
-            "sk:jinja"
+            "sk:jinja",
+            "sk:latex"
         ]
     }
 ]
