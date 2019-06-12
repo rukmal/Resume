@@ -1,11 +1,12 @@
 full_name: 'Rukmal Weerawarana'
 address_line_1: '238 W 20th Street Apt 4C'
 address_city_state: 'New York, NY'
-address_zip: '10011'
+address_zip: '10011-3518'
 address_country: 'USA'
 phone: '(206) 839-6891'
 email: 'rukmal.weerawarana@gmail.com'
 website: 'http://rukmal.me'
+linkedin: 'http://linkedin.com/in/rukmalw'
 order_overrides:
   Degree: 'chron_D'
   WorkExperience: 'chron_D'
@@ -14,6 +15,7 @@ order_overrides:
   ActivityType: 'alphabetical_A'
   Publication: 'chron_D'
   Talk: 'chron_D'
+  Project: 'chron_D'
 item_overrides:
   Award:
     - '!award:bluehack_first'
