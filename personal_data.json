@@ -1836,7 +1836,7 @@
     {
         "$type": "Award",
         "$id": "award:bluehack_first",
-        "hasName": "First Place (Technology)",
+        "hasName": "First Place [Technology]",
         "hasDate": "2019-03-10",
         "affiliatedWith": "act:ibm_bluehack",
         "hasDescription": [
@@ -2646,21 +2646,6 @@
         "hasCollaborators": "Yiyi Zhu, Yuzhen He"
     },
     {
-        "$type": "Talk",
-        "$id": "talk:heals_summer",
-        "hasName": "Summer of HEALS - A Retrospective",
-        "hasWebsite": "https://drive.google.com/file/d/1h4OTLUGtlpVOByD3VyKGvoBEV2PmR7ck",
-        "affiliatedWith": "we:rpi:heals:ra",
-        "hasDate": "2018-08-23",
-        "hasDescription": [
-            {
-                "hasPriority": 0,
-                "hasText": "An overview of contributions to the HEALS project, including contributions to Semantalytics, American Diabetes Association (ADA) Guideline Modeling, and PaperRank."
-            }
-        ],
-        "relatedTo": "pub:paperrank"
-    },
-    {
         "$type": "Project",
         "$id": "project:uw_open_data",
         "hasName": "UW Open Data",
@@ -2765,7 +2750,7 @@
         "$id": "project:flappy_leap_bird",
         "hasName": "FlappyLeapBird",
         "hasDate": "2014-04-16",
-        "hasWebsite": "https://github.com/rukmal/FlappyLeapBird",
+        "hasWebsite": "https://git.rukmal.me/FlappyLeapBird",
         "hasImage": "https://raw.githubusercontent.com/rukmal/FlappyLeapBird/master/bin/FlappyLeapBird_logo.png",
         "hasDescription": [
             {
@@ -2776,6 +2761,245 @@
         "relatedTo": [
             "sk:javascript",
             "sk:node"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:scoreboard",
+        "hasName": "Scoreboard",
+        "hasDate": "2014-08-03",
+        "hasWebsite": "https://git.rukmal.me/Scoreboard",
+        "hasImage": "https://raw.githubusercontent.com/rukmal/Scoreboard/master/bin/landing_page.png",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "A simple, secure scoreboard with a remote control built for Basketball; includes team scores, game clock, and shot clock."
+            }
+        ],
+        "relatedTo": [
+            "sk:javascript",
+            "sk:node",
+            "sk:socketio"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:lifestream",
+        "hasName": "Lifestream",
+        "hasDate": "2014-11-12",
+        "hasCollaborators": "Amit Burstein, Stefan Dierauf, Aengus McMillan",
+        "hasWebsite": "https://git.rukmal.me/Lifestream-API",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Inspired by Snapchat's Event stories, Lifestream (previously Ghostframe) is a hyperlocal image sharing application."
+            }
+        ],
+        "relatedTo": [
+            "sk:javascript",
+            "sk:node",
+            "sk:mongo",
+            "sk:go",
+            "sk:revel_go",
+            "act:dubhacks"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:zocialgpa_stack",
+        "hasName": "ZocialGPA Stack",
+        "hasDate": "2015-12-12",
+        "hasWebsite": "https://github.com/zocialgpa",
+        "hasImage": "https://avatars2.githubusercontent.com/u/8800125?s=200&v=4",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "ZocialGPA was a multiplatform social analytics product, which used Facebook, Twitter, and LinkedIn feeds to compute a ZGPA score for users, based on a collection of statistical NLP heuristics."
+            }
+        ],
+        "relatedTo": [
+            "sk:javascript",
+            "sk:node",
+            "sk:mongo",
+            "sk:aws",
+            "sk:redis",
+            "sk:nltk",
+            "sk:docker",
+            "sk:python",
+            "we:zocialgpa"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:lunar_cubesat_report",
+        "hasName": "Lunar CubeSAT Software Architecture Analysis",
+        "hasDate": "2015-07-14",
+        "hasWebsite": "https://git.rukmal.me/UW-Lunar-CubeSat-Research",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Summary of research detailing a software architecture paradigm for the UW Lunar CubeSAT."
+            }
+        ],
+        "relatedTo": [
+            "we:uw:cubesat",
+            "course:uw:ess:490"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:cfrm_462_report",
+        "hasName": "401(k) Portfolio Optimization Analysis",
+        "hasDate": "2016-08-19",
+        "hasWebsite": "https://git.rukmal.me/UW-CFRM-462-Portfolio-Optimization",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "An analysis of efficient portfolios of exchange traded funds, including time series modeling of returns with Monte Carlo simulations, and heteroskedasticity analysis."
+            }
+        ],
+        "relatedTo": [
+            "course:uw:cfrm:460",
+            "sk:r",
+            "sk:knitr",
+            "sk:latex"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:derivative_visualizer",
+        "hasName": "Derivative Visualizer",
+        "hasDate": "2017-12-04",
+        "hasWebsite": "https://git.rukmal.me/DerivativeVisualizer",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "An R library for plotting simple profit/loss graphs for equity and derivative positions."
+            }
+        ],
+        "relatedTo": [
+            "course:stevens:fe:620",
+            "sk:r",
+            "sk:knitr"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:paperrank",
+        "hasName": "PaperRank Framework",
+        "hasDate": "2018-08-21",
+        "hasWebsite": "https://git.rukmal.me/PaperRank",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "The PaperRank framework is designed to enable bibliometrics and citation analysis of academic literature graphs. It is highly extensible, and designed to be corpus-agnostic; currently, it is configured for use with the NCBI PubMed database."
+            }
+        ],
+        "relatedTo": [
+            "we:rpi:heals:ra",
+            "sk:python",
+            "sk:sklearn",
+            "sk:redis",
+            "sk:kubernetes"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:pyedgar",
+        "hasName": "PyEDGAR API",
+        "hasDate": "2018-12-15",
+        "hasWebsite": "https://git.rukmal.me/PyEDGAR",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "A Python API for the U.S. Securities and Exchange Commission's (SEC) Electronic Data Gathering, Analysis, and Retrieval System (EDGAR), using the eXtensible Business Reporting Language (XBRL) ontology."
+            }
+        ],
+        "relatedTo": [
+            "sk:python",
+            "sk:docker",
+            "sk:sparql"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:htkg_nypd_compstat_ld",
+        "hasName": "HTKG and NYPD-Compstat-LD",
+        "hasDate": "2019-03-10",
+        "hasWebsite": "https://git.rukmal.me/NYPD-Compstat-LD",
+        "hasCollaborators": "Ryan Hartman, Ayush Kalla, Kovid Shukla, Sanket Saharkar",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "HTKG (Human Trafficking Knolwedge Graph), and NYPD-Compstat-LD (the main data ingestion engine) is a knowledge graph platform for linking suspected human trafficking advertisements with crime data from the NYPD to retroactively assess trends."
+            }
+        ],
+        "relatedTo": [
+            "act:ibm_bluehack",
+            "sk:python",
+            "sk:kubernetes",
+            "sk:neo4j"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:fe621",
+        "hasName": "fe621",
+        "hasDate": "2019-05-09",
+        "hasWebsite": "https://git.rukmal.me/FE-621-Homework",
+        "hasImage": "https://raw.githubusercontent.com/rukmal/FE-621-Homework/master/bin/fe621_logo.png",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "fe621 is a Python library that provides functionality for lattice based derivative pricing models, exotic option picing, Monte Carlo simulations, numerical differentiation and integration, and optimization."
+            }
+        ],
+        "relatedTo": [
+            "course:stevens:fe:621",
+            "sk:python",
+            "sk:sklearn",
+            "sk:latex"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:reindexer",
+        "hasName": "reIndexer",
+        "hasDate": "2019-04-29",
+        "hasWebsite": "https://git.rukmal.me/reIndexer",
+        "hasImage": "https://raw.githubusercontent.com/rukmal/reIndexer/master/bin/reIndexer_logo.png",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "reIndexer is a research tool for the backtest-driven evaluation of different sectorization heuristics, using a system of synthetic ETFs, and efficient portfolios of those synthetic ETFs."
+            }
+        ],
+        "relatedTo": [
+            "course:stevens:fe:800",
+            "pub:learned_sectors",
+            "sk:python",
+            "sk:sklearn",
+            "sk:docker",
+            "talk:learned_sectors"
+        ]
+    },
+    {
+        "$type": "Project",
+        "$id": "project:precis",
+        "hasName": "Precis",
+        "hasDate": "2019-06-12",
+        "hasWebsite": "https://precis.rukmal.me",
+        "hasImage": "https://raw.githubusercontent.com/rukmal/reIndexer/master/bin/reIndexer_logo.png",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Precis is an Ontology for modeling personal professional metadata. The extended Precis toolkit also includes a Pythonic search API for the Ontology, a JSON data loader, and an extensible templating engine."
+            }
+        ],
+        "relatedTo": [
+            "sk:python",
+            "sk:sparql",
+            "sk:jinja"
         ]
     }
 ]
