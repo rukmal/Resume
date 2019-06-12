@@ -22,3 +22,11 @@ item_overrides:
     - '!award:dropbox_api'
     - '!award:startupuw_second'
     - '!award:fb_regional_third'
+  Project:
+    - 'project:precis'
+    - 'project:reindexer'
+    - 'project:htkg_nypd_compstat_ld'
+    - 'project:paperrank'
+    - 'project:fe621'
+    - 'project:cfrm_462_report'
+    - 'project:zocialgpa_stack'
