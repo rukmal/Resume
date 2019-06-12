@@ -4,6 +4,7 @@
 %----------------
 
 \usepackage{enumitem}  % Advanced list settings
+
 \usepackage[T1]{fontenc}  % Expanded font encoding
 \usepackage{geometry}  % Page geometry (margins, etc.)
 \usepackage{hyperref}  % Hyperlinks
@@ -119,6 +120,10 @@
     Provost's Master's Fellowship & \\
                     
                 
+                    
+                
+                    
+                
             
         \end{tabularx}
 
@@ -141,6 +146,10 @@
             % Degree GPA (if any)
             
             % Degree awards (if any)
+            
+                
+                    
+                
             
         \end{tabularx}
 
@@ -192,9 +201,9 @@
             % Parent organizations (if any)
             
                 
-                    \textit{Stevens Institute for Artificial Intelligence; Stevens Institute of Technology} & \\
-                
                     \textit{Department of Biomedical Engineering; Stevens Institute of Technology} & \\
+                
+                    \textit{Stevens Institute for Artificial Intelligence; Stevens Institute of Technology} & \\
                 
             
             % Other job titles
@@ -240,9 +249,9 @@
             % Parent organizations (if any)
             
                 
-                    \textit{Tetherless World Constellation; Rensselaer Polytechnic Institute} & \\
-                
                     \textit{AI Horizons Network; IBM Research} & \\
+                
+                    \textit{Tetherless World Constellation; Rensselaer Polytechnic Institute} & \\
                 
             
             % Other job titles
@@ -568,6 +577,54 @@
             {
                 \begin{tabularx}{\tabularxwidth}{@{}X r}
                     % Prefix with the current status (if any)
+                    % Publication title
+                    \textbf{Learned Sectors: A fundamentals-driven sector reclassification project} &
+                    % Date on the right
+                    \textbf{
+        2019} \\
+                \end{tabularx}
+            } \\
+            % Authors
+            Rukmal Weerawarana, Yiyi Zhu, Yuzhen He \\
+
+            % TODO: This part can be improved in the future
+            % NOTE: Assuming that both publication & conference/journal exists if one does
+            
+            % Printing website (if exists)
+            
+                \url{https://arxiv.org/abs/1906.03935} \\
+            
+            % Printing DOI (if exists)
+            
+        \end{tabularx}
+
+        % descriptions
+        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
+            
+                \item 
+    Market sectors play a key role in enabling the efficient flow of capital through the modern Global economy. An analysis of existing sectorization heuristics show that they are not entirely quantitatively driven, but rather are highly subjective and rooted in dogma. To this end, we introduce a new fundamentals-driven Learned Sectors heuristic.
+            
+                \item 
+    Using the HCA heuristic, we generate a set of 60 potential candidate learned sector universes. We then introduce reIndexer, a backtest-driven sector universe evaluation research tool, to rank the candidate sector universes produced by our learned sector classification heuristic.
+            
+                \item 
+    This rank was utilized to identify the risk-adjusted return optimal learned sector universe as being the universe generated under CLINK (i.e. complete linkage), with 17 sectors. The optimal learned sector universe was tested against the benchmark GICS classification universe with reIndexer, outperforming on both absolute portfolio value, and risk-adjusted return over the backtest period.
+            
+        \end{itemize}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+        \end{minipage}
+    
+        \begin{minipage}{\tabularxwidth}
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title and date in same column
+            {
+                \begin{tabularx}{\tabularxwidth}{@{}X r}
+                    % Prefix with the current status (if any)
                         \textit{(Draft) }
                     % Publication title
                     \textbf{Inferring Community Trust from Citation Graphs} &
@@ -601,52 +658,6 @@
             
                 \item 
     A key application of PaperRank would be to underwrite provenance-enabled Knowledge Graphs (where assertions are justified by academic publication references) with a 'trust' heuristic, to enable quasi-probabilistic behavior during inference and traversal.
-            
-        \end{itemize}
-
-        % Add vertical space if not last iteration
-        
-            \vspace{.5em}
-        
-
-        \end{minipage}
-    
-        \begin{minipage}{\tabularxwidth}
-        \begin{tabularx}{\tabularxwidth}{X}
-            % Nested tabular to handle title and date in same column
-            {
-                \begin{tabularx}{\tabularxwidth}{@{}X r}
-                    % Prefix with the current status (if any)
-                        \textit{(Draft) }
-                    % Publication title
-                    \textbf{What is a Knowledge Graph?} &
-                    % Date on the right
-                    \textbf{
-        2019} \\
-                \end{tabularx}
-            } \\
-            % Authors
-            James P. McCusker, John S. Erickson, Katherine Chastain, Sabbir Rashid, Rukmal Weerawarana, Marcello Bax, Deborah L. McGuinness \\
-
-            % TODO: This part can be improved in the future
-            % NOTE: Assuming that both publication & conference/journal exists if one does
-            
-            % Printing website (if exists)
-            
-                \url{https://drive.google.com/open?id=19uND_fkRTd_m-i-SYBznq1wuCq1IvHhO} \\
-            
-            % Printing DOI (if exists)
-            
-        \end{tabularx}
-
-        % descriptions
-        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
-            
-                \item 
-    This work attempts to synthesize a clear and unambiguous definition of a 'Knowledge Graph' that conforms to current knowledge graph research, while constraining the research space that may be considered a knowledge graph.
-            
-                \item 
-    We evaluate a wide variety of knowledge resources, graphs, and other ontologies to determine if they qualify under our definition, and built a 'Knowledge Graph Catalog' to support this effort.
             
         \end{itemize}
 
@@ -697,12 +708,199 @@
 
         % Add vertical space if not last iteration
         
+            \vspace{.5em}
+        
+
+        \end{minipage}
+    
+        \begin{minipage}{\tabularxwidth}
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title and date in same column
+            {
+                \begin{tabularx}{\tabularxwidth}{@{}X r}
+                    % Prefix with the current status (if any)
+                        \textit{(Draft) }
+                    % Publication title
+                    \textbf{What is a Knowledge Graph?} &
+                    % Date on the right
+                    \textbf{
+        2018} \\
+                \end{tabularx}
+            } \\
+            % Authors
+            James P. McCusker, John S. Erickson, Katherine Chastain, Sabbir Rashid, Rukmal Weerawarana, Marcello Bax, Deborah L. McGuinness \\
+
+            % TODO: This part can be improved in the future
+            % NOTE: Assuming that both publication & conference/journal exists if one does
+            
+            % Printing website (if exists)
+            
+                \url{https://drive.google.com/open?id=19uND_fkRTd_m-i-SYBznq1wuCq1IvHhO} \\
+            
+            % Printing DOI (if exists)
+            
+        \end{tabularx}
+
+        % descriptions
+        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
+            
+                \item 
+    This work attempts to synthesize a clear and unambiguous definition of a 'Knowledge Graph' that conforms to current knowledge graph research, while constraining the research space that may be considered a knowledge graph.
+            
+                \item 
+    We evaluate a wide variety of knowledge resources, graphs, and other ontologies to determine if they qualify under our definition, and built a 'Knowledge Graph Catalog' to support this effort.
+            
+        \end{itemize}
+
+        % Add vertical space if not last iteration
+        
 
         \end{minipage}
     
 
     % Talks
     %---------------------------------------------
+
+    
+        \section{Talks}
+
+    
+        \begin{minipage}{\tabularxwidth}
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title and date in same column
+            {
+                \begin{tabularx}{\tabularxwidth}{@{}X r}
+                    % Talk title
+                    \textbf{Learned Sectors} &
+                    % Date on the right
+                    \textbf{
+        2019} \\
+                \end{tabularx}
+            } \\
+
+            % Collaborators
+            
+                \textit{Collaborators: Yiyi Zhu, Yuzhen He} \\
+            
+
+            % Printing website (if exists)
+            
+                \url{https://drive.google.com/file/d/12DcqxSJAR-PTLZcRqZ6SAapKzQFBuwA4} \\
+            
+            % Printing DOI (if exists)
+            
+
+            % description (only using one)
+            
+    Learned Sectors project overview, covering the trained hierarchical clustering model, the reIndexer validation system, and a discussion of the final risk-adjusted return optimal sector universe.
+        \end{tabularx}
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+        \end{minipage}
+    
+        \begin{minipage}{\tabularxwidth}
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title and date in same column
+            {
+                \begin{tabularx}{\tabularxwidth}{@{}X r}
+                    % Talk title
+                    \textbf{Knowledge Graph Fundamentals} &
+                    % Date on the right
+                    \textbf{
+        2018} \\
+                \end{tabularx}
+            } \\
+
+            % Collaborators
+            
+
+            % Printing website (if exists)
+            
+                \url{https://drive.google.com/file/d/1f21S_QZtm6aYiYLnXPA5opgsoBdIX7zX} \\
+            
+            % Printing DOI (if exists)
+            
+
+            % description (only using one)
+            
+    An overview of the fundamental technology powering modern knowledge graphs, focusing on the concepts of semantic data, ontologies, and inference.
+        \end{tabularx}
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+        \end{minipage}
+    
+        \begin{minipage}{\tabularxwidth}
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title and date in same column
+            {
+                \begin{tabularx}{\tabularxwidth}{@{}X r}
+                    % Talk title
+                    \textbf{High Frequency Trading (HFT) - A Deep Dive} &
+                    % Date on the right
+                    \textbf{
+        2017} \\
+                \end{tabularx}
+            } \\
+
+            % Collaborators
+            
+
+            % Printing website (if exists)
+            
+                \url{https://drive.google.com/file/d/1I7JuZhVzsAT84xe88lLsbHbSIa-Ev7eF} \\
+            
+            % Printing DOI (if exists)
+            
+
+            % description (only using one)
+            
+    A deep dive into High Frequency Trading (HFT), covering market microstructure, exchange dynamics, regulatory implications, electronic order execution models, RegNMS, algorithmic trading, and popular HFT-driven strategies for exploiting arbitrage opportunities.
+        \end{tabularx}
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+        \end{minipage}
+    
+        \begin{minipage}{\tabularxwidth}
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title and date in same column
+            {
+                \begin{tabularx}{\tabularxwidth}{@{}X r}
+                    % Talk title
+                    \textbf{Leap into the Future with Leap Motion} &
+                    % Date on the right
+                    \textbf{
+        2014} \\
+                \end{tabularx}
+            } \\
+
+            % Collaborators
+            
+
+            % Printing website (if exists)
+            
+                \url{http://uwhackers.github.io/leap-motion-slides/} \\
+            
+            % Printing DOI (if exists)
+            
+
+            % description (only using one)
+            
+    An introduction and overview of the Leap Motion; the underlying technology, JavaScript API, and a WebSocket game demo.
+        \end{tabularx}
+        % Add vertical space if not last iteration
+        
+
+        \end{minipage}
+    
 
     % Knowledge Areas
     %---------------------------------------------
@@ -1055,6 +1253,290 @@
     
 
 
+    % Projects
+    %---------------------------------------------
+
+    
+        \section{Selected Projects}
+
+    
+
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title (fancy, with skills) and date in same row
+                {
+                    \begin{tabularx}{\tabularxwidth}{@{}X r}
+                        % First line - project name in bold, and skills/tech in brackets
+                        \textbf{Precis}
+                            (Jinja, LaTeX, Python, SPARQL)
+                        % Alignment separator (after if so it get triggered either way)
+                        &
+                        % Date on the right
+                        \textbf{
+        2019} \\
+                    \end{tabularx}
+                } \\
+
+            % Collaborators
+            
+
+            % Awards
+            
+
+            % Printing website (if exists)
+            
+                \url{https://precis.rukmal.me} \\
+            
+
+            % description (only using one)
+            
+    Precis is an Ontology for modeling personal professional metadata. The extended Precis toolkit also includes a Pythonic search API for the Ontology, a JSON data loader, and an extensible templating engine. \\
+
+        \end{tabularx}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+    
+
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title (fancy, with skills) and date in same row
+                {
+                    \begin{tabularx}{\tabularxwidth}{@{}X r}
+                        % First line - project name in bold, and skills/tech in brackets
+                        \textbf{fe621}
+                            (LaTeX, Python, scikit-learn)
+                        % Alignment separator (after if so it get triggered either way)
+                        &
+                        % Date on the right
+                        \textbf{
+        2019} \\
+                    \end{tabularx}
+                } \\
+
+            % Collaborators
+            
+
+            % Awards
+            
+
+            % Printing website (if exists)
+            
+                \url{https://git.rukmal.me/FE-621-Homework} \\
+            
+
+            % description (only using one)
+            
+    fe621 is a Python library that provides functionality for lattice based derivative pricing models, exotic option picing, Monte Carlo simulations, numerical differentiation and integration, and optimization. \\
+
+        \end{tabularx}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+    
+
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title (fancy, with skills) and date in same row
+                {
+                    \begin{tabularx}{\tabularxwidth}{@{}X r}
+                        % First line - project name in bold, and skills/tech in brackets
+                        \textbf{reIndexer}
+                            (Docker, Python, SciPy)
+                        % Alignment separator (after if so it get triggered either way)
+                        &
+                        % Date on the right
+                        \textbf{
+        2019} \\
+                    \end{tabularx}
+                } \\
+
+            % Collaborators
+            
+
+            % Awards
+            
+
+            % Printing website (if exists)
+            
+                \url{https://git.rukmal.me/reIndexer} \\
+            
+
+            % description (only using one)
+            
+    reIndexer is a research tool for the backtest-driven evaluation of different sectorization heuristics, using a system of synthetic ETFs, and efficient portfolios of those synthetic ETFs. \\
+
+        \end{tabularx}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+    
+
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title (fancy, with skills) and date in same row
+                {
+                    \begin{tabularx}{\tabularxwidth}{@{}X r}
+                        % First line - project name in bold, and skills/tech in brackets
+                        \textbf{HTKG and NYPD-Compstat-LD}
+                            (Kubernetes, Neo4j, Python)
+                        % Alignment separator (after if so it get triggered either way)
+                        &
+                        % Date on the right
+                        \textbf{
+        2019} \\
+                    \end{tabularx}
+                } \\
+
+            % Collaborators
+            
+                \textit{Collaborators:} Ryan Hartman, Ayush Kalla, Kovid Shukla, Sanket Saharkar \\
+            
+
+            % Awards
+            
+                    \textit{Awards:}
+                First Place [Technology] (IBM Bluehack Against Human Trafficking)
+
+            % Printing website (if exists)
+            
+                \url{https://git.rukmal.me/NYPD-Compstat-LD} \\
+            
+
+            % description (only using one)
+            
+    HTKG (Human Trafficking Knolwedge Graph), and NYPD-Compstat-LD (the main data ingestion engine) is a knowledge graph platform for linking suspected human trafficking advertisements with crime data from the NYPD to retroactively assess trends. \\
+
+        \end{tabularx}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+    
+
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title (fancy, with skills) and date in same row
+                {
+                    \begin{tabularx}{\tabularxwidth}{@{}X r}
+                        % First line - project name in bold, and skills/tech in brackets
+                        \textbf{PaperRank Framework}
+                            (Kubernetes, Python, Redis, SciPy, scikit-learn)
+                        % Alignment separator (after if so it get triggered either way)
+                        &
+                        % Date on the right
+                        \textbf{
+        2018} \\
+                    \end{tabularx}
+                } \\
+
+            % Collaborators
+            
+
+            % Awards
+            
+
+            % Printing website (if exists)
+            
+                \url{https://git.rukmal.me/PaperRank} \\
+            
+
+            % description (only using one)
+            
+    The PaperRank framework is designed to enable bibliometrics and citation analysis of academic literature graphs. It is highly extensible, and designed to be corpus-agnostic; currently, it is configured for use with the NCBI PubMed database. \\
+
+        \end{tabularx}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+    
+
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title (fancy, with skills) and date in same row
+                {
+                    \begin{tabularx}{\tabularxwidth}{@{}X r}
+                        % First line - project name in bold, and skills/tech in brackets
+                        \textbf{401(k) Portfolio Optimization Analysis}
+                            (Knitr, LaTeX, R)
+                        % Alignment separator (after if so it get triggered either way)
+                        &
+                        % Date on the right
+                        \textbf{
+        2016} \\
+                    \end{tabularx}
+                } \\
+
+            % Collaborators
+            
+
+            % Awards
+            
+
+            % Printing website (if exists)
+            
+                \url{https://git.rukmal.me/UW-CFRM-462-Portfolio-Optimization} \\
+            
+
+            % description (only using one)
+            
+    An analysis of efficient portfolios of exchange traded funds, including time series modeling of returns with Monte Carlo simulations, and heteroskedasticity analysis. \\
+
+        \end{tabularx}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+    
+
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title (fancy, with skills) and date in same row
+                {
+                    \begin{tabularx}{\tabularxwidth}{@{}X r}
+                        % First line - project name in bold, and skills/tech in brackets
+                        \textbf{ZocialGPA Stack}
+                            (Amazon Web Services, Docker, JavaScript, MongoDB, NLTK, Node.js, Python, Redis)
+                        % Alignment separator (after if so it get triggered either way)
+                        &
+                        % Date on the right
+                        \textbf{
+        2015} \\
+                    \end{tabularx}
+                } \\
+
+            % Collaborators
+            
+
+            % Awards
+            
+
+            % Printing website (if exists)
+            
+                \url{https://github.com/zocialgpa} \\
+            
+
+            % description (only using one)
+            
+    ZocialGPA was a multiplatform social analytics product, which used Facebook, Twitter, and LinkedIn feeds to compute a ZGPA score for users, based on a collection of statistical NLP heuristics. \\
+
+        \end{tabularx}
+
+        % Add vertical space if not last iteration
+        
+
+    
+
+
     % Awards and Certifications
     %---------------------------------------------
 
@@ -1073,7 +1555,7 @@
             \begin{minipage}{\tabularxwidth}
             % iterating over awards and certifications
             \begin{tabularx}{\tabularxwidth}{X}
-                % Nested tabular to handle title and date in same column
+                % Nested tabular to handle title and date in same row
                 {
                     \begin{tabularx}{\tabularxwidth}{@{}X r}
                         % Award/Certification name
@@ -1102,136 +1584,12 @@
 
             \end{minipage}
         
-            \begin{minipage}{\tabularxwidth}
-            % iterating over awards and certifications
-            \begin{tabularx}{\tabularxwidth}{X}
-                % Nested tabular to handle title and date in same column
-                {
-                    \begin{tabularx}{\tabularxwidth}{@{}X r}
-                        % Award/Certification name
-                        \textbf{First Place (Technology)} &
-                        % Date on the right
-                        \textbf{
-        2019} \\
-                    \end{tabularx}
-                } \\
-                % Link (if any)
-                % descriptions
-                
-                    
-    First place in implementation quality and technical scope of the project. \\
-                
-            \end{tabularx}
-
-            % Add vertical space if not last iteration
-            
-                \vspace{.5em}
-            
-
-            % Increment counter
-            
-
-            \end{minipage}
-        
-            \begin{minipage}{\tabularxwidth}
-            % iterating over awards and certifications
-            \begin{tabularx}{\tabularxwidth}{X}
-                % Nested tabular to handle title and date in same column
-                {
-                    \begin{tabularx}{\tabularxwidth}{@{}X r}
-                        % Award/Certification name
-                        \textbf{Dropbox API Prize} &
-                        % Date on the right
-                        \textbf{
-        2014} \\
-                    \end{tabularx}
-                } \\
-                % Link (if any)
-                % descriptions
-                
-                    
-    Awarded for outstanding use of the Dropbox API. \\
-                
-            \end{tabularx}
-
-            % Add vertical space if not last iteration
-            
-                \vspace{.5em}
-            
-
-            % Increment counter
-            
-
-            \end{minipage}
-        
-            \begin{minipage}{\tabularxwidth}
-            % iterating over awards and certifications
-            \begin{tabularx}{\tabularxwidth}{X}
-                % Nested tabular to handle title and date in same column
-                {
-                    \begin{tabularx}{\tabularxwidth}{@{}X r}
-                        % Award/Certification name
-                        \textbf{Second Place} &
-                        % Date on the right
-                        \textbf{
-        2014} \\
-                    \end{tabularx}
-                } \\
-                % Link (if any)
-                % descriptions
-                
-                    
-    Second place overall, across technical complexity, business plan viability, and the minimum viable product developed over the weekend. \\
-                
-            \end{tabularx}
-
-            % Add vertical space if not last iteration
-            
-                \vspace{.5em}
-            
-
-            % Increment counter
-            
-
-            \end{minipage}
-        
-            \begin{minipage}{\tabularxwidth}
-            % iterating over awards and certifications
-            \begin{tabularx}{\tabularxwidth}{X}
-                % Nested tabular to handle title and date in same column
-                {
-                    \begin{tabularx}{\tabularxwidth}{@{}X r}
-                        % Award/Certification name
-                        \textbf{Third Place} &
-                        % Date on the right
-                        \textbf{
-        2014} \\
-                    \end{tabularx}
-                } \\
-                % Link (if any)
-                % descriptions
-                
-                    
-    Third place overall. \\
-                
-            \end{tabularx}
-
-            % Add vertical space if not last iteration
-            
-                \vspace{.5em}
-            
-
-            % Increment counter
-            
-
-            \end{minipage}
-        
     
         
             \begin{minipage}{\tabularxwidth}
             % iterating over awards and certifications
             \begin{tabularx}{\tabularxwidth}{X}
-                % Nested tabular to handle title and date in same column
+                % Nested tabular to handle title and date in same row
                 {
                     \begin{tabularx}{\tabularxwidth}{@{}X r}
                         % Award/Certification name
@@ -1263,7 +1621,7 @@
             \begin{minipage}{\tabularxwidth}
             % iterating over awards and certifications
             \begin{tabularx}{\tabularxwidth}{X}
-                % Nested tabular to handle title and date in same column
+                % Nested tabular to handle title and date in same row
                 {
                     \begin{tabularx}{\tabularxwidth}{@{}X r}
                         % Award/Certification name
@@ -1336,7 +1694,7 @@
             Dubhacks, 
             Facebook Seattle Regional Hackathon, 
             IBM Bluehack Against Human Trafficking, 
-            StartupUW Startup Weekend Hackathon \\
+            StartupUW Startup Weekend \\
         \end{tabularx}
 
         % Add vertical space if not last iteration
@@ -1378,5 +1736,21 @@
 
     
 
+    % Contact Information
+    %---------------------------------------------
+
+    \section{Contact Information}
+    
+    % This is to change the width between the table columns
+    \setlength{\tabcolsep}{18pt}
+
+    \begin{center}
+        \begin{tabular}{ll}
+            238 W 20th Street Apt 4C & Phone: (206) 839-6891 \\
+            New York, NY & Email: rukmal.weerawarana@gmail.com \\
+            10011-3518 & Homepage: \url{http://rukmal.me} \\
+            USA & LinkedIn: \url{http://linkedin.com/in/rukmalw}
+        \end{tabular}
+    \end{center}
 
 \end{document}
