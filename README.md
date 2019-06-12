@@ -3,7 +3,7 @@
 My personal Resume in pdf and Adobe's InDesign formats.
 
 
-|Click [here](http://rukmal.github.io/Resume/Rukmal%20Weerawarana%20-%20Resume.pdf) to view my Resume|
+|Click [here](http://rukmal.github.io/Resume/curriculum_vitae/Rukmal%20Weerawarana%20-%20Curriculum%20Vitae.pdf) to view my CV|
 |:--:|
 
 
