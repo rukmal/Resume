@@ -4,7 +4,7 @@
 %----------------
 
 \usepackage{enumitem}  % Advanced list settings
-
+\usepackage{fancyhdr}  % Fancy headers and footers
 \usepackage[T1]{fontenc}  % Expanded font encoding
 \usepackage{geometry}  % Page geometry (margins, etc.)
 \usepackage{hyperref}  % Hyperlinks
@@ -52,6 +52,29 @@
     linkcolor=blue,
     urlcolor=blue
 }
+
+
+% Header and Footer Configuration
+%--------------------------------
+
+% Changing page style to fancy
+\pagestyle{fancy}
+
+% Applying default headers and footers
+\fancyhf{}
+
+% Renewing commands for the header and footer lines
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Changing offset from the margins
+\setlength{\footskip}{0pt}
+
+% Setting footer to be "Page #" on bottom right
+\rfoot{Page \thepage}
+
+% Setting last page footer to include last updated date, and Precis signature.
+\AtEndDocument{\lfoot{Last updated June 12, 2019. Built with Precis (\url{https://precis.rukmal.me}).}}
 
 
 % Jinja Macros
@@ -249,9 +272,9 @@
             % Parent organizations (if any)
             
                 
-                    \textit{AI Horizons Network; IBM Research} & \\
-                
                     \textit{Tetherless World Constellation; Rensselaer Polytechnic Institute} & \\
+                
+                    \textit{AI Horizons Network; IBM Research} & \\
                 
             
             % Other job titles
@@ -347,7 +370,7 @@
             
             % Other job titles
             
-                Other Titles: Control Systems Team Member, Impact Development Team Lead & \\
+                Other Titles: Impact Development Team Lead, Control Systems Team Member & \\
             
         \end{tabularx}
 
