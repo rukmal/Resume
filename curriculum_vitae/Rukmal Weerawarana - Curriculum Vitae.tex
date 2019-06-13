@@ -26,7 +26,7 @@
           right=.5in}
 
 % Document font size
-\newcommand{\cvfontsize}{9}
+\newcommand{\cvfontsize}{10}
 
 % Document font stuff
 \renewcommand{\familydefault}{\sfdefault}
@@ -224,9 +224,9 @@
             % Parent organizations (if any)
             
                 
-                    \textit{Department of Biomedical Engineering; Stevens Institute of Technology} & \\
-                
                     \textit{Stevens Institute for Artificial Intelligence; Stevens Institute of Technology} & \\
+                
+                    \textit{Department of Biomedical Engineering; Stevens Institute of Technology} & \\
                 
             
             % Other job titles
@@ -370,7 +370,7 @@
             
             % Other job titles
             
-                Other Titles: Impact Development Team Lead, Control Systems Team Member & \\
+                Other Titles: Control Systems Team Member, Impact Development Team Lead & \\
             
         \end{tabularx}
 
@@ -1473,6 +1473,45 @@
             % description (only using one)
             
     The PaperRank framework is designed to enable bibliometrics and citation analysis of academic literature graphs. It is highly extensible, and designed to be corpus-agnostic; currently, it is configured for use with the NCBI PubMed database. \\
+
+        \end{tabularx}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.5em}
+        
+
+    
+
+        \begin{tabularx}{\tabularxwidth}{X}
+            % Nested tabular to handle title (fancy, with skills) and date in same row
+                {
+                    \begin{tabularx}{\tabularxwidth}{@{}X r}
+                        % First line - project name in bold, and skills/tech in brackets
+                        \textbf{Derivative Visualizer}
+                            (Knitr, R)
+                        % Alignment separator (after if so it get triggered either way)
+                        &
+                        % Date on the right
+                        \textbf{
+        2017} \\
+                    \end{tabularx}
+                } \\
+
+            % Collaborators
+            
+
+            % Awards
+            
+
+            % Printing website (if exists)
+            
+                \url{https://git.rukmal.me/DerivativeVisualizer} \\
+            
+
+            % description (only using one)
+            
+    An R library for plotting simple profit/loss graphs for equity and derivative positions. \\
 
         \end{tabularx}
 

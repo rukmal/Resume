@@ -31,3 +31,4 @@ item_overrides:
     - 'project:fe621'
     - 'project:cfrm_462_report'
     - 'project:zocialgpa_stack'
+    - 'project:derivative_visualizer'
