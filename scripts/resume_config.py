@@ -17,8 +17,16 @@ class config():
     # Namespace for data
     data_namespace = 'http://precis.rukmal.me/ontology/weerawarana'
 
+    # Curriculum Vitae
+    #------------------
     # CV template configuration
     cv_template_config = '../curriculum_vitae/cv_prefs.yml'
-
     # CV LaTeX save location
     cv_tex_file = '../curriculum_vitae/Rukmal Weerawarana - Curriculum Vitae.tex'
+
+    # Resume
+    #-------
+    # Resume template configuration
+    resume_template_config = '../resume/resume_prefs.yml'
+    # Resume LaTeX save location
+    resume_tex_file = '../resume/Rukmal Weerawarana - Resume.tex'
