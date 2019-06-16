@@ -29,7 +29,8 @@
         "hasName": "Bachelor of Arts in Business Administration (Finance)",
         "inCity": "Seattle",
         "inState": "WA",
-        "hasDate": "2017-06-09"
+        "hasDate": "2017-06-09",
+        "hasImage": "https://camo.githubusercontent.com/c05dc1203f3f0ea2817a1eaa7a561fd6281c35e8/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f44552d5756636e5641414150534c5a2e6a7067"
     },
     {
         "$type": "Degree",
@@ -55,7 +56,8 @@
         "hasName": "Certificate in Quantitative Fundamentals of Computational Finance",
         "inCity": "Seattle",
         "inState": "WA",
-        "hasDate": "2016-08-19"
+        "hasDate": "2016-08-19",
+        "hasImage": "https://camo.githubusercontent.com/a8e1ae93db619627ffc1e6704a6b2770d398f803/687474703a2f2f7777772e73686b73617263686974656374732e636f6d2f73697465732f64656661756c742f66696c65732f696d61676563616368652f70726f6a6563745f70686f746f2f70726f6a656374732f615f4c657769735f312e6a7067"
     },
     {
         "$type": "Degree",
@@ -87,7 +89,8 @@
         "inCity": "Hoboken",
         "inState": "NJ",
         "hasDate": "2019-05-22",
-        "degreeGPA": 3.8
+        "degreeGPA": 3.8,
+        "hasImage": "https://camo.githubusercontent.com/fefd068dbbfef4fd2503cc28896cb23695b8383d/68747470733a2f2f7777772e73746576656e732e6564752f73697465732f73746576656e735f6564752f66696c65732f35332d253238302d30312d33362d32312532392d61646a7573746564253230253238312532392e6a7067"
     },
     {
         "$id": "we:stevens:smc:ra",
