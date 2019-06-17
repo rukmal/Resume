@@ -93,6 +93,36 @@
         "hasImage": "https://camo.githubusercontent.com/fbc085ae41493997fb235d8460934e280842a218/68747470733a2f2f6d656469612e6c6963646e2e636f6d2f646d732f696d6167652f43353131424151484a6b4d706a4939654d72672f636f6d70616e792d6261636b67726f756e645f31303030302f303f653d3231353930323434303026763d6265746126743d656c6f44302d33304566757a4971344d615f78684e4f50337474714d6b69335333436a496c454d43725245"
     },
     {
+        "$type": "Degree",
+        "$id": "degree:bsc:ib",
+        "degreeDepartment": {
+            "$type": "Organization",
+            "$id": "org:bsc:senior_school:sixth",
+            "hasName": "Sixth Form Division",
+            "hasParentOrganization": {
+                "$type": "Organization",
+                "$id": "org:bsc:senior_school",
+                "hasName": "Senior School",
+                "hasParentOrganization": {
+                    "$type": "Organization",
+                    "$id": "org:bsc",
+                    "hasName": "The British School in Colombo",
+                    "hasWebsite": "http://www.britishschool.lk/",
+                    "externalResource": "http://dbpedia.org/resource/British_School_in_Colombo"
+                }
+            }
+        },
+        "degreeSchool": "org:bsc:senior_school",
+        "degreeUniversity": "org:bsc",
+        "degreeType": "http://dbpedia.org/resource/IB_Diploma_Programme",
+        "degreeConcentration": "http://dbpedia.org/resource/IB_Diploma_Programme",
+        "hasName": "International Baccalaureate Diploma",
+        "inCity": "Colombo",
+        "inCountry": "Sri Lanka",
+        "hasDate": "2013-06-12",
+        "hasImage": "https://user-images.githubusercontent.com/6089694/59621460-5cd37b80-90fd-11e9-9f36-db18bad8129b.jpg"
+    },
+    {
         "$id": "we:stevens:smc:ra",
         "$type": "WorkExperience",
         "hasName": "Research Assistant",
