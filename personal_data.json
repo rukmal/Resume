@@ -232,7 +232,7 @@
         "endDate": "2018-12-14",
         "inCity": "Hoboken",
         "inState": "NJ",
-        "hasImage": "https://web.stevens.edu/hfslwiki/images/thumb/b/be/HFSClogo.png/350px-HFSClogo.png",
+        "hasImage": "https://camo.githubusercontent.com/8600de8b3c02465c80373f171b179f50ac1c2389/68747470733a2f2f7777772e73746576656e732e6564752f73697465732f73746576656e735f6564752f66696c65732f686673632d666163312e6a7067",
         "hasDescription": [
             {
                 "hasPriority": 0,
@@ -427,7 +427,7 @@
         "endDate": "2014-09-15",
         "inCity": "Colombo",
         "inCountry": "Sri Lanka",
-        "hasImage": "https://upload.wikimedia.org/wikipedia/en/5/56/WSO2_Software_Logo.png",
+        "hasImage": "https://raw.githubusercontent.com/rukmal/rukmal.me/f786335ff78a2beb9b39118a2bbcd322b6e564e8/images/wso2_logo.png",
         "hasDescription": [
             {
                 "hasPriority": 0,
@@ -464,7 +464,7 @@
         "endDate": "2014-08-15",
         "inCity": "Seattle",
         "inState": "WA",
-        "hasImage": "https://upload.wikimedia.org/wikipedia/en/5/56/WSO2_Software_Logo.png",
+        "hasImage": "https://raw.githubusercontent.com/rukmal/rukmal.me/f786335ff78a2beb9b39118a2bbcd322b6e564e8/images/mullins_lab.png",
         "hasDescription": [
             {
                 "hasPriority": 0,
