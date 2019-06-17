@@ -121,7 +121,7 @@
         "hasDate": "2018-08-29",
         "inCity": "Hoboken",
         "inState": "NJ",
-        "hasImage": "https://web.stevens.edu/vinjamurilab/assets/img/nav_logo.png",
+        "hasImage": "https://user-images.githubusercontent.com/6089694/59616144-d8c7c680-90f1-11e9-964d-382024f19733.png",
         "hasDescription": [
             {
                 "hasPriority": 0,
@@ -184,7 +184,7 @@
         "endDate": "2018-08-24",
         "inCity": "Troy",
         "inState": "NY",
-        "hasImage": "http://scer.rpi.edu/sites/default/files/logo-without-tag.jpg",
+        "hasImage": "https://user-images.githubusercontent.com/6089694/59616392-57246880-90f2-11e9-8dbf-e2efe365b466.png",
         "hasMedia": [
             "https://www.healthcareitnews.com/news/ibm-rensselaer-polytech-launch-ai-cognitive-computing-project",
             "https://www.research.ibm.com/artificial-intelligence/horizons-network/",
@@ -270,7 +270,7 @@
         "endDate": "2017-08-12",
         "inCity": "Seattle",
         "inState": "WA",
-        "hasImage": "https://pbs.twimg.com/profile_images/978055806292668416/Mpa3TXx5.jpg",
+        "hasImage": "https://user-images.githubusercontent.com/6089694/59616596-c306d100-90f2-11e9-85dd-768e4ab182b2.JPG",
         "hasMedia": [
             "https://www.seattletimes.com/education-lab/uw-team-places-high-in-lastest-round-of-transportation-system-of-the-future-contest/?utm_content=buffer022f0&utm_medium=social&utm_source=facebook.com&utm_campaign=owned_buffer_f_m",
             "https://www.kiro7.com/news/local/seattle-to-portland-in-15-minutes-uw-students-design-future-of-travel/485705515",
@@ -280,7 +280,8 @@
             "https://www.theverge.com/2016/6/18/11965354/hyperloop-pod-competition-elon-musk-spacex-team-design",
             "http://www.dailyuw.com/news/article_79c0dca4-d087-11e5-b439-532845402b66.html",
             "https://www.engr.washington.edu/news/hyperloop2016",
-            "https://www.spacex.com/hyperloop"
+            "https://www.spacex.com/hyperloop",
+            "https://pbs.twimg.com/profile_images/978055806292668416/Mpa3TXx5.jpg"
         ],
         "externalResource": "http://dbpedia.org/resource/Hyperloop",
         "hasDescription": [
