@@ -120,7 +120,7 @@
         "inCity": "Colombo",
         "inCountry": "Sri Lanka",
         "hasDate": "2013-06-12",
-        "hasImage": "https://user-images.githubusercontent.com/6089694/59621460-5cd37b80-90fd-11e9-9f36-db18bad8129b.jpg"
+        "hasImage": "https://user-images.githubusercontent.com/6089694/59621849-1fbbb900-90fe-11e9-839d-aca566a41240.png"
     },
     {
         "$id": "we:stevens:smc:ra",
@@ -1554,6 +1554,9 @@
                 "hasPriority": 0,
                 "hasText": "Higher Level: Mathematics, Physics, Chemistry; Standard Level: Geography, English, Spanish; Extended Essay: Electromagnetism (Physics)."
             }
+        ],
+        "relatedTo": [
+            "degree:bsc:ib"
         ]
     },
     {
