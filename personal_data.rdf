@@ -1415,25 +1415,25 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://web.stevens.edu/vinjamurilab/</hasWebsite>
 </Organization>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#ccbee3ce-90c8-4112-a835-57b217b3263b">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#b9d8900d-9505-4c30-ac1f-496ff46192be">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Designed and implemented algorithms to assess and classify tremor severity in patients with late-stage Parkinson's Disease.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#89be5e70-ce37-40d9-929f-e201bd2cfbc6">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#14381eeb-156e-402f-a349-f3be970af119">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Created a highly scalable and extensible web application to be used by the researchers in the lab during this project. This web application incorporated HIPAA-compliant data storage and access, as well as efficient cluster management with Docker and Kubernetes.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#837e57cb-f3c5-4452-ae03-5cec540bb090">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#1d5f3980-82bd-4c26-9b28-3ea3870dd12e">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provided input to hardware research based on statistical tremor analysis results, with the goal of designing a complete low-cost system for tremor analysis. Contributed to additive manufacturing models and designing sensor arrays for a data collection glove to be used for the tremor analysis project.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#6106b60c-2f2e-4c9c-abc4-52ff1eaa1e22">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#9323c80f-3380-434c-bbcc-f36197d7bb3b">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Performed cost comparisons to identify the most economical Infrastructure-as-a-Service (IaaS) provider, given the storage, computation, and cost constraints of the project.</hasText>
@@ -1442,10 +1442,10 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <WorkExperience rdf:about="http://precis.rukmal.me/ontology/weerawarana#we:stevens:smc:ra">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <employedAt rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:stevens:bme:smc"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#837e57cb-f3c5-4452-ae03-5cec540bb090"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#6106b60c-2f2e-4c9c-abc4-52ff1eaa1e22"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#89be5e70-ce37-40d9-929f-e201bd2cfbc6"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#ccbee3ce-90c8-4112-a835-57b217b3263b"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#14381eeb-156e-402f-a349-f3be970af119"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#1d5f3980-82bd-4c26-9b28-3ea3870dd12e"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#b9d8900d-9505-4c30-ac1f-496ff46192be"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#9323c80f-3380-434c-bbcc-f36197d7bb3b"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-29T00:00:00</hasDate>
   <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://user-images.githubusercontent.com/6089694/59616144-d8c7c680-90f1-11e9-964d-382024f19733.png</hasImage>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research Assistant</hasName>
@@ -1484,37 +1484,37 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Organization rdf:about="http://precis.rukmal.me/ontology/weerawarana#org:rpi:heals">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasParentOrganization rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:ibm_research:ai_horizons"/>
   <hasParentOrganization rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:rpi:twc"/>
+  <hasParentOrganization rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:ibm_research:ai_horizons"/>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPI-IBM HEALS Research Center</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://idea.tw.rpi.edu/projects/heals</hasWebsite>
 </Organization>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#f606ecdb-92cc-4c30-b532-b813660f0118">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#7b6f5dbf-a065-46ef-8fb3-7b424fe32003">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Led the design and development of the PaperRank Framework, a methodology for deriving probabilistic community trust in academic publications. PaperRank utilized the PageRank algorithm, coupled with a Gamma Mixture Model applied to citation networks of academic publications. A proof-of-concept was implemented, from extraction to final trust score computation, analyzing over 14 Million articles from the NCBI PubMed Database.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#47e82b81-5f86-4698-b0a5-9c94c60a2118">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#c7142978-e1bf-40ec-b899-6945bde95508">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formulated and implemented novel strategies for semantically-enhanced automated extraction of medical directives from Clinical Practice Guidelines (CPGs), for eventual inclusion in a knowledge graph of Diabetes diagnosis and treatment directives. Built the 'Guideline Explorer', a tool for efficiently visualizing and examining the American Diabetes Association's 2018 CPGs.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#671f5fc4-1279-476d-bc17-f0a9e281f15d">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#9f78333b-28d8-4afb-8b58-55b284078cd5">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Explored the field of 'Semantalytics', which lies at the intersection of Semantics and Analytics. Drafted a Vision statement for the future exploration of this novel field of research, through the lens of bioinformatics.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#db4f1c14-8a7b-40b8-8299-09b96585c872">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#a418c789-f585-4e0a-a56a-1ece227378af">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formulated an Electronic Health Record (EHR) simulation engine, which utilized Monte Carlo simulations based on a generalized population heuristic to vary idiosyncratic patient attributes. The EHR Simulation engine would suggest medical tests that would be statistically likely to identify previously unknown medical issues.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#6dacdf4c-9c05-47e4-9cf0-7f82f32cfc71">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#5afb66c3-d835-4f32-87cb-396816211768">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Developed the 'Guideline Analysis Framework', a mathematical formulation of CPGs. This framework was designed to enable the comparison of various CPGs from differing medical authorities addressing the same set of diseases, and to detect disparities in treatment directives.</hasText>
@@ -1523,18 +1523,18 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <WorkExperience rdf:about="http://precis.rukmal.me/ontology/weerawarana#we:rpi:heals:ra">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <employedAt rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:rpi:heals"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#671f5fc4-1279-476d-bc17-f0a9e281f15d"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#6dacdf4c-9c05-47e4-9cf0-7f82f32cfc71"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#f606ecdb-92cc-4c30-b532-b813660f0118"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#db4f1c14-8a7b-40b8-8299-09b96585c872"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#47e82b81-5f86-4698-b0a5-9c94c60a2118"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#a418c789-f585-4e0a-a56a-1ece227378af"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#c7142978-e1bf-40ec-b899-6945bde95508"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#9f78333b-28d8-4afb-8b58-55b284078cd5"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#5afb66c3-d835-4f32-87cb-396816211768"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#7b6f5dbf-a065-46ef-8fb3-7b424fe32003"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-24T00:00:00</endDate>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-29T00:00:00</hasDate>
   <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://user-images.githubusercontent.com/6089694/59616392-57246880-90f2-11e9-8dbf-e2efe365b466.png</hasImage>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ibm.com/blogs/research/2017/09/advancing-ai/</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.research.ibm.com/artificial-intelligence/horizons-network/</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ibm.com/blogs/research/tag/ai-horizons-network/</hasMedia>
   <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.healthcareitnews.com/news/ibm-rensselaer-polytech-launch-ai-cognitive-computing-project</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ibm.com/blogs/research/tag/ai-horizons-network/</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.research.ibm.com/artificial-intelligence/horizons-network/</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ibm.com/blogs/research/2017/09/advancing-ai/</hasMedia>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Summer Research Fellow</hasName>
   <inCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Troy</inCity>
   <inState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NY</inState>
@@ -1542,19 +1542,19 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Organization rdf:about="http://precis.rukmal.me/ontology/weerawarana#org:stevens:hfsl">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasParentOrganization rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:stevens:sob"/>
   <hasParentOrganization rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:stevens:siai"/>
+  <hasParentOrganization rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:stevens:sob"/>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hanlon Financial Systems Laboratory</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://web.stevens.edu/hfslwiki/index.php</hasWebsite>
 </Organization>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#65e773da-a336-4f7d-947d-6152d7d292ef">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#1f6e3500-a065-48e6-9459-4b3d01aeb4ec">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spearheaded an effort to discover and implement new technology solutions to help realize the teaching and research goals of the lab.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#5c974c45-30d5-4ca2-8c9f-d85018ed68cf">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#2606e8f2-21d0-4c9f-bb13-3c3005c61a7c">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assisted in the daily operations of the lab, including assisting instructors and students (Graduate and Undergraduate), and maintaining hardware and software resources.</hasText>
@@ -1563,8 +1563,8 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <WorkExperience rdf:about="http://precis.rukmal.me/ontology/weerawarana#we:stevens:hfsl">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <employedAt rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:stevens:hfsl"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#5c974c45-30d5-4ca2-8c9f-d85018ed68cf"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#65e773da-a336-4f7d-947d-6152d7d292ef"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#1f6e3500-a065-48e6-9459-4b3d01aeb4ec"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#2606e8f2-21d0-4c9f-bb13-3c3005c61a7c"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-14T00:00:00</endDate>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-02T00:00:00</hasDate>
   <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://camo.githubusercontent.com/8600de8b3c02465c80373f171b179f50ac1c2389/68747470733a2f2f7777772e73746576656e732e6564752f73697465732f73746576656e735f6564752f66696c65732f686673632d666163312e6a7067</hasImage>
@@ -1588,43 +1588,43 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.hyperloop.io/</hasWebsite>
 </Organization>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#7b3cb261-c0ee-40ce-8ce5-1ed886b26130">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#f9122b46-b50d-4a5c-9945-debd746e20f7">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represented the University of Washington at the inaugural SpaceX Hyperloop Pod Competition in Hawthorne, CA. We placed 4th in the United States, and 6th globally; the competition initially received 1,700 team proposals, which were narrowed down to 30 finalists.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#c29dc58d-d137-4cfa-b45c-b1f00cf4e875">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#8e640ba3-c800-427c-a69f-dbc3407a54ef">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Led the Business Management Team to launch a highly successful crowdfunding campaign, raising over $20,000 in cash (with an initial goal of $10,000), and over $80,000 of source materials used in the construction of the Pod. The collective effort of the team led us to have the lowest-cost Pod among the 30 final teams.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#191e1dcb-2f6a-4940-a45d-b87c5152ce14">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#b419fbb5-4811-4857-81e7-f49d2d761494">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spearheaded the sourcing and delivery of over $50,000 of raw material, including high-density Carbon Fiber, release agents, and powerful Neodymium magnets for the final Pod assembly.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#e83b0328-73d2-4c1c-912c-14040371a808">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#20f4b812-7fdf-434f-b700-2df3289accde">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Led sponsor outreach, and maintained relationships with internal (at the University of Washington) and external supervisors and supporters.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#7706b253-22bf-477e-a5a2-a87d3629f902">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#48015207-8997-49fc-81f8-212ca5752298">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assisted the Controls Team Lead in the final design and implementation of electronic mapping and wiring on the Pod.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#790908fc-7339-4cfd-a981-1cc8d6f928d4">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#eaf4dc75-1137-4e48-b1df-a41380df6b99">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributed to late-stage troubleshooting efforts that led to the successful implementation and deployment of Halbach arrays on the Pod, which facilitated levitation and magnetic propulsion on the test track.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#9bbd3a74-f19d-4067-aad4-1c857c73814b">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#52b18ef1-584d-44a1-9305-fb9b19e8c452">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Explored the transformative economic and social effects a hypothetical Hyperloop system could have on the Pacific Northwest of the United States.</hasText>
@@ -1633,27 +1633,27 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <WorkExperience rdf:about="http://precis.rukmal.me/ontology/weerawarana#we:uw:uwhl">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <employedAt rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:uw:uwhl"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#c29dc58d-d137-4cfa-b45c-b1f00cf4e875"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#790908fc-7339-4cfd-a981-1cc8d6f928d4"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#9bbd3a74-f19d-4067-aad4-1c857c73814b"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#7b3cb261-c0ee-40ce-8ce5-1ed886b26130"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#7706b253-22bf-477e-a5a2-a87d3629f902"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#e83b0328-73d2-4c1c-912c-14040371a808"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#191e1dcb-2f6a-4940-a45d-b87c5152ce14"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#20f4b812-7fdf-434f-b700-2df3289accde"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#48015207-8997-49fc-81f8-212ca5752298"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#f9122b46-b50d-4a5c-9945-debd746e20f7"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#52b18ef1-584d-44a1-9305-fb9b19e8c452"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#b419fbb5-4811-4857-81e7-f49d2d761494"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#eaf4dc75-1137-4e48-b1df-a41380df6b99"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#8e640ba3-c800-427c-a69f-dbc3407a54ef"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-12T00:00:00</endDate>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Hyperloop</externalResource>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-01T00:00:00</hasDate>
   <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://user-images.githubusercontent.com/6089694/59616596-c306d100-90f2-11e9-85dd-768e4ab182b2.JPG</hasImage>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.seattletimes.com/education-lab/uw-team-places-high-in-lastest-round-of-transportation-system-of-the-future-contest/?utm_content=buffer022f0&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=owned_buffer_f_m</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.geekwire.com/2016/mit-leads-in-first-round-of-spacexs-hyperloop-contest-but-uw-is-in-the-race/</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.seattletimes.com/seattle-news/education/seattle-to-portland-in-15-minutes-uw-students-competing-to-build-700-mph-hyperloop/</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.kiro7.com/news/local/seattle-to-portland-in-15-minutes-uw-students-design-future-of-travel/485705515</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.dailyuw.com/news/article_79c0dca4-d087-11e5-b439-532845402b66.html</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.spacex.com/hyperloop</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.engr.washington.edu/news/hyperloop2016</hasMedia>
   <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pbs.twimg.com/profile_images/978055806292668416/Mpa3TXx5.jpg</hasMedia>
   <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://komonews.com/news/local/university-of-washington-team-impresses-billionaire-musk-with-hyperloop-safety-system</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.dailyuw.com/news/article_79c0dca4-d087-11e5-b439-532845402b66.html</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.engr.washington.edu/news/hyperloop2016</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.seattletimes.com/seattle-news/education/seattle-to-portland-in-15-minutes-uw-students-competing-to-build-700-mph-hyperloop/</hasMedia>
   <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.theverge.com/2016/6/18/11965354/hyperloop-pod-competition-elon-musk-spacex-team-design</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.seattletimes.com/education-lab/uw-team-places-high-in-lastest-round-of-transportation-system-of-the-future-contest/?utm_content=buffer022f0&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=owned_buffer_f_m</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.spacex.com/hyperloop</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.geekwire.com/2016/mit-leads-in-first-round-of-spacexs-hyperloop-contest-but-uw-is-in-the-race/</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.kiro7.com/news/local/seattle-to-portland-in-15-minutes-uw-students-design-future-of-travel/485705515</hasMedia>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Business Management Team Lead</hasName>
   <inCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seattle</inCity>
   <inState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WA</inState>
@@ -1675,25 +1675,25 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://earthweb.ess.washington.edu/space-propulsion/cubesat.php</hasWebsite>
 </Organization>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#cc4986b2-3f37-444d-83b5-06f19c8a6a0f">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#b6979be5-b1e1-40ac-9c33-74c1b5cd238f">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Led the avionics team to design a communications software architecture paradigm for the on-board computer systems of the Lunar CubeSAT.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#c295208b-d858-4a62-9e92-860c0198bc49">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#779a7768-a69f-4475-9a78-9dc3b251aee5">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Investigated the effect of radiation beyond the Van-Allen belts (experienced during translunar flight). Recommended ideal processor architectures and other redundant measures that may be taken to mitigate the effect of this radiation on the flight systems of the CubeSAT.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#c7252c79-63f5-4e3d-9937-9a2570d63f7b">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#84bd061b-0b0a-4313-b517-b6bff42e2a69">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proposed a system of Hamming codes to increase data transfer fidelity during data dumps from the CubeSAT to the ground station at the University of Washington. Identified specific data encoding paradigms to increase data throughput to the Earth downlink from the CubeSAT.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#c59b1baf-fd56-455c-97cf-6ba337c3a82c">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#5028ac46-8003-40c9-a66f-f822356a962a">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Presented a final communications software architecture proposal to a panel of researchers from the Advanced Propulsion Laboratory and NASA. The UW Lunar CubeSAT is expected to launch as a secondary payload aboard the Space Launch System (SLS) Exploration Mission 1 (EM-1) demonstration flight.</hasText>
@@ -1702,10 +1702,10 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <WorkExperience rdf:about="http://precis.rukmal.me/ontology/weerawarana#we:uw:cubesat">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <employedAt rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:uw:cubesat_team"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#c59b1baf-fd56-455c-97cf-6ba337c3a82c"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#c295208b-d858-4a62-9e92-860c0198bc49"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#c7252c79-63f5-4e3d-9937-9a2570d63f7b"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#cc4986b2-3f37-444d-83b5-06f19c8a6a0f"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#84bd061b-0b0a-4313-b517-b6bff42e2a69"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#779a7768-a69f-4475-9a78-9dc3b251aee5"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#b6979be5-b1e1-40ac-9c33-74c1b5cd238f"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#5028ac46-8003-40c9-a66f-f822356a962a"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-12T00:00:00</endDate>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/CubeSat</externalResource>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-28T00:00:00</hasDate>
@@ -1723,25 +1723,25 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.crunchbase.com/organization/zocialgpa</hasWebsite>
 </Organization>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#f59b6456-e8d9-4292-afb9-35e74d153206">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#6ba3020c-eb9a-4116-813b-10040b110379">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Designed a highly scalable and efficient software ETL stack, building datasets from various social networking platforms, including Facebook, Twitter, and LinkedIn.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#df046685-b10f-424a-b93c-955b324a2718">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#6d029fc5-a90b-4e12-b881-7d16721af332">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Developed natural language processing and sentiment analysis algorithms to derive "social GPA" scores from a user's social profiles.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#3a463b15-118d-46b7-ad8f-a94835910e69">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#03bf3f00-2410-47d4-8ab7-9517fcda9c9d">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refactored and modularized the entire company codebase, to enable efficient component-based auto scaling with Apache Stratos and Amazon AWS.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#d0472964-6415-4f78-9a86-28ffd2f5cde3">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#1dc83c6d-d007-4560-b2fd-a74ffc9f5ac9">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Implemented a mobile-first web end user interface for the platform, and redesigned the internal company management console.</hasText>
@@ -1750,17 +1750,17 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <WorkExperience rdf:about="http://precis.rukmal.me/ontology/weerawarana#we:zocialgpa">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <employedAt rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:zocialgpa"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#3a463b15-118d-46b7-ad8f-a94835910e69"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#f59b6456-e8d9-4292-afb9-35e74d153206"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#d0472964-6415-4f78-9a86-28ffd2f5cde3"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#df046685-b10f-424a-b93c-955b324a2718"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#6d029fc5-a90b-4e12-b881-7d16721af332"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#6ba3020c-eb9a-4116-813b-10040b110379"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#03bf3f00-2410-47d4-8ab7-9517fcda9c9d"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#1dc83c6d-d007-4560-b2fd-a74ffc9f5ac9"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-18T00:00:00</endDate>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-15T00:00:00</hasDate>
   <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/11902374_483755771798362_350889305013955645_n.png?_nc_cat=105&amp;_nc_ht=scontent-lga3-1.xx&amp;oh=ca283de2d7f342eadff634c753575bb8&amp;oe=5D2C516A</hasImage>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sec.gov/Archives/edgar/data/1625326/000162532614000001/xslFormDX01/primary_doc.xml</hasMedia>
   <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.facebook.com/ZocialGPA/</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://twitter.com/zocialgpa</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sec.gov/Archives/edgar/data/1625326/000162532614000001/xslFormDX01/primary_doc.xml</hasMedia>
   <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.bloomberg.com/research/stocks/private/snapshot.asp?privcapId=273598682</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://twitter.com/zocialgpa</hasMedia>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software Engineering Team Lead</hasName>
   <inCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seattle</inCity>
   <inState rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WA</inState>
@@ -1781,19 +1781,19 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://stratos.apache.org/</hasWebsite>
 </Organization>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#29500199-1195-451b-b4de-79359a67aa7f">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#cde2b020-9bbb-4805-b861-d72fa58d18f1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Investigated the viability of alternate hypervisor stacks for eventual integration with the Apache Stratos Platform-as-a-Service (PaaS) framework.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#12143991-af17-448e-a527-3c011405218d">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#9affb1db-60d7-4b21-8ce5-11df9036e6c8">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Developed a new user interface for the Stratos Manager Console using the JaggeryJS MVC framework, which was packaged and shipped with Stratos version 4.1.0.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#8f2888ec-1ac8-4807-aa8c-a9342627d841">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#60e77348-69ff-4caf-94af-48e9e1b0b2f2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conducted isolated integration tests with the CoreOS+Docker (LXC-based) hypervisor stack as an alternative to the existing hypervisor (KVM) used in Stratos.</hasText>
@@ -1802,9 +1802,9 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <WorkExperience rdf:about="http://precis.rukmal.me/ontology/weerawarana#we:wso2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <employedAt rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:wso2:stratos"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#12143991-af17-448e-a527-3c011405218d"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#29500199-1195-451b-b4de-79359a67aa7f"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#8f2888ec-1ac8-4807-aa8c-a9342627d841"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#9affb1db-60d7-4b21-8ce5-11df9036e6c8"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#cde2b020-9bbb-4805-b861-d72fa58d18f1"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#60e77348-69ff-4caf-94af-48e9e1b0b2f2"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-15T00:00:00</endDate>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-21T00:00:00</hasDate>
   <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/rukmal/rukmal.me/f786335ff78a2beb9b39118a2bbcd322b6e564e8/images/wso2_logo.png</hasImage>
@@ -1827,25 +1827,25 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://mullinslab.microbiol.washington.edu/</hasWebsite>
 </Organization>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#cd25562f-50a8-40da-8caf-2ed499a25aee">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#8837efc6-6771-4f79-ad08-9989743eca0e">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assisted the Lead Scientific Programmer of the lab in identifying and extracting sequences of mutated genes in human genome sequences.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#d3cd9ea2-c20f-4032-b308-2c90387934c5">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#289f592e-6799-42ac-8e32-39c05bbc6a03">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Developed algorithms which aided in the creation of targeted retroviral therapies for patients with HIV/AIDS.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#0973bb61-5f83-404e-b204-02b94648b9cd">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#ee3340a2-bc94-4e24-b26a-db4e7db55e5f">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Created efficient and scalable data traversal algorithms for the ingestion and transformation of large human genome sequences.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#e5005ed1-d3f1-4135-93b6-8938b9b05214">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#c98752b3-1a64-428f-9631-fdfc14ad791a">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Utilized Hyperfreq, a tool for Bayesian analysis of APOBEC3G-induced hypermutations, to identify sequences of the genome likely to have been mutated.</hasText>
@@ -1854,10 +1854,10 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <WorkExperience rdf:about="http://precis.rukmal.me/ontology/weerawarana#we:uw:mullins">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <employedAt rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:uw:microbio:mullins"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#e5005ed1-d3f1-4135-93b6-8938b9b05214"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#0973bb61-5f83-404e-b204-02b94648b9cd"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#cd25562f-50a8-40da-8caf-2ed499a25aee"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#d3cd9ea2-c20f-4032-b308-2c90387934c5"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#8837efc6-6771-4f79-ad08-9989743eca0e"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#289f592e-6799-42ac-8e32-39c05bbc6a03"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#ee3340a2-bc94-4e24-b26a-db4e7db55e5f"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#c98752b3-1a64-428f-9631-fdfc14ad791a"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-15T00:00:00</endDate>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-20T00:00:00</hasDate>
   <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/rukmal/rukmal.me/f786335ff78a2beb9b39118a2bbcd322b6e564e8/images/mullins_lab.png</hasImage>
@@ -1928,16 +1928,16 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <KnowledgeArea rdf:about="http://precis.rukmal.me/ontology/weerawarana#ka:software_eng">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:cloud_computing"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:unit_testing"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:rapid_prototyping"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:distr_systems"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:sci_computing"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:cloud_computing"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:scalable_design"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:data_structures"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:operating_systems"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:oop"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:algorithms"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:unit_testing"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:rapid_prototyping"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:distr_systems"/>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Science and Software Engineering</hasName>
 </KnowledgeArea>
 
@@ -2033,21 +2033,21 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <KnowledgeArea rdf:about="http://precis.rukmal.me/ontology/weerawarana#ka:ai_ds">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:pred_modeling"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:graph_analytics"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:bibliometrics"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:semi_sup_learning"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:nlp"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:stat_classification"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:semantic_analysis"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:dim_reduction"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:unsup_learning"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:cluster_analysis"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:unsup_learning"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:data_viz"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:anomaly_detection"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:ml"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:ts_analysis"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:stat_classification"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:kr"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:pred_modeling"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:graph_analytics"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:bibliometrics"/>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial Intelligence and Data Science</hasName>
 </KnowledgeArea>
 
@@ -2089,12 +2089,12 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <KnowledgeArea rdf:about="http://precis.rukmal.me/ontology/weerawarana#ka:econ_econometrics">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:credit_risk"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:comp_econ"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:micro_econ"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:macro_econ"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:managerial_econ"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:yield_modeling"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:credit_risk"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:comp_econ"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:macro_econ"/>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Economics and Econometrics</hasName>
 </KnowledgeArea>
 
@@ -2190,6 +2190,10 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <KnowledgeArea rdf:about="http://precis.rukmal.me/ontology/weerawarana#ka:finance">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:forex_risk"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:adv_derivatives"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:itnl_finance"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:comp_finance"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:fin_reporting"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:mpt"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:market_microstructure"/>
@@ -2199,12 +2203,8 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:abs"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:fin_risk_analysis"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:capital_budgeting"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:itnl_finance"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:banking_sys"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:fixed_income"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:forex_risk"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:comp_finance"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:adv_derivatives"/>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finance</hasName>
 </KnowledgeArea>
 
@@ -2294,6 +2294,8 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <KnowledgeArea rdf:about="http://precis.rukmal.me/ontology/weerawarana#ka:math">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:stat_modeling"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:diff_eq"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:graph_theory"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:pde"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:convex_optim"/>
@@ -2301,13 +2303,11 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:nonconvex_optim"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:stochastic_calc"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:lin_alg"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:prob_theory"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:math_logic"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:nonparam_stats"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:prob_theory"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:combinatorics"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:multivar_calc"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:diff_eq"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:stat_modeling"/>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematics</hasName>
 </KnowledgeArea>
 
@@ -2337,10 +2337,10 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <KnowledgeArea rdf:about="http://precis.rukmal.me/ontology/weerawarana#ka:other">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:ai_ethics"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:Computational_genomics"/>
-  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:quant_computing"/>
   <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:sci_sociology"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:quant_computing"/>
+  <hasSubject rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sub:ai_ethics"/>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other</hasName>
 </KnowledgeArea>
 
@@ -2430,20 +2430,20 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <SkillGroup rdf:about="http://precis.rukmal.me/ontology/weerawarana#sg:cs_languages">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:css"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:go"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:sql"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:perl"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:latex"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:r"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:java"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:python"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:jinja"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:r"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:sparql"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:java"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:javascript"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:matlab"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:html"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:javascript"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:bash"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:css"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:go"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Programming_language</externalResource>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Programming and Scripting Languages</hasName>
 </SkillGroup>
@@ -2532,18 +2532,18 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <SkillGroup rdf:about="http://precis.rukmal.me/ontology/weerawarana#sg:frameworks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:node"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:electron"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:socketio"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:sklearn"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:rdflib"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:shiny"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:flask"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:tensorflow"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:scipy"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:revel_go"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:nltk"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:node"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:shiny"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:tensorflow"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:rdflib"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:spring"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:socketio"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:electron"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:scipy"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:flask"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Software_framework</externalResource>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frameworks and Libraries</hasName>
 </SkillGroup>
@@ -2586,12 +2586,12 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <SkillGroup rdf:about="http://precis.rukmal.me/ontology/weerawarana#sg:databases">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:mysql"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:apache_jena"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:neo4j"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:mysql"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:mongo"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:redis"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:blazegraph"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:redis"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Database</externalResource>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Databases</hasName>
 </SkillGroup>
@@ -2641,12 +2641,12 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <SkillGroup rdf:about="http://precis.rukmal.me/ontology/weerawarana#sg:reproducible_research">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:jupyter"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:knitr"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:github"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:google_colab"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:read_the_docs"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:overleaf"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:azure_notebooks"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:github"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:knitr"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:overleaf"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:google_colab"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Reproducibility</externalResource>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reproducible Research Tools</hasName>
 </SkillGroup>
@@ -2701,14 +2701,14 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <SkillGroup rdf:about="http://precis.rukmal.me/ontology/weerawarana#sg:deployment_tools">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:travis_ci"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:make"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:aws"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:gcp"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:docker"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:azure"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:heroku"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:kubernetes"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:travis_ci"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:gcp"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:azure"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:docker"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:heroku"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Software_deployment</externalResource>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deployment, Orchestration, and Continuous Integration Tools</hasName>
 </SkillGroup>
@@ -2757,13 +2757,13 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <SkillGroup rdf:about="http://precis.rukmal.me/ontology/weerawarana#sg:application_software">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:blender"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:ms_office"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:autocad"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:bloomberg_terminal"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:adobe_cc"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:solidworks"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:protege"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:blender"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:bloomberg_terminal"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:autocad"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Application_software</externalResource>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Application Software</hasName>
 </SkillGroup>
@@ -2833,29 +2833,29 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <SkillGroup rdf:about="http://precis.rukmal.me/ontology/weerawarana#sg:soft_skills">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:communications"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:public_speaking"/>
-  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:leadership"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:conflict_resolution"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:public_speaking"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:writing"/>
   <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:project_management"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:communications"/>
+  <hasSkill rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:leadership"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Soft_skills</externalResource>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soft Skills</hasName>
 </SkillGroup>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#00603f18-ef67-45b5-8301-2973c8e767dc">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#7a031b48-5f87-48e7-9f23-1a954c725bc9">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Market sectors play a key role in enabling the efficient flow of capital through the modern Global economy. An analysis of existing sectorization heuristics show that they are not entirely quantitatively driven, but rather are highly subjective and rooted in dogma. To this end, we introduce a new fundamentals-driven Learned Sectors heuristic.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#773af2a7-750e-40ab-9d77-68061e7af0cf">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#f5f8ee59-7262-488a-b7ae-3b80960b577f">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Using the HCA heuristic, we generate a set of 60 potential candidate learned sector universes. We then introduce reIndexer, a backtest-driven sector universe evaluation research tool, to rank the candidate sector universes produced by our learned sector classification heuristic.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#1aa8ce5f-d01d-49ea-a584-cbaad80bcdb9">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#7113e132-8cee-414d-91f0-581e205868f2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This rank was utilized to identify the risk-adjusted return optimal learned sector universe as being the universe generated under CLINK (i.e. complete linkage), with 17 sectors. The optimal learned sector universe was tested against the benchmark GICS classification universe with reIndexer, outperforming on both absolute portfolio value, and risk-adjusted return over the backtest period.</hasText>
@@ -2864,9 +2864,9 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <Publication rdf:about="http://precis.rukmal.me/ontology/weerawarana#pub:learned_sectors">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <affiliatedWith rdf:resource="http://precis.rukmal.me/ontology/weerawarana#degree:stevens:fe_ms"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#00603f18-ef67-45b5-8301-2973c8e767dc"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#1aa8ce5f-d01d-49ea-a584-cbaad80bcdb9"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#773af2a7-750e-40ab-9d77-68061e7af0cf"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#7a031b48-5f87-48e7-9f23-1a954c725bc9"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#7113e132-8cee-414d-91f0-581e205868f2"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#f5f8ee59-7262-488a-b7ae-3b80960b577f"/>
   <hasAuthors rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rukmal Weerawarana, Yiyi Zhu, Yuzhen He</hasAuthors>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-19T00:00:00</hasDate>
   <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/rukmal/reIndexer</hasMedia>
@@ -2877,19 +2877,19 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <inPublication rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></inPublication>
 </Publication>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#da3f4abc-d557-428d-8f9b-60c1d324a05d">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#0a5d7857-5e4d-4948-aada-8e8bf1a486d6">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We introduce the PaperRank scoring algorithm; a proxy of scientific community trust in a given publication. This score is derived from the classic PageRank algorithm (applied to academic citation networks), in conjunction with a one-dimensional Gamma Mixture Model to normalize the PageRank scores on a 3-group publication notoriety heuristic.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#d43d3f13-e2d8-46ef-b636-e5027c109397">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#843a29b8-95dc-436f-ba28-80f0f179d872">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The key contributions of this publication are the PaperRank Framework (currently configured for use with the NCBI PubMed Database), and a generalized algorithm for optimizing a Gamma Mixture Model (GMM).</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#7e42f613-3c2c-4d9f-9467-44688643cb8d">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#13e7a3da-ee9f-47c0-b329-8b30744e9ce5">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A key application of PaperRank would be to underwrite provenance-enabled Knowledge Graphs (where assertions are justified by academic publication references) with a 'trust' heuristic, to enable quasi-probabilistic behavior during inference and traversal.</hasText>
@@ -2898,13 +2898,13 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <Publication rdf:about="http://precis.rukmal.me/ontology/weerawarana#pub:paperrank">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <affiliatedWith rdf:resource="http://precis.rukmal.me/ontology/weerawarana#we:rpi:heals:ra"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#da3f4abc-d557-428d-8f9b-60c1d324a05d"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#d43d3f13-e2d8-46ef-b636-e5027c109397"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#7e42f613-3c2c-4d9f-9467-44688643cb8d"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#0a5d7857-5e4d-4948-aada-8e8bf1a486d6"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#843a29b8-95dc-436f-ba28-80f0f179d872"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#13e7a3da-ee9f-47c0-b329-8b30744e9ce5"/>
   <hasAuthors rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James P. McCusker, Rukmal Weerawarana, Alexander New, Kristin P. Bennett, Deborah L. McGuinness</hasAuthors>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-20T00:00:00</hasDate>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/rukmal/PaperRank</hasMedia>
   <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://colab.research.google.com/drive/1Z6l8xTEi5KSzUwb2LXLlnvDLm8PlKyvr</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/rukmal/PaperRank</hasMedia>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inferring Community Trust from Citation Graphs</hasName>
   <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Draft</hasStatus>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=1SlSfZrwOQYP0mrKbrGLjjAFzWCk-qlwm</hasWebsite>
@@ -2912,13 +2912,13 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <inPublication rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></inPublication>
 </Publication>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#69c6dc82-1909-40ca-a0f7-7fff1d5b132f">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#f72cc686-a86b-4157-8148-5dee202f548f">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This work attempts to synthesize a clear and unambiguous definition of a 'Knowledge Graph' that conforms to current knowledge graph research, while constraining the research space that may be considered a knowledge graph.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#b948f99c-987e-48f7-85bf-65bf18d16a59">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#24df6566-ef1e-4acb-b223-16a25c93d514">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We evaluate a wide variety of knowledge resources, graphs, and other ontologies to determine if they qualify under our definition, and built a 'Knowledge Graph Catalog' to support this effort.</hasText>
@@ -2927,8 +2927,8 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <Publication rdf:about="http://precis.rukmal.me/ontology/weerawarana#pub:what_is_kg">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <affiliatedWith rdf:resource="http://precis.rukmal.me/ontology/weerawarana#we:rpi:heals:ra"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#69c6dc82-1909-40ca-a0f7-7fff1d5b132f"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#b948f99c-987e-48f7-85bf-65bf18d16a59"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#f72cc686-a86b-4157-8148-5dee202f548f"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#24df6566-ef1e-4acb-b223-16a25c93d514"/>
   <hasAuthors rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James P. McCusker, John S. Erickson, Katherine Chastain, Sabbir Rashid, Rukmal Weerawarana, Marcello Bax, Deborah L. McGuinness</hasAuthors>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-20T00:00:00</hasDate>
   <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://graphs.whyis.io/</hasMedia>
@@ -2939,13 +2939,13 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <inPublication rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></inPublication>
 </Publication>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#447d1c4c-034d-412f-9225-567309b00d88">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#74830771-d3ad-4524-9fb8-669d80a6668d">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This research addresses a key challenge faced by physicians using Clinical Practice Guideline recommendations; determining how well idiosyncratic cohort evidence generalizes to the greater clinical population.</hasText>
 </Description>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#10d74011-fd10-4ea3-9543-a95027e542f2">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#aaa6d6c5-95de-4785-a053-6c2139c413ac">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The end goal of this system is to enable the parsing of publications broadly identified as research studies to extract cohort variables and exposure/intervention groups defined within the structured population descriptions to better inform treatment decisions.</hasText>
@@ -2954,8 +2954,8 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <Publication rdf:about="http://precis.rukmal.me/ontology/weerawarana#pub:semantic_cohort_description_model">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <affiliatedWith rdf:resource="http://precis.rukmal.me/ontology/weerawarana#we:rpi:heals:ra"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#10d74011-fd10-4ea3-9543-a95027e542f2"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#447d1c4c-034d-412f-9225-567309b00d88"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#aaa6d6c5-95de-4785-a053-6c2139c413ac"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#74830771-d3ad-4524-9fb8-669d80a6668d"/>
   <hasAuthors rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shruthi Chari, Rukmal Weerawarana, Oshani Seneviratne, James P. McCusker, Deborah L. McGuinness, Amar Das</hasAuthors>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-03T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic Modeling of Cohort Descriptions in Research Studies</hasName>
@@ -2964,7 +2964,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <inPublication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knowledge Representation and Semantics Workshop</inPublication>
 </Publication>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#045c0d31-c442-47f8-8da5-7b8c087377ee">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#de3405b0-611e-4a89-b28a-19e5490e6c4d">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Awarded to first-year Graduate students entering the Stevens Institute of Technology for graduate study.</hasText>
@@ -2973,14 +2973,14 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <Award rdf:about="http://precis.rukmal.me/ontology/weerawarana#award:stevens:provost_fellowship">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <affiliatedWith rdf:resource="http://precis.rukmal.me/ontology/weerawarana#degree:stevens:fe_ms"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#045c0d31-c442-47f8-8da5-7b8c087377ee"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#de3405b0-611e-4a89-b28a-19e5490e6c4d"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Fellow</externalResource>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-28T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provost's Master's Fellowship</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.stevens.edu/admissions/tuition-financial-aid/graduate-funding-aid/assistantships-fellowships</hasWebsite>
 </Award>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#ceb8a83b-c71d-416c-b435-aee511f37b41">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#db3d10c4-617c-4e70-b35f-a19fb21b5683">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Higher Level: Mathematics, Physics, Chemistry; Standard Level: Geography, English, Spanish; Extended Essay: Electromagnetism (Physics).</hasText>
@@ -2988,25 +2988,25 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Certification rdf:about="http://precis.rukmal.me/ontology/weerawarana#cert:ib">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#ceb8a83b-c71d-416c-b435-aee511f37b41"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#db3d10c4-617c-4e70-b35f-a19fb21b5683"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#degree:bsc:ib"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/IB_Diploma_Programme</externalResource>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-31T00:00:00</hasDate>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2WGF5a0tXbzFxOUk</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2dVg3ck9Ja2h6MzA</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=1ZlSyV5W3rGM1qYDOr1cnjq6HxfEIEciK</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2WjVIUndYS0VWM00</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2TnhvTGhWd0NDd3c</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2cHprY0RYYVJJR28</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2ZV9UN1dYZFpkM00</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2c3c2Z2ZlM0JiMnM</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2dnZFdWVQcFlrbFU</hasMedia>
   <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2VWktRklRT3BYS3M</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2dVg3ck9Ja2h6MzA</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2TnhvTGhWd0NDd3c</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2WjVIUndYS0VWM00</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2ZV9UN1dYZFpkM00</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2cHprY0RYYVJJR28</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2WGF5a0tXbzFxOUk</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2c3c2Z2ZlM0JiMnM</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=1ZlSyV5W3rGM1qYDOr1cnjq6HxfEIEciK</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/open?id=0Bwu3RhGViYW2dnZFdWVQcFlrbFU</hasMedia>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International Baccalaureate Diploma (The British School in Colombo)</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ibo.org/programmes/diploma-programme/</hasWebsite>
 </Certification>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#248b0d81-9789-4d43-b58c-274476efb47b">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#ceff0fad-8fd8-40a0-bfde-e3e269661ec6">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Bloomberg Terminal certification through the lens of Economic Indicators, Currencies, Fixed Income, and Equities.</hasText>
@@ -3014,13 +3014,13 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Certification rdf:about="http://precis.rukmal.me/ontology/weerawarana#cert:bmc">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#248b0d81-9789-4d43-b58c-274476efb47b"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#ceff0fad-8fd8-40a0-bfde-e3e269661ec6"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-12T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bloomberg Market Concepts Certificate</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.bloomberg.com/professional/product/bloomberg-market-concepts/</hasWebsite>
 </Certification>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#1c2ddd6e-773c-497a-864a-fa9b430d57ec">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#2fbb33d6-bcd4-4aa2-b32e-c9ab7608ade3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UW Hackers was a group of students interested in Computer Science who got together every week to work on projects in teams, make or break something great, and build strong relationships.</hasText>
@@ -3028,7 +3028,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:uw_hackers">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#1c2ddd6e-773c-497a-864a-fa9b430d57ec"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#2fbb33d6-bcd4-4aa2-b32e-c9ab7608ade3"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:uw"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-06-10T00:00:00</endDate>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-15T00:00:00</hasDate>
@@ -3036,7 +3036,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/UWHackers/About</hasWebsite>
 </Activity>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#feb0afc5-4504-4b46-ae14-0d7afd807973">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#a5319083-cdd1-466f-a9a9-f2080e05b93e">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organization to promote and celebrate Sri Lankan Culture on the UW campus.</hasText>
@@ -3044,14 +3044,14 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:uw_slsa">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#feb0afc5-4504-4b46-ae14-0d7afd807973"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#a5319083-cdd1-466f-a9a9-f2080e05b93e"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:uw"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-09T00:00:00</endDate>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-01T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UW Sri Lanka Student Organization</hasName>
 </Activity>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#f008f569-cd29-4293-a8ad-25456ba0a17a">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#9d2464fc-e1a1-4ba4-b11d-3f778032ec16">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delta Upsilon, commonly known as DU, is a collegiate men's fraternity founded on November 4, 1834 at Williams College in Williamstown, Massachusetts. It is the sixth-oldest, all-male, college Greek-letter organization founded in North America.</hasText>
@@ -3059,7 +3059,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:uw_du">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#f008f569-cd29-4293-a8ad-25456ba0a17a"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#9d2464fc-e1a1-4ba4-b11d-3f778032ec16"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:uw"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-09T00:00:00</endDate>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Delta_Upsilon</externalResource>
@@ -3068,7 +3068,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.deltau.org/</hasWebsite>
 </Activity>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#91fb245b-31a6-4fc6-bdb3-042ca2dcba78">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#2a28dce6-c40d-4595-a195-b266efb4017a">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Washington Yacht Club is a UW student-run club located at the Waterfront Activities Center on the southeast corner of campus.</hasText>
@@ -3076,7 +3076,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:uw_yacht_club">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#91fb245b-31a6-4fc6-bdb3-042ca2dcba78"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#2a28dce6-c40d-4595-a195-b266efb4017a"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:uw"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-15T00:00:00</endDate>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-15T00:00:00</hasDate>
@@ -3084,7 +3084,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.washingtonyachtclub.org/</hasWebsite>
 </Activity>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#ebb80faa-acee-4e3b-a1d6-a36c16a55d2c">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#45e8b40f-d2fa-4007-8c2f-66a70fc99b27">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Husky Traders is the premiere student investment organization at the University of Washington. Founded in January of 2011, Husky Traders seeks to provide students with an opportunity to grow both academically and professionally through experiential learning.</hasText>
@@ -3092,7 +3092,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:husky_traders">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#ebb80faa-acee-4e3b-a1d6-a36c16a55d2c"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#45e8b40f-d2fa-4007-8c2f-66a70fc99b27"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:uw"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-09T00:00:00</endDate>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-15T00:00:00</hasDate>
@@ -3100,7 +3100,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://students.washington.edu/ubc/husky-traders</hasWebsite>
 </Activity>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#9a4b5474-8223-4778-a297-3a393d315230">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#7f81a2a4-dc1b-41f7-a962-d08e02a9b911">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foster Finance Association is dedicated to providing University of Washington students with networking, information, and potential internship opportunities. Members get to attend presentations from top tier financial firms and network with members of those firms.</hasText>
@@ -3108,7 +3108,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:foster_finance_association">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#9a4b5474-8223-4778-a297-3a393d315230"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#7f81a2a4-dc1b-41f7-a962-d08e02a9b911"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:uw"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-09T00:00:00</endDate>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-15T00:00:00</hasDate>
@@ -3116,7 +3116,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://students.washington.edu/ubc/foster-finance-association</hasWebsite>
 </Activity>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#7b023a5d-b620-41a2-95d1-be8128d8dc1c">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#23e81d66-f681-470f-a100-8cc865a2b532">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Algorithmic Trading Club (previously UW Financial Engineering Club (UWFEC)) @ UW is a non-profit student organization registered at the Student Office at the University of Washington, and is an affiliated student organization to the Computational Finance and Risk Management (CFRM) Master Program in the Applied Mathematics Department.</hasText>
@@ -3124,7 +3124,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:uw_fec">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#7b023a5d-b620-41a2-95d1-be8128d8dc1c"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#23e81d66-f681-470f-a100-8cc865a2b532"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:uw"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-09T00:00:00</endDate>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-15T00:00:00</hasDate>
@@ -3132,7 +3132,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://students.washington.edu/ubc/foster-finance-association</hasWebsite>
 </Activity>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#cdab118f-a054-488b-aa67-c4a7ee68c80e">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#4ed2dcd5-df59-490a-924f-8931af72d972">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSFE host seminars, trading games and parties every year! Our goal is to provide opportunities and insights to students to obtain more knowledge regarding academia and the financial industry. SSFE welcomes all student interest in the field of Financial Engineering.</hasText>
@@ -3140,7 +3140,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:stevens_ssfe">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#cdab118f-a054-488b-aa67-c4a7ee68c80e"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#4ed2dcd5-df59-490a-924f-8931af72d972"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:stevens"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-15T00:00:00</endDate>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-01T00:00:00</hasDate>
@@ -3150,19 +3150,19 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <ActivityType rdf:about="http://precis.rukmal.me/ontology/weerawarana#act_type:clubs">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:foster_finance_association"/>
+  <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:uw_fec"/>
   <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:stevens_ssfe"/>
   <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:uw_hackers"/>
   <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:uw_slsa"/>
   <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:uw_du"/>
   <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:uw_yacht_club"/>
   <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:husky_traders"/>
-  <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:foster_finance_association"/>
-  <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:uw_fec"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Club_(organization)</externalResource>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clubs and Organizations</hasName>
 </ActivityType>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#a97c7080-f30d-4bb5-8456-342de150f412">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#931d3e72-a15e-463d-9799-880bf79f10d0">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I volunteered at large concerts and music festivals in the Seattle area, acting as a first responder to potentially life-threatening incidents of over-intoxication and drug overuse.</hasText>
@@ -3170,14 +3170,14 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:conscious_crew">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#a97c7080-f30d-4bb5-8456-342de150f412"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#931d3e72-a15e-463d-9799-880bf79f10d0"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-03-31T00:00:00</endDate>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-01T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conscious Crew Volunteer</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://uscevents.com/conscious-crew/</hasWebsite>
 </Activity>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#151240d3-396b-46e3-a437-33fa96ced551">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#795e06fb-868b-4f6c-a9f9-e3413e86e2b2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For nearly four decades, University District Food Bank has helped prevent hunger in Northeast Seattle neighborhoods. Each week, more than 1,300 different families receive the groceries they need to prepare nutritionally balanced meals at home.</hasText>
@@ -3185,7 +3185,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:sea_foodbank">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#151240d3-396b-46e3-a437-33fa96ced551"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#795e06fb-868b-4f6c-a9f9-e3413e86e2b2"/>
   <endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-15T00:00:00</endDate>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University District Food Bank Volunteer</hasName>
@@ -3194,13 +3194,13 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <ActivityType rdf:about="http://precis.rukmal.me/ontology/weerawarana#act_type:volunteering">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:conscious_crew"/>
   <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:sea_foodbank"/>
+  <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:conscious_crew"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Volunteering</externalResource>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volunteering Activities</hasName>
 </ActivityType>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#2e976ad6-150a-4fa7-a013-91542a6a1d96">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#c77ec982-e2a8-4e16-9094-1ac724772f71">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasText>
@@ -3208,12 +3208,12 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:rec_basketball">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#2e976ad6-150a-4fa7-a013-91542a6a1d96"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#c77ec982-e2a8-4e16-9094-1ac724772f71"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Basketball</externalResource>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basketball</hasName>
 </Activity>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#c1213f73-3c3c-4ebb-848b-ab3552c14583">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#064558bb-5389-4b15-96fd-12e5fdf0ac38">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasText>
@@ -3221,12 +3221,12 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:rec_swimming">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#c1213f73-3c3c-4ebb-848b-ab3552c14583"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#064558bb-5389-4b15-96fd-12e5fdf0ac38"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Swimming</externalResource>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swimming</hasName>
 </Activity>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#3668c8cd-7098-47eb-ac7f-446a17ba11c2">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#36713225-c28c-4258-8576-db80e88aeba1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasText>
@@ -3234,12 +3234,12 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:rec_running">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#3668c8cd-7098-47eb-ac7f-446a17ba11c2"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#36713225-c28c-4258-8576-db80e88aeba1"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Running</externalResource>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Running</hasName>
 </Activity>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#3a74383c-9a1b-4542-a6a0-4ea3b67e08e6">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#94574bd3-e19b-4f65-8a07-8192a327c940">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasText>
@@ -3247,22 +3247,22 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:rec_strength_training">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#3a74383c-9a1b-4542-a6a0-4ea3b67e08e6"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#94574bd3-e19b-4f65-8a07-8192a327c940"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Strength_training</externalResource>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strength Training</hasName>
 </Activity>
 
 <ActivityType rdf:about="http://precis.rukmal.me/ontology/weerawarana#act_type:rec_sports">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:rec_basketball"/>
-  <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:rec_running"/>
   <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:rec_strength_training"/>
   <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:rec_swimming"/>
+  <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:rec_basketball"/>
+  <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:rec_running"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Recreation</externalResource>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recreational Sports</hasName>
 </ActivityType>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#00a9cce0-92b8-4b81-8aef-016c373233bf">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#d5078e41-2334-4b72-8f10-bf6e23aa2e18">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">At Facebook, we believe that every engineer has great ideas within them. The regional hackathon is 24-hours of collaborative computer programming that provide an opportunity for you to bring your product from an idea to a prototype overnight.</hasText>
@@ -3270,13 +3270,13 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:fb_regional_hackathon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#00a9cce0-92b8-4b81-8aef-016c373233bf"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#d5078e41-2334-4b72-8f10-bf6e23aa2e18"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Facebook Seattle Regional Hackathon</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.facebook.com/events/facebook-seattle/facebook-seattle-regional-hackathon/780426148649298/</hasWebsite>
 </Activity>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#1670afdf-e3c8-476c-8181-626415797bd3">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#4b0e2e2b-d733-44a1-ad37-3a4d8405fd56">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StartupUW brings entrepreneurs and the startup community at UW together. The hackathon was a 72-hour event to create a minimum viable prototype of a product, and a viable business plan.</hasText>
@@ -3284,7 +3284,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:startup_uw_hackathon">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#1670afdf-e3c8-476c-8181-626415797bd3"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#4b0e2e2b-d733-44a1-ad37-3a4d8405fd56"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:uw"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-20T00:00:00</hasDate>
   <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.facebook.com/pg/StartupWeekendUW/photos/?tab=album&amp;album_id=474242182710873</hasMedia>
@@ -3292,7 +3292,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.facebook.com/StartupWeekendUW/</hasWebsite>
 </Activity>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#26409ed9-aebc-4d72-8d4f-0506373b19df">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#037eb9eb-dd9a-4d40-b267-bd3eb1a0ce0c">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DubHacks is for the creators, doers, and makers. People who are passionate about solving problems and turning their ideas into a reality. Over 300 top college hackers from around the area will gather at the HUB to build the next generation of innovative software and hardware hacks. Dubhacks is the largest collegiate hackathon in the Pacific Northwest.</hasText>
@@ -3300,7 +3300,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:dubhacks">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#26409ed9-aebc-4d72-8d4f-0506373b19df"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#037eb9eb-dd9a-4d40-b267-bd3eb1a0ce0c"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:uw"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-17T00:00:00</hasDate>
   <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://devpost.com/software/ghostframe</hasMedia>
@@ -3309,7 +3309,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://14f.dubhacks.co/</hasWebsite>
 </Activity>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#86b4e7fa-87bf-44e7-983f-29254d4e3cb8">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#7012ef94-d4c0-4101-b215-8deb7b798284">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The IBM Open BlueHacks are a creative education experience focused on solving big social problems through technology, in partnership with industry experts and universities. Join us March 9-10th, in partnership with the United Nations and Fundación Pasos Libres, where we will address the social issue of 'Human Trafficking' at Stevens Institute of Technology, in Hoboken, NJ.</hasText>
@@ -3317,13 +3317,13 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Activity rdf:about="http://precis.rukmal.me/ontology/weerawarana#act:ibm_bluehack">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#86b4e7fa-87bf-44e7-983f-29254d4e3cb8"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#7012ef94-d4c0-4101-b215-8deb7b798284"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#org:stevens"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-09T00:00:00</hasDate>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://fundacionpasoslibres.org/2019/03/27/ibm-pasos-libres-unodc-y-el-stevens-institute-of-technology-llevaron-a-cabo-la-primera-bluehack-contra-la-trata-de-personas-de-estados-unidos/</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.stevens.edu/news/stevens-students-develop-technologies-fight-human-trafficking</hasMedia>
-  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.unodc.org/unodc/en/frontpage/2019/March/unodc-and-ibm-organize-hackathon-to-identify-tech-based-solutions-against-human-trafficking.html</hasMedia>
   <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://twitter.com/UNODC/status/1110184599638945793</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://fundacionpasoslibres.org/2019/03/27/ibm-pasos-libres-unodc-y-el-stevens-institute-of-technology-llevaron-a-cabo-la-primera-bluehack-contra-la-trata-de-personas-de-estados-unidos/</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.unodc.org/unodc/en/frontpage/2019/March/unodc-and-ibm-organize-hackathon-to-identify-tech-based-solutions-against-human-trafficking.html</hasMedia>
+  <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.stevens.edu/news/stevens-students-develop-technologies-fight-human-trafficking</hasMedia>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IBM Bluehack Against Human Trafficking</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://openbluehack.mybluemix.net/event/baht-03-19</hasWebsite>
 </Activity>
@@ -3331,14 +3331,14 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <ActivityType rdf:about="http://precis.rukmal.me/ontology/weerawarana#act_type:hackathons">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:fb_regional_hackathon"/>
+  <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:dubhacks"/>
   <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:startup_uw_hackathon"/>
   <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:ibm_bluehack"/>
-  <hasActivity rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:dubhacks"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Hackathon</externalResource>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hackathons</hasName>
 </ActivityType>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#37ccea21-1669-4551-b3f1-703cf6adbc51">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#124cf251-a744-4adf-836f-0e80210ee1fa">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">First place in implementation quality and technical scope of the project.</hasText>
@@ -3347,12 +3347,12 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <Award rdf:about="http://precis.rukmal.me/ontology/weerawarana#award:bluehack_first">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <affiliatedWith rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:ibm_bluehack"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#37ccea21-1669-4551-b3f1-703cf6adbc51"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#124cf251-a744-4adf-836f-0e80210ee1fa"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-10T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">First Place [Technology]</hasName>
 </Award>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#d0326068-4f4e-49e6-aef4-0a40ad0fdedb">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#c5d0f170-5ec8-4ae6-a3e4-bdd5d5391157">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Awarded for outstanding use of the Dropbox API.</hasText>
@@ -3361,12 +3361,12 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <Award rdf:about="http://precis.rukmal.me/ontology/weerawarana#award:dropbox_api">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <affiliatedWith rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:dubhacks"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#d0326068-4f4e-49e6-aef4-0a40ad0fdedb"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#c5d0f170-5ec8-4ae6-a3e4-bdd5d5391157"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-18T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dropbox API Prize</hasName>
 </Award>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#00c4ed54-a8c3-40d4-bb38-920b04ed74e5">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#b5068bb9-5f71-42c0-9d49-a8550385b4cb">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Second place overall, across technical complexity, business plan viability, and the minimum viable product developed over the weekend.</hasText>
@@ -3375,12 +3375,12 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <Award rdf:about="http://precis.rukmal.me/ontology/weerawarana#award:startupuw_second">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <affiliatedWith rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:startup_uw_hackathon"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#00c4ed54-a8c3-40d4-bb38-920b04ed74e5"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#b5068bb9-5f71-42c0-9d49-a8550385b4cb"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-16T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Second Place</hasName>
 </Award>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#24ce1c63-f9b3-4102-9958-6d715de467f7">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#83f29171-d8bf-4029-ba57-63906d8f541f">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Third place overall.</hasText>
@@ -3389,7 +3389,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <Award rdf:about="http://precis.rukmal.me/ontology/weerawarana#award:fb_regional_third">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <affiliatedWith rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:fb_regional_hackathon"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#24ce1c63-f9b3-4102-9958-6d715de467f7"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#83f29171-d8bf-4029-ba57-63906d8f541f"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-26T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Third Place</hasName>
 </Award>
@@ -4081,7 +4081,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <withInstructor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhenyu Cui, Khaldoun Khashanah</withInstructor>
 </Course>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#cbd13351-82bd-4ccd-9d18-e9b0fcf8ed0e">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#5f45c079-54ba-43a4-86d1-56baf862bb71">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An introduction and overview of the Leap Motion; the underlying technology, JavaScript API, and a WebSocket game demo.</hasText>
@@ -4090,7 +4090,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <Talk rdf:about="http://precis.rukmal.me/ontology/weerawarana#talk:leap_motion">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <affiliatedWith rdf:resource="http://precis.rukmal.me/ontology/weerawarana#degree:uw:fin_baba"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#cbd13351-82bd-4ccd-9d18-e9b0fcf8ed0e"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#5f45c079-54ba-43a4-86d1-56baf862bb71"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:uw_hackers"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Leap_Motion</externalResource>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-16T00:00:00</hasDate>
@@ -4099,7 +4099,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://uwhackers.github.io/leap-motion-slides/</hasWebsite>
 </Talk>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#d6238a7b-b458-4b04-b8a7-91a274087631">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#442fe76f-594f-4676-858e-852b7588d32b">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A deep dive into High Frequency Trading (HFT), covering market microstructure, exchange dynamics, regulatory implications, electronic order execution models, RegNMS, algorithmic trading, and popular HFT-driven strategies for exploiting arbitrage opportunities.</hasText>
@@ -4108,7 +4108,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <Talk rdf:about="http://precis.rukmal.me/ontology/weerawarana#talk:high_frequency_trading">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <affiliatedWith rdf:resource="http://precis.rukmal.me/ontology/weerawarana#degree:uw:fin_baba"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#d6238a7b-b458-4b04-b8a7-91a274087631"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#442fe76f-594f-4676-858e-852b7588d32b"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:uw_fec"/>
   <externalResource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/High-frequency_trading</externalResource>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-19T00:00:00</hasDate>
@@ -4118,7 +4118,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/file/d/1I7JuZhVzsAT84xe88lLsbHbSIa-Ev7eF</hasWebsite>
 </Talk>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#eda3bc21-6b93-4c43-96b5-2ed45824dbd3">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#9a3f23a5-b318-4302-bd72-7a96389029bc">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An overview of the fundamental technology powering modern knowledge graphs, focusing on the concepts of semantic data, ontologies, and inference.</hasText>
@@ -4127,7 +4127,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <Talk rdf:about="http://precis.rukmal.me/ontology/weerawarana#talk:kg_fundamentals">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <affiliatedWith rdf:resource="http://precis.rukmal.me/ontology/weerawarana#degree:stevens:fe_ms"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#eda3bc21-6b93-4c43-96b5-2ed45824dbd3"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#9a3f23a5-b318-4302-bd72-7a96389029bc"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#course:stevens:fe:595"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-04T00:00:00</hasDate>
   <hasMedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/file/d/1K2nwrNvgGrE0EA6XpYgFVP3gLFEzG8bt</hasMedia>
@@ -4135,7 +4135,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/file/d/1f21S_QZtm6aYiYLnXPA5opgsoBdIX7zX</hasWebsite>
 </Talk>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#7c956cb3-76d3-4fa4-a80c-c5310981138b">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#e833d4a0-7049-4ec5-9b38-8ffa38ce29db">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Learned Sectors project overview, covering the trained hierarchical clustering model, the reIndexer validation system, and a discussion of the final risk-adjusted return optimal sector universe.</hasText>
@@ -4144,7 +4144,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 <Talk rdf:about="http://precis.rukmal.me/ontology/weerawarana#talk:learned_sectors">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <affiliatedWith rdf:resource="http://precis.rukmal.me/ontology/weerawarana#degree:stevens:fe_ms"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#7c956cb3-76d3-4fa4-a80c-c5310981138b"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#e833d4a0-7049-4ec5-9b38-8ffa38ce29db"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#course:stevens:fe:800"/>
   <hasCollaborators rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yiyi Zhu, Yuzhen He</hasCollaborators>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-02T00:00:00</hasDate>
@@ -4152,7 +4152,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://drive.google.com/file/d/12DcqxSJAR-PTLZcRqZ6SAapKzQFBuwA4</hasWebsite>
 </Talk>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#3cf513fd-9808-476d-851b-0aee2512f633">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#a0323786-a744-4262-851b-c111dd0ea5d3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An open Python API for online services at the University of Washington related to the Course Catalog and Directory.</hasText>
@@ -4160,7 +4160,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:uw_open_data">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#3cf513fd-9808-476d-851b-0aee2512f633"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#a0323786-a744-4262-851b-c111dd0ea5d3"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:python"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:flask"/>
   <hasCollaborators rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karan Goel</hasCollaborators>
@@ -4170,7 +4170,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://git.rukmal.me/UW-OpenData</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#c182fd29-4066-4dc0-b44e-9a097ee9b8bd">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#7dd28724-b02b-40ad-8879-f254dc2297e9">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instant search for the Spotify music catalogy, built using the Spotify REST and Desktop APIs.</hasText>
@@ -4178,7 +4178,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:spotify_instant">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#c182fd29-4066-4dc0-b44e-9a097ee9b8bd"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#7dd28724-b02b-40ad-8879-f254dc2297e9"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:javascript"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-30T00:00:00</hasDate>
   <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/rukmal/SpotifyInstant/gh-pages/images/spotify_logo.png</hasImage>
@@ -4186,7 +4186,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://git.rukmal.me/SpotifyInstant</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#a9427686-98d8-4658-ae98-58d8fee9e823">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#1212be4e-72a6-4a6e-a801-7ee81d482c6a">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rendezvous is a social app for meeting up with friends, in a localized setting; I designed and implemented the REST API layer underlying the backend of the system.</hasText>
@@ -4194,12 +4194,12 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:rendezvous">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#a9427686-98d8-4658-ae98-58d8fee9e823"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:startup_uw_hackathon"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#1212be4e-72a6-4a6e-a801-7ee81d482c6a"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:javascript"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:aws"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:mongo"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:node"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:aws"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:startup_uw_hackathon"/>
   <hasCollaborators rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christopher Su, Terren Krietzman, Jason Hwang, Houman Farokhzad, Gregory Moreno</hasCollaborators>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-20T00:00:00</hasDate>
   <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/getrendezvous/getrendezvous.github.io/master/resources/iconfinal.png</hasImage>
@@ -4207,7 +4207,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/getrendezvous</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#26883383-201c-4e5a-8690-3c1bfb0ee9a0">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#408eecfa-6317-47d5-9b4a-0330a1a5c263">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A web application that enables users to play streaming music (including adding, voting on, and deleting) from a collaborative playlist in the cloud at a party.</hasText>
@@ -4215,19 +4215,19 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:collablists">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#26883383-201c-4e5a-8690-3c1bfb0ee9a0"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#408eecfa-6317-47d5-9b4a-0330a1a5c263"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:javascript"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:fb_regional_hackathon"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:mongo"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:socketio"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:node"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:fb_regional_hackathon"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:socketio"/>
   <hasCollaborators rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amit Burstein, Phillip Huang, David Swanson</hasCollaborators>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CollabLists</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://git.rukmal.me/CollabLists</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#32ac4e0e-1bd5-4ea0-85e0-a49adee61c50">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#d4a6192d-d6ad-4113-836b-9b960dc3ba6f">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Play multiplayer pong with a friend, with the option to use your hand to control the paddle with a Leap Motion controller.</hasText>
@@ -4235,11 +4235,11 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:leappong">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#32ac4e0e-1bd5-4ea0-85e0-a49adee61c50"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:socketio"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#d4a6192d-d6ad-4113-836b-9b960dc3ba6f"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:javascript"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#talk:leap_motion"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:node"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:socketio"/>
   <hasCollaborators rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grant Timmerman</hasCollaborators>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-18T00:00:00</hasDate>
   <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://cloud.githubusercontent.com/assets/744973/2600844/c9b4a418-bb06-11e3-8bc2-14668ddc7546.png</hasImage>
@@ -4247,7 +4247,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/grant/LeapPong</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#c38cf797-44ef-43e9-bbf7-4b26640800e7">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#370ed589-3f42-46fc-93c2-dc0db1a3d9c0">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Play the popular game 'Flappy Leap Bird' using your hand to control the Flappy Bird.</hasText>
@@ -4255,7 +4255,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:flappy_leap_bird">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#c38cf797-44ef-43e9-bbf7-4b26640800e7"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#370ed589-3f42-46fc-93c2-dc0db1a3d9c0"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:javascript"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:node"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-16T00:00:00</hasDate>
@@ -4264,7 +4264,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://git.rukmal.me/FlappyLeapBird</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#587fe4a6-8556-4758-bcae-0bd70a23d974">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#4670fcd2-652e-4971-ba6c-aceab23a56ff">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A simple, secure scoreboard with a remote control built for Basketball; includes team scores, game clock, and shot clock.</hasText>
@@ -4272,17 +4272,17 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:scoreboard">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#587fe4a6-8556-4758-bcae-0bd70a23d974"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:socketio"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#4670fcd2-652e-4971-ba6c-aceab23a56ff"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:javascript"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:node"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:socketio"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-03T00:00:00</hasDate>
   <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/rukmal/Scoreboard/master/bin/landing_page.png</hasImage>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scoreboard</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://git.rukmal.me/Scoreboard</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#eb5a4fae-3c4c-4793-b59a-94ddf41eee70">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#cf047d5c-6bba-4f35-9915-4c609ac27f58">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inspired by Snapchat's Event stories, Lifestream (previously Ghostframe) is a hyperlocal image sharing application.</hasText>
@@ -4290,20 +4290,20 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:lifestream">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#eb5a4fae-3c4c-4793-b59a-94ddf41eee70"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:go"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#cf047d5c-6bba-4f35-9915-4c609ac27f58"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:javascript"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:mongo"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:revel_go"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:dubhacks"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:mongo"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:go"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:node"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:dubhacks"/>
   <hasCollaborators rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amit Burstein, Stefan Dierauf, Aengus McMillan</hasCollaborators>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-12T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lifestream</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://git.rukmal.me/Lifestream-API</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#795c9e72-d5dd-4df6-9161-250014f8d486">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#db3ccc68-df54-411a-9dff-93bd29215c66">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZocialGPA was a multiplatform social analytics product, which used Facebook, Twitter, and LinkedIn feeds to compute a ZGPA score for users, based on a collection of statistical NLP heuristics.</hasText>
@@ -4311,23 +4311,23 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:zocialgpa_stack">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#795c9e72-d5dd-4df6-9161-250014f8d486"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:javascript"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:nltk"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#we:zocialgpa"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:node"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#db3ccc68-df54-411a-9dff-93bd29215c66"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:mongo"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:python"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:aws"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:docker"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:redis"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:python"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:mongo"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:javascript"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#we:zocialgpa"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:node"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:nltk"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-12T00:00:00</hasDate>
-  <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://avatars2.githubusercontent.com/u/8800125?s=200&amp;v=4</hasImage>
+  <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/11902374_483755771798362_350889305013955645_n.png?_nc_cat=105&amp;_nc_ht=scontent-lga3-1.xx&amp;oh=ca283de2d7f342eadff634c753575bb8&amp;oe=5D2C516A</hasImage>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZocialGPA Stack</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/zocialgpa</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#98338559-821e-469c-8160-26db675b5433">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#eb14e6bc-bc46-4ab3-8ac1-fb362b696675">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Summary of research detailing a software architecture paradigm for the UW Lunar CubeSAT.</hasText>
@@ -4335,7 +4335,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:lunar_cubesat_report">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#98338559-821e-469c-8160-26db675b5433"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#eb14e6bc-bc46-4ab3-8ac1-fb362b696675"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#course:uw:ess:490"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#we:uw:cubesat"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-14T00:00:00</hasDate>
@@ -4343,7 +4343,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://git.rukmal.me/UW-Lunar-CubeSat-Research</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#d4b927e3-4dfa-4811-b30a-d12b1eaa1006">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#b54827a6-0b7a-41fd-97f6-68eb579833b9">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An analysis of efficient portfolios of exchange traded funds, including time series modeling of returns with Monte Carlo simulations, and heteroskedasticity analysis.</hasText>
@@ -4351,17 +4351,17 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:cfrm_462_report">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#d4b927e3-4dfa-4811-b30a-d12b1eaa1006"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:latex"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#b54827a6-0b7a-41fd-97f6-68eb579833b9"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:r"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#course:uw:cfrm:460"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:latex"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:knitr"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#course:uw:cfrm:460"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-19T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">401(k) Portfolio Optimization Analysis</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://git.rukmal.me/UW-CFRM-462-Portfolio-Optimization</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#7952a176-f439-4bf5-bf2e-43e0c286f21f">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#dd663bac-4539-43de-84d0-0327d8d56270">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An R library for plotting simple profit/loss graphs for equity and derivative positions.</hasText>
@@ -4369,7 +4369,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:derivative_visualizer">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#7952a176-f439-4bf5-bf2e-43e0c286f21f"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#dd663bac-4539-43de-84d0-0327d8d56270"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:r"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#course:stevens:fe:620"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:knitr"/>
@@ -4378,7 +4378,7 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://git.rukmal.me/DerivativeVisualizer</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#ddc22770-80ad-4a36-9f81-3d6e02c05631">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#053d49ee-41cf-49c6-82a1-55e92a68bfa1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The PaperRank framework is designed to enable bibliometrics and citation analysis of academic literature graphs. It is highly extensible, and designed to be corpus-agnostic; currently, it is configured for use with the NCBI PubMed database.</hasText>
@@ -4386,19 +4386,19 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:paperrank">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#ddc22770-80ad-4a36-9f81-3d6e02c05631"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#053d49ee-41cf-49c6-82a1-55e92a68bfa1"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:sklearn"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:kubernetes"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#we:rpi:heals:ra"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:python"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:scipy"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:redis"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#we:rpi:heals:ra"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:kubernetes"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:python"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-21T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PaperRank Framework</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://git.rukmal.me/PaperRank</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#5dcdd054-63e9-43e9-90d8-9badbd631a0b">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#6dd2c7d6-f79a-4ecf-ba4e-935ce91c7c87">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Python API for the U.S. Securities and Exchange Commission's (SEC) Electronic Data Gathering, Analysis, and Retrieval System (EDGAR), using the eXtensible Business Reporting Language (XBRL) ontology.</hasText>
@@ -4406,16 +4406,16 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:pyedgar">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#5dcdd054-63e9-43e9-90d8-9badbd631a0b"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#6dd2c7d6-f79a-4ecf-ba4e-935ce91c7c87"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:python"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:sparql"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:docker"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:python"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-15T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PyEDGAR API</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://git.rukmal.me/PyEDGAR</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#0526e1e5-d6aa-433e-87ae-d935b10ec2bf">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#6d933725-6545-4f05-a611-b7e6fe098976">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTKG (Human Trafficking Knolwedge Graph), and NYPD-Compstat-LD (the main data ingestion engine) is a knowledge graph platform for linking suspected human trafficking advertisements with crime data from the NYPD to retroactively assess trends.</hasText>
@@ -4423,18 +4423,18 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:htkg_nypd_compstat_ld">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#0526e1e5-d6aa-433e-87ae-d935b10ec2bf"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:kubernetes"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:neo4j"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:ibm_bluehack"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#6d933725-6545-4f05-a611-b7e6fe098976"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:python"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#act:ibm_bluehack"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:neo4j"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:kubernetes"/>
   <hasCollaborators rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ryan Hartman, Ayush Kalla, Kovid Shukla, Sanket Saharkar</hasCollaborators>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-10T00:00:00</hasDate>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTKG and NYPD-Compstat-LD</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://git.rukmal.me/NYPD-Compstat-LD</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#d4fecde3-1b71-463f-94ae-d2131dd19eb8">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#d823ebff-846b-4112-be16-728607cf2cfe">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fe621 is a Python library that provides functionality for lattice based derivative pricing models, exotic option picing, Monte Carlo simulations, numerical differentiation and integration, and optimization.</hasText>
@@ -4442,18 +4442,18 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:fe621">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#d4fecde3-1b71-463f-94ae-d2131dd19eb8"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:latex"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#d823ebff-846b-4112-be16-728607cf2cfe"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#course:stevens:fe:621"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:sklearn"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:python"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:sklearn"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:latex"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-09T00:00:00</hasDate>
   <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/rukmal/FE-621-Homework/master/bin/fe621_logo.png</hasImage>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fe621</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://git.rukmal.me/FE-621-Homework</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#e6eaf3ca-9816-4cd9-b97e-7c607c3e7aad">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#5d101ae7-1f2e-4859-90ba-0ddcf34e9717">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reIndexer is a research tool for the backtest-driven evaluation of different sectorization heuristics, using a system of synthetic ETFs, and efficient portfolios of those synthetic ETFs.</hasText>
@@ -4461,20 +4461,20 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:reindexer">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#e6eaf3ca-9816-4cd9-b97e-7c607c3e7aad"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:scipy"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:docker"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#course:stevens:fe:800"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#talk:learned_sectors"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:python"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#5d101ae7-1f2e-4859-90ba-0ddcf34e9717"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#pub:learned_sectors"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#course:stevens:fe:800"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:python"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#talk:learned_sectors"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:docker"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:scipy"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-29T00:00:00</hasDate>
   <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/rukmal/reIndexer/master/bin/reIndexer_logo.png</hasImage>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reIndexer</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://git.rukmal.me/reIndexer</hasWebsite>
 </Project>
 
-<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#f5409085-5ffc-410b-a4c7-2f3149239f98">
+<Description rdf:about="http://precis.rukmal.me/ontology/weerawarana#336e6370-d77f-4de6-b2a8-733aba72c6c6">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasPriority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasPriority>
   <hasText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Precis is an Ontology for modeling personal professional metadata. The extended Precis toolkit also includes a Pythonic search API for the Ontology, a JSON data loader, and an extensible templating engine.</hasText>
@@ -4482,13 +4482,13 @@ Currently, this ontology powers a templating engine to generate dyanmic resumes,
 
 <Project rdf:about="http://precis.rukmal.me/ontology/weerawarana#project:precis">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#f5409085-5ffc-410b-a4c7-2f3149239f98"/>
+  <hasDescription rdf:resource="http://precis.rukmal.me/ontology/weerawarana#336e6370-d77f-4de6-b2a8-733aba72c6c6"/>
+  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:python"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:sparql"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:latex"/>
-  <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:python"/>
   <relatedTo rdf:resource="http://precis.rukmal.me/ontology/weerawarana#sk:jinja"/>
   <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-12T00:00:00</hasDate>
-  <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/rukmal/reIndexer/master/bin/reIndexer_logo.png</hasImage>
+  <hasImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/rukmal/precis/master/bin/precis_logo.jpg</hasImage>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Precis</hasName>
   <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://precis.rukmal.me</hasWebsite>
 </Project>
