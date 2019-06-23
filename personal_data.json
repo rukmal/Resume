@@ -2626,7 +2626,8 @@
             }
         ],
         "relatedTo": "act:uw_hackers",
-        "externalResource": "http://dbpedia.org/resource/Leap_Motion"
+        "externalResource": "http://dbpedia.org/resource/Leap_Motion",
+        "hasImage": "https://user-images.githubusercontent.com/6089694/59972947-0d120b80-9566-11e9-940b-83aae7615d45.png"
     },
     {
         "$type": "Talk",
@@ -2646,7 +2647,8 @@
             }
         ],
         "relatedTo": "act:uw_fec",
-        "externalResource": "http://dbpedia.org/resource/High-frequency_trading"
+        "externalResource": "http://dbpedia.org/resource/High-frequency_trading",
+        "hasImage": "https://user-images.githubusercontent.com/6089694/59972923-ab51a180-9565-11e9-86d4-eb9e959dc3f3.png"
     },
     {
         "$type": "Talk",
@@ -2664,7 +2666,9 @@
                 "hasText": "An overview of the fundamental technology powering modern knowledge graphs, focusing on the concepts of semantic data, ontologies, and inference."
             }
         ],
-        "relatedTo": "course:stevens:fe:595"
+        "relatedTo": "course:stevens:fe:595",
+        "hasImage": "https://user-images.githubusercontent.com/6089694/59972881-f8814380-9564-11e9-8e4f-16253f9a23d8.png",
+        "externalResource": "http://dbpedia.org/resource/Ontology_(information_science)"
     },
     {
         "$type": "Talk",
@@ -2680,7 +2684,9 @@
             }
         ],
         "relatedTo": "course:stevens:fe:800",
-        "hasCollaborators": "Yiyi Zhu, Yuzhen He"
+        "hasCollaborators": "Yiyi Zhu, Yuzhen He",
+        "hasImage": "https://user-images.githubusercontent.com/6089694/59972848-5c573c80-9564-11e9-968e-2ee1be57d346.png",
+        "externalResource": "http://dbpedia.org/resource/Economic_taxonomy"
     },
     {
         "$type": "Project",
