@@ -1438,7 +1438,7 @@
                 "hasText": "This rank was utilized to identify the risk-adjusted return optimal learned sector universe as being the universe generated under CLINK (i.e. complete linkage), with 17 sectors. The optimal learned sector universe was tested against the benchmark GICS classification universe with reIndexer, outperforming on both absolute portfolio value, and risk-adjusted return over the backtest period."
             }
         ],
-        "hasImage": "https://user-images.githubusercontent.com/6089694/59973627-4f404a80-9570-11e9-8263-a50e1b2baadd.png"
+        "hasImage": "https://user-images.githubusercontent.com/6089694/59973762-ec4fb300-9571-11e9-9a6e-6d39f43a6a59.png"
     },
     {
         "$type": "Publication",
