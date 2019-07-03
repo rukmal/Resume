@@ -18,6 +18,8 @@ order_overrides:
   Talk: 'chron_D'
   Project: 'chron_D'
 item_overrides:
+  Degree:
+    - '!degree:bsc:ib'
   Award:
     - '!award:bluehack_first'
     - '!award:dropbox_api'
