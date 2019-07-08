@@ -1422,8 +1422,8 @@
         "hasWebsite": "https://arxiv.org/abs/1906.03935",
         "affiliatedWith": "degree:stevens:fe_ms",
         "hasAuthors": "Rukmal Weerawarana, Yiyi Zhu, Yuzhen He",
-        "inPublication": "",
-        "inConferenceOrJournal": "arXiv preprint arXiv:1906.03935",
+        "inPublication": "arXiv preprint",
+        "inConferenceOrJournal": "arXiv:1906.03935",
         "hasDate": "2019-05-19",
         "hasDescription": [
             {
