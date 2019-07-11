@@ -5,13 +5,15 @@ My personal Resume and CV.
 Built with [Precis](https://precis.rukmal.me).
 
 
-|Click [here](https://github.com/rukmal/Resume/blob/gh-pages/resume/Rukmal%20Weerawarana%20-%20Resume.pdf) to view my Resume|
+<p align="center">
+
+|[Click here to view my Resume](https://github.com/rukmal/Resume/blob/gh-pages/resume/Rukmal%20Weerawarana%20-%20Resume.pdf)|
 |:--:|
 
-<br>
-
-|Click [here](https://github.com/rukmal/Resume/blob/gh-pages/curriculum_vitae/Rukmal%20Weerawarana%20-%20Curriculum%20Vitae.pdf) to view my CV|
+|[Click here to view my CV](https://github.com/rukmal/Resume/blob/gh-pages/curriculum_vitae/Rukmal%20Weerawarana%20-%20Curriculum%20Vitae.pdf)|
 |:--:|
+
+</p>
 
 ## Contact
 
