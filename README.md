@@ -1,16 +1,20 @@
 # Resume
 
-My personal Resume in pdf and Adobe's InDesign formats.
+My personal Resume and CV.
+
+Built with [Precis](https://precis.rukmal.me).
 
 
-|Click [here](http://rukmal.github.io/Resume/curriculum_vitae/Rukmal%20Weerawarana%20-%20Curriculum%20Vitae.pdf) to view my CV|
+|Click [here](https://github.com/rukmal/Resume/blob/gh-pages/resume/Rukmal%20Weerawarana%20-%20Resume.pdf) to view my Resume|
 |:--:|
 
+<br>
 
-Feel free to use/change the design!
+|Click [here](https://github.com/rukmal/Resume/blob/gh-pages/curriculum_vitae/Rukmal%20Weerawarana%20-%20Curriculum%20Vitae.pdf) to view my CV|
+|:--:|
 
 ## Contact
 
 This is an open source project released under the [MIT License](LICENSE). Contact me if you want to suggest an improvement, or fork and send a pull request!
 
-Follow me on Twitter ([@rukmal](http://twitter.com/rukmal_w)) and [GitHub](http://github.com/rukmal).
+https://rukmal.me
