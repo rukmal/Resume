@@ -4,7 +4,15 @@ jobs:
   clone-precis:
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - name: Clone precis repository
+        uses: actions/checkout@v2
         with:
           repository: 'rukmal/precis'
           path: 'precis'
+      - uses: actions/checkout@v2  # Checks out current working repo
+      - name: Build Resume
+        working-directory: ./scripts
+        run: python build_resume.py
+      - name: Build CV
+        working-directory: ./scripts
+        run: python build_cv.py
