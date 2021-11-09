@@ -1,0 +1,10 @@
+name: Build Precis
+on: [push]
+jobs:
+  clone-precis:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: 'rukmal/precis'
+          path: 'precis'
