@@ -1,5 +1,8 @@
 name: Verify Updates
-on: [push]
+on:
+  push:
+    paths:
+      - personal_data.json
 
 jobs:
   verify_json_data_updates:

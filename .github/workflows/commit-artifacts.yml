@@ -6,6 +6,12 @@ on:
       - gh-pages
       - master
       - main
+    paths:
+      - requirements.txt
+      - curriculum_vitae/*
+      - resume/*
+      - personal_data.*
+      - scripts/*
 
 jobs:
   build_commit_artifacts:
