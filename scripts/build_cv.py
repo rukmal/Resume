@@ -1,4 +1,5 @@
-from context import precis
+import precis
+
 from owlready2 import default_world, get_ontology
 from resume_config import config
 import os

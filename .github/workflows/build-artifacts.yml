@@ -1,0 +1,37 @@
+name: Build RDF and PDF artifacts
+
+on: [pull_request, workflow_call]
+
+jobs:
+  build_artifacts:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+      - name: Install requirements (including precis) from requirements.txt
+        run: python -m pip install --user -r requirements.txt
+      - name: Build RDF and TeX artifacts
+        working-directory: ./scripts
+        run: |
+          python build_data_rdf.py
+          python build_resume.py
+          python build_cv.py
+      - name: Install LaTeX
+        run: sudo apt-get --assume-yes install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+      - name: Compile TeX files to PDF
+        run: |
+          pdflatex -output-directory curriculum_vitae curriculum_vitae/Rukmal\ Weerawarana\ -\ Curriculum\ Vitae.tex
+          pdflatex -output-directory resume resume/Rukmal\ Weerawarana\ -\ Resume.tex
+      - name: Save artifacts for review
+        uses: actions/upload-artifact@v2
+        with:
+          name: generated-artifacts
+          path: |
+            personal_data.rdf
+            resume/Rukmal\ Weerawarana\ -\ Resume.tex
+            curriculum_vitae/Rukmal\ Weerawarana\ -\ Curriculum\ Vitae.tex
+            resume/Rukmal\ Weerawarana\ -\ Resume.pdf
+            curriculum_vitae/Rukmal\ Weerawarana\ -\ Curriculum\ Vitae.pdf
