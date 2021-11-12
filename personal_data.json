@@ -123,6 +123,56 @@
         "hasImage": "https://user-images.githubusercontent.com/6089694/59621849-1fbbb900-90fe-11e9-839d-aca566a41240.png"
     },
     {
+        "$id": "we:extrahop:ds:se",
+        "$type": "WorkExperience",
+        "hasName": "Software Engineer (Data Science)",
+        "employedAt": {
+            "$type": "Organization",
+            "$id": "org:extrahop:ds:ub",
+            "hasName": "Unusual Behaviors Research Group",
+            "hasParentOrganization": [
+                {
+                    "$type": "Organization",
+                    "$id": "org:extrahop:ds",
+                    "hasName": "Data Science Team",
+                    "hasWebsite": "https://www.extrahop.com/products/security/how-it-works/#machine-learning",
+                    "hasParentOrganization": [
+                        {
+                            "$type": "Organization",
+                            "$id": "org:extrahop",
+                            "hasName": "ExtraHop Networks",
+                            "hasWebsite": "https://extrahop.com",
+                            "externalResource": "http://dbpedia.org/resource/ExtraHop_Networks"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hasDate": "2018-08-29",
+        "endDate": "2019-05-19",
+        "inCity": "Hoboken",
+        "inState": "NJ",
+        "hasImage": "https://user-images.githubusercontent.com/6089694/59616144-d8c7c680-90f1-11e9-964d-382024f19733.png",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Designed and implemented algorithms to assess and classify tremor severity in patients with late-stage Parkinson's Disease."
+            },
+            {
+                "hasPriority": 1,
+                "hasText": "Created a highly scalable and extensible web application to be used by the researchers in the lab during this project. This web application incorporated HIPAA-compliant data storage and access, as well as efficient cluster management with Docker and Kubernetes."
+            },
+            {
+                "hasPriority": 100,
+                "hasText": "Provided input to hardware research based on statistical tremor analysis results, with the goal of designing a complete low-cost system for tremor analysis. Contributed to additive manufacturing models and designing sensor arrays for a data collection glove to be used for the tremor analysis project."
+            },
+            {
+                "hasPriority": 101,
+                "hasText": "Performed cost comparisons to identify the most economical Infrastructure-as-a-Service (IaaS) provider, given the storage, computation, and cost constraints of the project."
+            }
+        ]
+    },
+    {
         "$id": "we:stevens:smc:ra",
         "$type": "WorkExperience",
         "hasName": "Research Assistant",
