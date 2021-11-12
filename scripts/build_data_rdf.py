@@ -1,6 +1,7 @@
 # Script to build the RDF file from my personal data JSON
 
-from context import precis
+import precis
+
 from resume_config import config
 
 

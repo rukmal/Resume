@@ -1,0 +1,19 @@
+name: Verify Updates
+on: [push]
+
+jobs:
+  verify_json_data_updates:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Setup python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+      - uses: actions/checkout@v2
+      - name: Install requirements (including precis)
+        run: python -m pip install --user -r requirements.txt
+      - name: Checkout repository
+        uses: actions/checkout@v2  # Checks out current working repo
+      - name: Build RDF
+        working-directory: ./scripts
+        run: python build_data_rdf.py

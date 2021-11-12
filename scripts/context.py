@@ -8,6 +8,6 @@ logging.getLogger().setLevel(logging.INFO)
 try:
     import precis
 except ModuleNotFoundError:
-    sys.path.insert(0, os.path.abspath('../../Projects/Precis'))
+    sys.path.insert(0, os.path.abspath('../precis/'))
     # os.chdir(os.path.abspath('../'))
     import precis
