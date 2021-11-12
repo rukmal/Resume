@@ -7,6 +7,11 @@ test_scores
 transcripts
 notes.md
 
+# RDF, TeX, and PDF artifacts (programmatically generated)
+*.pdf
+*.tex
+*.rdf
+
 
 # Overhaul specific stuff & temporary
 notes.md
