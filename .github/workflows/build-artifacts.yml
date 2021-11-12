@@ -1,4 +1,4 @@
-name: Build RDF and PDF artifacts
+name: Build RDF, TeX, and PDF artifacts
 
 on: [pull_request, workflow_call]
 
