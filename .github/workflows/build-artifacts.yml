@@ -20,7 +20,7 @@ jobs:
           python build_resume.py
           python build_cv.py
       - name: Install LaTeX
-        run: sudo apt-get --assume-yes install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+        run: sudo apt-get --assume-yes install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra latexmk
       - name: Compile TeX files to PDF
         run: |
           pdflatex -output-directory curriculum_vitae curriculum_vitae/Rukmal\ Weerawarana\ -\ Curriculum\ Vitae.tex
