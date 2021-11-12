@@ -1,14 +1,14 @@
 full_name: 'Rukmal Weerawarana'
-address_line_1: '1851 E Shelby St'
-address_city_state: 'Seattle, WA'
-address_zip: '98112-2021'
+address_line_1: '6421 139th Pl NE Apt 50'
+address_city_state: 'Redmond, WA'
+address_zip: '98052-4588'
 address_country: 'USA'
 phone: '(206) 839-6891'
 email: 'rukmal.weerawarana@gmail.com'
 website: 'https://rukmal.me'
 linkedin: 'https://linkedin.com/in/rukmalw'
-last_updated: 'July 7, 2019'
-max_description_priority: 100
+last_updated: 'November 12, 2021'
+max_description_priority: 5
 order_overrides:
   Degree: 'chron_D'
   WorkExperience: 'chron_D'
@@ -21,11 +21,12 @@ order_overrides:
 item_overrides:
   Degree:
     - '!degree:bsc:ib'
+    - '!degree:uw:cfrm_cert'
   WorkExperience:
+    - 'we:extrahop:ds:se'
     - 'we:stevens:smc:ra'
     - 'we:rpi:heals:ra'
     - 'we:stevens:hfsl'
-    - 'we:uw:uwhl'
   Award:
     - '!award:bluehack_first'
     - '!award:dropbox_api'
@@ -36,3 +37,7 @@ item_overrides:
     - 'project:reindexer'
     - 'project:paperrank'
     - 'project:fe621'
+    - 'project:htkg_nypd_compstat_ld'
+  Talk:
+    - '!talk:learned_sectors'
+    - '!talk:leap_motion'
