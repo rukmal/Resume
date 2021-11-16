@@ -135,7 +135,7 @@
                     "$type": "Organization",
                     "$id": "org:extrahop:ds",
                     "hasName": "Data Science R\\&D",
-                    "hasWebsite": "https://www.extrahop.com/products/security/how-it-works/#machine-learning",
+                    "hasWebsite": "https://www.extrahop.com/products/machine-learning/",
                     "hasParentOrganization": [
                         {
                             "$type": "Organization",
@@ -163,11 +163,11 @@
             },
             {
                 "hasPriority": 2,
-                "hasText": "Formalized, engineered, and managed the core internal ETL pipeline for over 2 years, delivering value to over 10 internal teams across the business. Scaled the core pipeline to handle an order of magnitude increase in data volume, while increasing functionality, due to increased adoption of ExtraHop's Cybersecurity product, Reveal(X) 360."
+                "hasText": "Formalized, engineered, and managed the core internal ETL pipeline for over 2 years, delivering value to numerous internal teams across the business. Scaled the core pipeline to handle an order of magnitude increase in data volume, while increasing functionality, due to increased adoption of ExtraHop's Cybersecurity product, Reveal(X) 360."
             },
             {
                 "hasPriority": 3,
-                "hasText": "Enhanced ExtraHop's core threat hunting ability as a detector writer, implementing unsupervised heuristics to Big Data scale traffic flows in the cloud. Implemented numerous real-time detectors that act as early warning signals of potential bad actors on corporate networks across our customer base."
+                "hasText": "Enhanced ExtraHop's core threat hunting ability as a detector writer, applying unsupervised learning algorithms to Big Data scale traffic flows in the cloud. Implemented numerous real-time detectors that act as early warning signals of potential bad actors on corporate networks across our customer base."
             },
             {
                 "hasPriority": 4,
@@ -179,8 +179,12 @@
             },
             {
                 "hasPriority": 102,
-                "hasText": "ExtraHop Networks was acquired by Bain Capital and Crosspoint Capital Partners for almost $1B in July 2021."
+                "hasText": "ExtraHop Networks was acquired by Bain Capital and Crosspoint Capital Partners for $900 million in July 2021."
             }
+        ],
+        "hasMedia": [
+            "https://www.extrahop.com/company/blog/2019/extrahop-cloud-scale-ml-explained/",
+            "https://www.extrahop.com/company/press-releases/2021/extrahop-announces-completion-of-acquisition/"
         ]
     },
     {
