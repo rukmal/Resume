@@ -7,7 +7,7 @@ phone: '(206) 839-6891'
 email: 'rukmal.weerawarana@gmail.com'
 website: 'https://rukmal.me'
 linkedin: 'https://linkedin.com/in/rukmalw'
-last_updated: 'November 12, 2021'
+last_updated: 'December 15, 2021'
 max_description_priority: 5
 order_overrides:
   Degree: 'chron_D'
@@ -23,10 +23,10 @@ item_overrides:
     - '!degree:bsc:ib'
     - '!degree:uw:cfrm_cert'
   WorkExperience:
+    - 'we:rpi:science:rc'
     - 'we:extrahop:ds:se'
     - 'we:stevens:smc:ra'
     - 'we:rpi:heals:ra'
-    - 'we:stevens:hfsl'
   Award:
     - '!award:bluehack_first'
     - '!award:dropbox_api'

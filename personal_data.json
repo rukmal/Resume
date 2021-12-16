@@ -123,6 +123,52 @@
         "hasImage": "https://user-images.githubusercontent.com/6089694/59621849-1fbbb900-90fe-11e9-839d-aca566a41240.png"
     },
     {
+        "$id": "we:rpi:science:rc",
+        "$type": "WorkExperience",
+        "hasName": "Research Collaborator",
+        "employedAt": {
+            "$type": "Organization",
+            "$id": "org:rpi:idea:science",
+            "hasName": "SCIENCE Blockchain Project",
+            "hasWebsite": "https://idea.rpi.edu/research/projects/science-blockchain",
+            "hasParentOrganization": {
+                "$type": "Organization",
+                "$id": "org:rpi:idea",
+                "hasName": "Institute for Data Exploration and Applications (IDEA)",
+                "hasWebsite": "https://idea.rpi.edu/",
+                "hasParentOrganization": {
+                    "$type": "Organization",
+                    "$id": "org:rpi",
+                    "hasName": "Rensselaer Polytechnic Institute",
+                    "hasWebsite": "http://rpi.edu/",
+                    "externalResource": "http://dbpedia.org/resource/Rensselaer_Polytechnic_Institute"
+                }
+            }
+        },
+        "hasDate": "2021-09-14",
+        "inCity": "Troy",
+        "inState": "NY",
+        "hasImage": "https://user-images.githubusercontent.com/6089694/59616392-57246880-90f2-11e9-8dbf-e2efe365b466.png",
+        "hasDescription": [
+            {
+                "hasPriority": 0,
+                "hasText": "Assist in the research and development process of a trustworthy, accountable data sharing ecosystem for biomedical research."
+            },
+            {
+                "hasPriority": 1,
+                "hasText": "Lead efforts in developing cloud infrastructure to process and analyze data to build the underlying collaborator index. Currently exploring tokenomics policies for incentivizing data sharing in research networks."
+            },
+            {
+                "hasPriority": 2,
+                "hasText": "Help mentor undergraduate students by providing assistance with research organization, infrastructure development, project implementation, and publication drafting."
+            },
+            {
+                "hasPriority": 100,
+                "hasText": "The goal of the SCIENCE project is to design an expressive, provenance-centric language; SCIENCE Capability-based, Intention-centric, Experiment-oriented, Networked Collaborative Expression."
+            }
+        ]
+    },
+    {
         "$id": "we:extrahop:ds:se",
         "$type": "WorkExperience",
         "hasName": "Software Engineer (Data Science)",
@@ -253,13 +299,7 @@
                     "hasName": "Tetherless World Constellation",
                     "hasWebsite": "https://tw.rpi.edu/",
                     "externalResource": "http://dbpedia.org/resource/Tetherless_World_Constellation",
-                    "hasParentOrganization": {
-                        "$type": "Organization",
-                        "$id": "org:rpi",
-                        "hasName": "Rensselaer Polytechnic Institute",
-                        "hasWebsite": "http://rpi.edu/",
-                        "externalResource": "http://dbpedia.org/resource/Rensselaer_Polytechnic_Institute"
-                    }
+                    "hasParentOrganization": "org:rpi"
                 },
                 {
                     "$type": "Organization",
