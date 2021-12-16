@@ -76,7 +76,7 @@
 \rfoot{Page \thepage}
 
 % Setting last page footer to include last updated date, and Precis signature.
-\AtEndDocument{\lfoot{Last updated November 12, 2021. Built with Precis (\url{https://precis.rukmal.me}).}}
+\AtEndDocument{\lfoot{Last updated December 15, 2021. Built with Precis (\url{https://precis.rukmal.me}).}}
 
 
 % Jinja Macros
@@ -191,6 +191,59 @@
         \section{Work Experience}
         \vspace{-.5em}
 
+    
+    % Put in minipage to prevent mid-entry pagebreak
+    \begin{minipage}{\tabularxwidth}
+
+        \begin{tabularx}{\tabularxwidth}{X r}
+            % First line - job title and location
+            \textbf{Research Collaborator} & \textbf{Troy, 
+        NY} \\
+            % Display employment organization row
+            
+    % Determining number of unique parent organizations
+    
+    
+        % Last element of the list corresponds to the highest level (i.e. 'parent') orgNone
+    
+
+    
+        % NOTE: This is for the case that there is no more than one base parent organization
+        % Main employment organization and date range
+        \textcolor{\highlightcolor}{Rensselaer Polytechnic Institute} & 
+        
+    Sep ‘21 - Present \\
+        % Sub organizations (if any)
+        
+            % Top level sub organization once
+            \textit{SCIENCE Blockchain Project;}
+                \textit{Institute for Data Exploration and Applications (IDEA)} & \\
+        
+    
+            % Other job titles
+            
+        \end{tabularx}
+
+        % descriptions
+        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
+            
+                \item 
+    Assist in the research and development process of a trustworthy, accountable data sharing ecosystem for biomedical research.
+            
+                \item 
+    Lead efforts in developing cloud infrastructure to process and analyze data to build the underlying collaborator index. Currently exploring tokenomics policies for incentivizing data sharing in research networks.
+            
+                \item 
+    Help mentor undergraduate students by providing assistance with research organization, infrastructure development, project implementation, and publication drafting.
+            
+        \end{itemize}
+
+        % Add vertical space if not last iteration
+        
+            \vspace{.3em}
+        
+
+    \end{minipage}
     
     % Put in minipage to prevent mid-entry pagebreak
     \begin{minipage}{\tabularxwidth}
@@ -332,9 +385,9 @@
         % Parent organizations (if any)
         
             
-                \textit{Tetherless World Constellation; Rensselaer Polytechnic Institute} & \\
-            
                 \textit{AI Horizons Network; IBM Research} & \\
+            
+                \textit{Tetherless World Constellation; Rensselaer Polytechnic Institute} & \\
             
         
     
@@ -353,63 +406,6 @@
             
                 \item 
     Explored the field of 'Semantalytics', which lies at the intersection of Semantics and Analytics. Drafted a Vision statement for the future exploration of this novel field of research, through the lens of bioinformatics.
-            
-        \end{itemize}
-
-        % Add vertical space if not last iteration
-        
-            \vspace{.3em}
-        
-
-    \end{minipage}
-    
-    % Put in minipage to prevent mid-entry pagebreak
-    \begin{minipage}{\tabularxwidth}
-
-        \begin{tabularx}{\tabularxwidth}{X r}
-            % First line - job title and location
-            \textbf{Laboratory Assistant} & \textbf{Hoboken, 
-        NJ} \\
-            % Display employment organization row
-            
-    % Determining number of unique parent organizations
-    
-    
-        % Last element of the list corresponds to the highest level (i.e. 'parent') orgNone
-    
-        % Last element of the list corresponds to the highest level (i.e. 'parent') orgNone
-    
-
-    
-        % NOTE: This is for the case that there is no more than one base parent organization
-        % Main employment organization and date range
-        \textcolor{\highlightcolor}{Stevens Institute of Technology} & 
-        
-    Sep ‘17 - 
-    Dec ‘18 \\
-        % Sub organizations (if any)
-        
-            % Top level sub organization once
-            \textit{Hanlon Financial Systems Laboratory;}
-                \textit{School of Business} \textit{\&}
-                \textit{Stevens Institute for Artificial Intelligence} & \\
-        
-    
-            % Other job titles
-            
-        \end{tabularx}
-
-        % descriptions
-        \begin{itemize}[noitemsep, topsep=3pt, parsep=0pt, partopsep=0pt]
-            
-                \item 
-    Spearheaded an effort to discover and implement new processes, adopt more adaptable technology, and increase functional collaboration, to help realize the teaching and research goals of the lab.
-            
-                \item 
-    Assisted in student project guidance, and extra-curricular instruction. Introduced interactive programming technology to aid in the Introduction to C++ course taught to MSFE students.
-            
-                \item 
-    Facilitated the daily operations of the lab, including assisting instructors and students (Graduate and Undergraduate), and maintaining hardware and software resources.
             
         \end{itemize}
 
