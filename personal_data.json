@@ -201,7 +201,7 @@
         "hasDescription": [
             {
                 "hasPriority": 0,
-                "hasText": "Designed and developed high throughput data pipelines to transport and load semi structured data across numerous globally distributed data centers. Experienced in creating enriched data sets to deliver insights to internal and external stakeholders."
+                "hasText": "Designed and developed high throughput data pipelines to transport and load semi structured data across multiple globally distributed data centers. Experienced in creating enriched data sets to deliver insights to internal and external stakeholders."
             },
             {
                 "hasPriority": 1,
@@ -209,11 +209,11 @@
             },
             {
                 "hasPriority": 2,
-                "hasText": "Formalized, engineered, and managed the core internal ETL pipeline for over 2 years, delivering value to numerous internal teams across the business. Scaled the core pipeline to handle an order of magnitude increase in data volume, while increasing functionality, due to increased adoption of ExtraHop's Cybersecurity product, Reveal(X) 360."
+                "hasText": "Formalized, engineered, and managed the core internal ETL pipeline for over 2 years, delivering value to internal teams across the business. Scaled the core pipeline to handle an order of magnitude increase in data volume, while increasing functionality, due to increased adoption of ExtraHop's Cybersecurity product, Reveal(X) 360."
             },
             {
                 "hasPriority": 3,
-                "hasText": "Enhanced ExtraHop's core threat hunting ability as a detector writer, applying unsupervised learning algorithms to Big Data scale traffic flows in the cloud. Implemented numerous real-time detectors that act as early warning signals of potential bad actors on corporate networks across our customer base."
+                "hasText": "Enhanced ExtraHop's core threat hunting ability as a detector writer, applying unsupervised learning algorithms to Big Data scale traffic flows in the cloud. Implemented real-time detectors that act as early warning signals of potential bad actors on corporate networks across our customer base."
             },
             {
                 "hasPriority": 4,
