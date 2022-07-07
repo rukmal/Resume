@@ -1,1 +1,1 @@
-precis @ git+https://github.com/rukmal/precis@0329a0b4a67d996a2b573e3870a509ae92f2c051
+precis @ git+https://github.com/rukmal/precis@e445d1c69d3dd5833381b650bb3c9c66a08c90d8
